@@ -338,6 +338,7 @@ function jobLink(job) {
 
 function jobMeta(job) {
   return [
+    job.source,
     job.match_level,
     job.work_type,
     job.location,
@@ -433,7 +434,7 @@ function renderJobsNewspaper(report, data) {
       <div>
         <h4>${jobLink(job)}</h4>
         <p>${escapeHtml(job.risk)}</p>
-        <span class="repo-meta">${escapeHtml(stackLine(job))}</span>
+        <span class="repo-meta">${escapeHtml(`${job.source} · ${stackLine(job)}`)}</span>
       </div>
     </article>
   `).join("");
