@@ -1,0 +1,6 @@
+name = "github-daily-studio"
+compatibility_date = "2026-06-02"
+pages_build_output_dir = "."
+
+[vars]
+GITHUB_USER_AGENT = "github-daily-studio"

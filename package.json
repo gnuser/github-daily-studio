@@ -1,0 +1,13 @@
+{
+  "name": "github-daily-studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 8787 --bind 127.0.0.1",
+    "pages:dev": "wrangler pages dev .",
+    "deploy": "wrangler pages deploy . --project-name github-daily-studio"
+  },
+  "devDependencies": {
+    "wrangler": "^4.96.0"
+  }
+}

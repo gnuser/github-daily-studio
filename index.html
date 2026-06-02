@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub Daily Studio</title>
+  <meta name="description" content="GitHub 热榜简报生成器：抓取 Trending、AI、Trading 与整体星标榜，去重后生成纸质日报。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23201d19'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='28' fill='%23efe5d6' font-family='serif'%3EG%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="GitHub Daily Studio">
+        <span class="brand-mark">G</span>
+        <span>
+          <strong>GitHub Daily Studio</strong>
+          <small>Trending · AI · Trading Briefing</small>
+        </span>
+      </a>
+      <div class="topbar-actions">
+        <span class="status-pill" id="sourceStatus">样例数据</span>
+        <button class="ghost-button" id="sampleBtn" type="button">样例</button>
+        <button class="primary-button" id="refreshBtn" type="button">刷新</button>
+      </div>
+    </header>
+
+    <section class="workspace">
+      <aside class="panel controls" aria-label="生成参数">
+        <div class="panel-heading">
+          <h1>日报生成器</h1>
+          <p id="generatedAt">读取中</p>
+        </div>
+
+        <label class="field">
+          <span>标题</span>
+          <input id="briefTitle" type="text" value="GitHub Daily">
+        </label>
+
+        <label class="field">
+          <span>期号</span>
+          <input id="issueNo" type="text" value="001">
+        </label>
+
+        <fieldset class="field-group">
+          <legend>栏目</legend>
+          <label><input type="checkbox" name="section" value="trending" checked> Trending</label>
+          <label><input type="checkbox" name="section" value="ai" checked> AI</label>
+          <label><input type="checkbox" name="section" value="trading" checked> Trading</label>
+          <label><input type="checkbox" name="section" value="overall" checked> Stars</label>
+        </fieldset>
+
+        <div class="metric-grid">
+          <div>
+            <b id="metricTrending">0</b>
+            <span>Trending</span>
+          </div>
+          <div>
+            <b id="metricDeduped">0</b>
+            <span>去重</span>
+          </div>
+          <div>
+            <b id="metricCross">0</b>
+            <span>跨榜</span>
+          </div>
+        </div>
+
+        <div class="button-stack">
+          <button class="primary-button wide" id="renderBtn" type="button">生成预览</button>
+          <a class="download-button" href="./assets/github-tech-daily.png" download="github-tech-daily.png">下载 PNG</a>
+          <button class="ghost-button wide" id="downloadDataBtn" type="button">下载 JSON</button>
+        </div>
+      </aside>
+
+      <section class="preview-wrap" aria-label="日报预览">
+        <div class="preview-toolbar">
+          <div>
+            <span class="eyebrow">Live Preview</span>
+            <h2 id="previewName">GitHub Daily</h2>
+          </div>
+          <a class="ghost-link" href="./assets/github-tech-daily.png" target="_blank" rel="noreferrer">打开成片</a>
+        </div>
+
+        <article class="paper-preview" id="paperPreview">
+          <header class="paper-mast">
+            <div>
+              <small>开源趋势，一页读完</small>
+              <small>Trending · Stars · AI · Trading</small>
+            </div>
+            <h2>GitHub Daily</h2>
+            <div class="paper-date">
+              <small id="paperIssue">第 001 期</small>
+              <small id="paperDate">2026年6月2日</small>
+            </div>
+          </header>
+          <div class="paper-rule"></div>
+          <section class="paper-lead">
+            <div>
+              <h3 id="leadTitle">读取榜单中</h3>
+              <p id="leadCopy">等待数据加载。</p>
+              <span id="leadMeta"></span>
+            </div>
+            <aside id="paperRail"></aside>
+          </section>
+          <section class="paper-lists">
+            <div>
+              <h3>GitHub Trending</h3>
+              <div id="trendingList"></div>
+            </div>
+            <aside>
+              <h3>AI / Trading Watch</h3>
+              <div id="watchList"></div>
+            </aside>
+          </section>
+        </article>
+      </section>
+
+      <aside class="panel data-panel" aria-label="数据榜单">
+        <div class="panel-heading">
+          <h2>去重榜</h2>
+          <p id="sourceLine">GitHub Trending / Topics / Search API</p>
+        </div>
+        <div class="repo-list" id="repoList"></div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
