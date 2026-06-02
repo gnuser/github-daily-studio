@@ -1,6 +1,14 @@
-# GitHub Daily Studio
+# GitHub Daily
 
-GitHub Daily Studio 是一个静态优先的 GitHub 热榜简报生成器。前台可直接使用样例数据渲染报纸式预览，并下载当前 PNG；部署到 Cloudflare Pages 后，`/api/github-briefing` 会实时抓取 GitHub Trending、整体 Stars、AI、Trading、Algorithmic Trading 数据并按 `full_name` 去重。
+按日历浏览 GitHub 热榜日报的静态站点。默认首页就是日报档案：左侧是日历，点击有标记的日期查看当天日报；右侧是纸质报纸样式的最终展示版，日报里的仓库名都可点击进入对应 GitHub repo。
+
+## 当前内容
+
+- 已归档：`2026-06-02`
+- 数据源：GitHub Trending、GitHub Search API、AI / Trading / Algorithmic Trading Topics
+- 去重字段：`full_name`
+- 静态日报数据：`data/github-briefing-data.json`
+- 静态导出图：`assets/github-tech-daily.png`
 
 ## 本地预览
 
@@ -14,32 +22,40 @@ npm run dev
 http://127.0.0.1:8787
 ```
 
-普通静态服务器会使用 `data/github-briefing-data.json` 样例数据。若要测试 Cloudflare Pages Functions：
+普通静态服务器即可打开。若要测试 Cloudflare Pages Function：
 
 ```bash
 npm install
 npm run pages:dev
 ```
 
-## 部署到 Cloudflare Pages
+## 手动发布到 Cloudflare Pages
 
-```bash
-npm install
-cp wrangler.toml.example wrangler.toml
-npm run deploy
-```
-
-建议绑定子域名：
+1. 在 Cloudflare Pages 新建项目。
+2. 连接 GitHub 仓库 `gnuser/github-daily-studio`。
+3. Framework preset 选 `None`。
+4. Build command 留空。
+5. Build output directory 填 `/`。
+6. 部署后绑定自定义域名，例如：
 
 ```text
 github-daily.xiajuan.app
 ```
 
-当前机器上的 Wrangler 未登录 Cloudflare，无法直接创建 Pages 项目或绑定 `xiajuan.app` 子域名。登录后可继续执行部署：
+仓库里已包含 `_headers`、`functions/api/github-briefing.js` 和 `wrangler.toml.example`。不配置任何 secret 也能作为静态日报站点运行；Cloudflare Function 只是预留给未来实时抓取。
 
-```bash
-npx wrangler login
-npm run deploy
+## 新增一期日报
+
+把新的日报 JSON 放到 `data/`，然后在 `app.js` 顶部的 `reports` 数组追加：
+
+```js
+{
+  date: "2026-06-03",
+  issue: "002",
+  title: "GitHub Daily",
+  dataUrl: "./data/github-briefing-2026-06-03.json",
+  imageUrl: "./assets/github-tech-daily-2026-06-03.png"
+}
 ```
 
-然后在 Cloudflare Pages 项目的 Custom domains 里添加 `github-daily.xiajuan.app`。
+日历会自动出现可点击日期。

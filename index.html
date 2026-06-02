@@ -3,125 +3,134 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GitHub Daily Studio</title>
-  <meta name="description" content="GitHub 热榜简报生成器：抓取 Trending、AI、Trading 与整体星标榜，去重后生成纸质日报。">
+  <title>GitHub Daily</title>
+  <meta name="description" content="按日历浏览 GitHub 热榜日报：Trending、AI、Trading 与整体星标榜，去重后生成纸质早报。">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23201d19'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='28' fill='%23efe5d6' font-family='serif'%3EG%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <main class="app-shell">
-    <header class="topbar">
-      <a class="brand" href="/" aria-label="GitHub Daily Studio">
+  <main class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="GitHub Daily">
         <span class="brand-mark">G</span>
         <span>
-          <strong>GitHub Daily Studio</strong>
-          <small>Trending · AI · Trading Briefing</small>
+          <strong>GitHub Daily</strong>
+          <small>开源趋势日报档案</small>
         </span>
       </a>
-      <div class="topbar-actions">
-        <span class="status-pill" id="sourceStatus">样例数据</span>
-        <button class="ghost-button" id="sampleBtn" type="button">样例</button>
-        <button class="primary-button" id="refreshBtn" type="button">刷新</button>
-      </div>
+      <nav class="header-nav" aria-label="页面导航">
+        <a href="#calendar">日历</a>
+        <a href="#daily">日报</a>
+        <a href="./assets/github-tech-daily.png" download="github-tech-daily.png">下载图片</a>
+      </nav>
     </header>
 
-    <section class="workspace">
-      <aside class="panel controls" aria-label="生成参数">
-        <div class="panel-heading">
-          <h1>日报生成器</h1>
-          <p id="generatedAt">读取中</p>
+    <section class="layout">
+      <aside class="calendar-panel" id="calendar">
+        <div class="calendar-head">
+          <span class="eyebrow">Archive</span>
+          <h1>日报日历</h1>
+          <p>点击有标记的日期查看当天 GitHub 热榜日报。</p>
         </div>
 
-        <label class="field">
-          <span>标题</span>
-          <input id="briefTitle" type="text" value="GitHub Daily">
-        </label>
-
-        <label class="field">
-          <span>期号</span>
-          <input id="issueNo" type="text" value="001">
-        </label>
-
-        <fieldset class="field-group">
-          <legend>栏目</legend>
-          <label><input type="checkbox" name="section" value="trending" checked> Trending</label>
-          <label><input type="checkbox" name="section" value="ai" checked> AI</label>
-          <label><input type="checkbox" name="section" value="trading" checked> Trading</label>
-          <label><input type="checkbox" name="section" value="overall" checked> Stars</label>
-        </fieldset>
-
-        <div class="metric-grid">
-          <div>
-            <b id="metricTrending">0</b>
-            <span>Trending</span>
-          </div>
-          <div>
-            <b id="metricDeduped">0</b>
-            <span>去重</span>
-          </div>
-          <div>
-            <b id="metricCross">0</b>
-            <span>跨榜</span>
-          </div>
+        <div class="month-switcher">
+          <button id="prevMonth" type="button" aria-label="上个月">‹</button>
+          <strong id="monthLabel">2026年6月</strong>
+          <button id="nextMonth" type="button" aria-label="下个月">›</button>
         </div>
 
-        <div class="button-stack">
-          <button class="primary-button wide" id="renderBtn" type="button">生成预览</button>
-          <a class="download-button" href="./assets/github-tech-daily.png" download="github-tech-daily.png">下载 PNG</a>
-          <button class="ghost-button wide" id="downloadDataBtn" type="button">下载 JSON</button>
+        <div class="weekday-row" aria-hidden="true">
+          <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
         </div>
+        <div class="calendar-grid" id="calendarGrid" aria-label="日报日历"></div>
+
+        <section class="issue-card" aria-live="polite">
+          <span id="issueLabel">第 001 期</span>
+          <h2 id="issueTitle">GitHub Daily</h2>
+          <p id="issueSummary">合并 GitHub Trending、AI、Trading、Algorithmic Trading 与整体星标榜，按 full_name 去重。</p>
+          <div class="issue-stats">
+            <div><b id="statTrending">0</b><small>Trending</small></div>
+            <div><b id="statDeduped">0</b><small>去重仓库</small></div>
+            <div><b id="statCross">0</b><small>跨榜项目</small></div>
+          </div>
+        </section>
       </aside>
 
-      <section class="preview-wrap" aria-label="日报预览">
-        <div class="preview-toolbar">
-          <div>
-            <span class="eyebrow">Live Preview</span>
-            <h2 id="previewName">GitHub Daily</h2>
-          </div>
-          <a class="ghost-link" href="./assets/github-tech-daily.png" target="_blank" rel="noreferrer">打开成片</a>
-        </div>
-
-        <article class="paper-preview" id="paperPreview">
-          <header class="paper-mast">
-            <div>
-              <small>开源趋势，一页读完</small>
-              <small>Trending · Stars · AI · Trading</small>
+      <section class="reader" id="daily" aria-label="日报正文">
+        <article class="newspaper" id="newspaper">
+          <header class="masthead">
+            <div class="mast-note">
+              <span>「开源趋势，一页读完」</span>
+              <span>Trending · Stars · AI · Trading</span>
+              <span id="captureTime">数据抓取：--:-- CST</span>
             </div>
-            <h2>GitHub Daily</h2>
-            <div class="paper-date">
-              <small id="paperIssue">第 001 期</small>
-              <small id="paperDate">2026年6月2日</small>
+            <div class="mast-brand">
+              <h2>GitHub<br>Daily</h2>
+              <p>开源趋势早报</p>
+            </div>
+            <div class="mast-date">
+              <strong id="mastIssue">第 001 期</strong>
+              <span id="mastDate">2026年6月2日</span>
+              <span id="mastWeekday">星期二</span>
             </div>
           </header>
-          <div class="paper-rule"></div>
-          <section class="paper-lead">
-            <div>
-              <h3 id="leadTitle">读取榜单中</h3>
-              <p id="leadCopy">等待数据加载。</p>
-              <span id="leadMeta"></span>
-            </div>
-            <aside id="paperRail"></aside>
+
+          <section class="section-title">
+            <h3>开源热榜</h3>
+            <span>Trending · Overall Stars · AI · Trading · Deduped</span>
           </section>
-          <section class="paper-lists">
-            <div>
-              <h3>GitHub Trending</h3>
-              <div id="trendingList"></div>
+
+          <section class="lead-grid">
+            <div class="lead-main">
+              <h1 id="leadHeadline">GitHub 热榜日报</h1>
+              <p id="leadCopy">正在读取日报数据。</p>
+              <span id="leadMeta" class="repo-meta"></span>
+
+              <article class="secondary-story">
+                <h2 id="secondaryHeadline">AI 与交易赛道观察</h2>
+                <p id="secondaryCopy">读取中。</p>
+              </article>
             </div>
-            <aside>
-              <h3>AI / Trading Watch</h3>
-              <div id="watchList"></div>
+            <aside class="side-rail" id="sideRail"></aside>
+          </section>
+
+          <section class="section-title section-title-mid">
+            <h3>GitHub Trending</h3>
+            <span id="trendingLabel">Top picks</span>
+          </section>
+
+          <section class="trend-section">
+            <div>
+              <article class="featured-repo" id="featuredRepo"></article>
+              <div class="rank-list" id="trendingList"></div>
+            </div>
+            <aside class="insight-box">
+              <h3>今日趋势洞察</h3>
+              <p><strong>AI 工作流仍是主线。</strong>文档入库、长期记忆、Agent UI、网页抓取和编码代理工具密集出现，说明开发者正在把大模型能力接到真实资料和真实操作流里。</p>
+              <p><strong>交易方向出现 LLM 化。</strong>多智能体金融交易框架与 AI 量化平台同榜出现，研究、因子和决策正在被 Agent 与强化学习重写。</p>
+              <div class="dark-metrics">
+                <div><b id="darkTrending">0</b><span>Trending</span></div>
+                <div><b id="darkDeduped">0</b><span>Deduped</span></div>
+                <div><b id="darkCross">0</b><span>Cross</span></div>
+              </div>
             </aside>
           </section>
+
+          <section class="section-title section-title-mid">
+            <h3>AI / Trading Watch</h3>
+            <span>Top stars · Topic watch · Repo links</span>
+          </section>
+
+          <section class="watch-grid">
+            <div id="aiStories"></div>
+            <aside id="tradingWatch"></aside>
+          </section>
+
+          <footer class="paper-footer">
+            ◆ GitHub Daily · 数据源 GitHub Trending / Topics / Search API · full_name 去重 ◆
+          </footer>
         </article>
       </section>
-
-      <aside class="panel data-panel" aria-label="数据榜单">
-        <div class="panel-heading">
-          <h2>去重榜</h2>
-          <p id="sourceLine">GitHub Trending / Topics / Search API</p>
-        </div>
-        <div class="repo-list" id="repoList"></div>
-      </aside>
     </section>
   </main>
 
