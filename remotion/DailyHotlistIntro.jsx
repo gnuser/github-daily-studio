@@ -41,48 +41,26 @@ const colors = {
 const formatNumber = (number) => new Intl.NumberFormat("en-US").format(number);
 
 const sfxEvents = [
-  {from: 5, src: "audio/paper-hit.wav", volume: 0.42},
-  {from: 34, src: "audio/tick.wav", volume: 0.48},
-  {from: 58, src: "audio/blip-mid.wav", volume: 0.34},
-  {from: 142, src: "audio/whoosh.wav", volume: 0.38},
-  {from: 165, src: "audio/blip-high.wav", volume: 0.44},
-  {from: 180, src: "audio/blip-mid.wav", volume: 0.36},
-  {from: 194, src: "audio/blip-mid.wav", volume: 0.34},
-  {from: 300, src: "audio/whoosh.wav", volume: 0.34},
-  {from: 322, src: "audio/tick.wav", volume: 0.4},
-  {from: 334, src: "audio/tick.wav", volume: 0.36},
-  {from: 420, src: "audio/whoosh.wav", volume: 0.42},
-  {from: 438, src: "audio/paper-hit.wav", volume: 0.5},
+  {from: 5, src: "audio/paper-hit.wav", volume: 0.18},
+  {from: 34, src: "audio/tick.wav", volume: 0.22},
+  {from: 142, src: "audio/whoosh.wav", volume: 0.14},
+  {from: 165, src: "audio/blip-high.wav", volume: 0.16},
+  {from: 180, src: "audio/blip-mid.wav", volume: 0.14},
+  {from: 194, src: "audio/blip-mid.wav", volume: 0.12},
+  {from: 300, src: "audio/whoosh.wav", volume: 0.13},
+  {from: 420, src: "audio/whoosh.wav", volume: 0.15},
+  {from: 438, src: "audio/paper-hit.wav", volume: 0.2},
 ];
 
 const voiceEvents = [
-  {from: 24, duration: 135, src: "audio/voice-01-intro.mp3"},
-  {from: 150, duration: 164, src: "audio/voice-02-top3.mp3"},
-  {from: 306, duration: 162, src: "audio/voice-03-watch.mp3"},
-  {from: 425, duration: 106, src: "audio/voice-04-reveal.mp3"},
+  {from: 20, src: "audio/voice-01-intro.mp3"},
+  {from: 152, src: "audio/voice-02-top3.mp3"},
+  {from: 302, src: "audio/voice-03-watch.mp3"},
+  {from: 418, src: "audio/voice-04-reveal.mp3"},
 ];
-
-const voiceDuckAmount = (frame) =>
-  Math.max(
-    0,
-    ...voiceEvents.map((event) => {
-      const fadeInDuck = interpolate(frame, [event.from - 8, event.from + 6], [0, 1], clamp);
-      const fadeOutDuck = interpolate(
-        frame,
-        [event.from + event.duration - 8, event.from + event.duration + 10],
-        [1, 0],
-        clamp,
-      );
-      return Math.min(fadeInDuck, fadeOutDuck);
-    }),
-  );
 
 const AudioTimeline = () => (
   <>
-    <Audio
-      src={staticFile("audio/hotlist-bed.wav")}
-      volume={(frame) => 0.34 - voiceDuckAmount(frame) * 0.22}
-    />
     {sfxEvents.map((event, index) => (
       <Sequence key={`${event.src}-${event.from}-${index}`} from={event.from}>
         <Audio src={staticFile(event.src)} volume={event.volume} />
@@ -90,7 +68,7 @@ const AudioTimeline = () => (
     ))}
     {voiceEvents.map((event) => (
       <Sequence key={event.src} from={event.from}>
-        <Audio src={staticFile(event.src)} volume={1.05} />
+        <Audio src={staticFile(event.src)} volume={1.12} />
       </Sequence>
     ))}
   </>
