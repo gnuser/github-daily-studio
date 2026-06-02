@@ -55,12 +55,42 @@ const sfxEvents = [
   {from: 438, src: "audio/paper-hit.wav", volume: 0.5},
 ];
 
+const voiceEvents = [
+  {from: 24, duration: 135, src: "audio/voice-01-intro.mp3"},
+  {from: 150, duration: 164, src: "audio/voice-02-top3.mp3"},
+  {from: 306, duration: 162, src: "audio/voice-03-watch.mp3"},
+  {from: 425, duration: 106, src: "audio/voice-04-reveal.mp3"},
+];
+
+const voiceDuckAmount = (frame) =>
+  Math.max(
+    0,
+    ...voiceEvents.map((event) => {
+      const fadeInDuck = interpolate(frame, [event.from - 8, event.from + 6], [0, 1], clamp);
+      const fadeOutDuck = interpolate(
+        frame,
+        [event.from + event.duration - 8, event.from + event.duration + 10],
+        [1, 0],
+        clamp,
+      );
+      return Math.min(fadeInDuck, fadeOutDuck);
+    }),
+  );
+
 const AudioTimeline = () => (
   <>
-    <Audio src={staticFile("audio/hotlist-bed.wav")} volume={0.38} />
+    <Audio
+      src={staticFile("audio/hotlist-bed.wav")}
+      volume={(frame) => 0.34 - voiceDuckAmount(frame) * 0.22}
+    />
     {sfxEvents.map((event, index) => (
       <Sequence key={`${event.src}-${event.from}-${index}`} from={event.from}>
         <Audio src={staticFile(event.src)} volume={event.volume} />
+      </Sequence>
+    ))}
+    {voiceEvents.map((event) => (
+      <Sequence key={event.src} from={event.from}>
+        <Audio src={staticFile(event.src)} volume={1.05} />
       </Sequence>
     ))}
   </>
