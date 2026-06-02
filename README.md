@@ -68,18 +68,37 @@ assets/github-daily-intro.mp4
 
 ## 手动发布到 Cloudflare Pages
 
-1. 在 Cloudflare Pages 新建项目。
-2. 连接 GitHub 仓库 `gnuser/github-daily-studio`。
-3. Framework preset 选 `None`。
-4. Build command 留空。
-5. Build output directory 填 `/`。
-6. 部署后绑定自定义域名，例如：
+先生成干净的 Pages 发布目录，只包含线上需要的静态文件、`_headers`、`functions/`、`assets/`、`data/` 和 `public/`：
+
+```bash
+npm run pages:prepare
+```
+
+发布目录会生成在：
+
+```text
+.deploy/cloudflare-pages
+```
+
+如果要用 Wrangler 上传：
+
+```bash
+npm run deploy
+```
+
+默认发布到 Cloudflare Pages 项目 `github-daily-studio`、分支 `master`。如需覆盖：
+
+```bash
+CF_PAGES_PROJECT=github-daily-studio CF_PAGES_BRANCH=master npm run deploy
+```
+
+部署后绑定自定义域名，例如：
 
 ```text
 github-daily.xiajuan.app
 ```
 
-仓库里已包含 `_headers`、`functions/api/github-briefing.js` 和 `wrangler.toml.example`。不配置任何 secret 也能作为静态日报站点运行；Cloudflare Function 只是预留给未来实时抓取。
+仓库里已包含 `_headers`、`functions/api/github-briefing.js` 和 `wrangler.toml.example`。不配置任何 secret 也能作为静态日报站点运行；Cloudflare Function 只是预留给未来实时抓取。若 Wrangler 未登录，可先运行 `npx wrangler login`，或设置 `CLOUDFLARE_API_TOKEN` 后再执行发布脚本。
 
 ## 新增一期日报
 

@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "python3 -m http.server 8787 --bind 127.0.0.1",
     "pages:dev": "wrangler pages dev .",
-    "deploy": "wrangler pages deploy . --project-name github-daily-studio",
+    "pages:prepare": "bash scripts/prepare-pages.sh",
+    "deploy": "bash scripts/deploy-pages.sh",
     "remotion:preview": "remotion preview remotion/index.jsx",
     "remotion:still": "remotion still remotion/index.jsx DailyHotlistIntro out/github-daily-intro.png --frame=96",
     "remotion:render": "remotion render remotion/index.jsx DailyHotlistIntro out/github-daily-intro.mp4"
