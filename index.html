@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GitHub Daily</title>
-  <meta name="description" content="按日历浏览 GitHub 热榜日报：Trending、AI、Trading 与整体星标榜，去重后生成纸质早报。">
+  <meta name="description" content="按日历浏览 GitHub 热榜日报与远程兼职职位日报：开源趋势、AI、Trading、Go 后端兼职和全国远程岗位。">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23201d19'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='28' fill='%23efe5d6' font-family='serif'%3EG%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="./styles.css">
 </head>
@@ -15,7 +15,7 @@
         <span class="brand-mark">G</span>
         <span>
           <strong>GitHub Daily</strong>
-          <small>开源趋势日报档案</small>
+          <small>开源与远程职位日报</small>
         </span>
       </a>
       <nav class="header-nav" aria-label="页面导航">
@@ -31,7 +31,12 @@
         <div class="calendar-head">
           <span class="eyebrow">Archive</span>
           <h1>日报日历</h1>
-          <p>点击有标记的日期查看当天 GitHub 热榜日报。</p>
+          <p>切换日报类型，再点击有标记的日期查看当天日报。</p>
+        </div>
+
+        <div class="type-switcher" id="typeSwitcher" aria-label="日报类型">
+          <button class="active" type="button" data-type="github">开源热榜</button>
+          <button type="button" data-type="jobs">远程兼职</button>
         </div>
 
         <div class="month-switcher">

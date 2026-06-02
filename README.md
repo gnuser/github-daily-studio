@@ -8,6 +8,7 @@
 - 数据源：GitHub Trending、GitHub Search API、AI / Trading / Algorithmic Trading Topics
 - 去重字段：`full_name`
 - 静态日报数据：`data/github-briefing-data.json`
+- 远程兼职职位日报：`data/remote-jobs-briefing-2026-06-02.json`
 - 静态导出图：`assets/github-tech-daily.png`
 - Remotion 竖屏介绍视频：`assets/github-daily-intro.mp4`
 - Remotion 视频封面：`assets/github-daily-intro-poster.png`
@@ -31,6 +32,15 @@ http://127.0.0.1:8787
 npm install
 npm run pages:dev
 ```
+
+首页支持日报类型切换：
+
+```text
+http://127.0.0.1:8787/
+http://127.0.0.1:8787/?type=jobs
+```
+
+`?type=jobs` 会直接打开远程兼职职位日报。当前筛选条件为 Go / Golang 后端 / 后端工程师、兼职或项目制、全国/全球远程、接受居家办公。多数招聘来源未公开截止时间，页面会标注为“需投递前确认”，不伪造截止日期。
 
 ## Remotion 每日热榜介绍
 

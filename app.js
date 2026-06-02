@@ -1,12 +1,37 @@
 const reports = [
   {
+    id: "github-2026-06-02",
+    type: "github",
     date: "2026-06-02",
     issue: "001",
     title: "GitHub Daily",
     dataUrl: "./data/github-briefing-data.json",
     imageUrl: "./assets/github-tech-daily.png",
   },
+  {
+    id: "jobs-2026-06-02",
+    type: "jobs",
+    date: "2026-06-02",
+    issue: "J001",
+    title: "Remote Job Daily",
+    dataUrl: "./data/remote-jobs-briefing-2026-06-02.json",
+  },
 ];
+
+const reportTypes = {
+  github: {
+    label: "开源热榜",
+    title: "GitHub Daily",
+    subtitle: "开源趋势早报",
+    footer: "◆ GitHub Daily · 数据源 GitHub Trending / Topics / Search API · full_name 去重 ◆",
+  },
+  jobs: {
+    label: "远程兼职",
+    title: "Remote Job Daily",
+    subtitle: "工程师兼职早报",
+    footer: "◆ Remote Job Daily · 数据源 RemoteJobsCN / RemoteCN / V2EX · 职位信息需投递前二次确认 ◆",
+  },
+};
 
 const cnBriefs = {
   "microsoft/markitdown": "微软的文件转 Markdown 工具。适合把 PDF、Office、图片和网页内容清洗成 RAG、Agent、知识库可直接吃的文本入口。",
@@ -31,8 +56,10 @@ const cnBriefs = {
 };
 
 const reportData = new Map();
-let visibleMonth = parseDate(reports[0].date);
-let activeDate = reports[0].date;
+const initialType = new URLSearchParams(window.location.search).get("type");
+let activeType = reportTypes[initialType] ? initialType : reports[0].type;
+let activeDate = reports.find((report) => report.type === activeType)?.date || reports[0].date;
+let visibleMonth = parseDate(activeDate);
 
 const $ = (selector) => document.querySelector(selector);
 
@@ -104,13 +131,21 @@ function repoLink(repo) {
   return `<a class="repo-link" href="${escapeHtml(repo.html_url)}" target="_blank" rel="noreferrer"><span class="repo-owner">${escapeHtml(owner)}</span> / <span>${escapeHtml(name)}</span></a>`;
 }
 
+function reportsForType(type = activeType) {
+  return reports.filter((report) => report.type === type);
+}
+
+function reportKey(report) {
+  return report.id || `${report.type}:${report.date}`;
+}
+
 function renderCalendar() {
   const monthStart = new Date(visibleMonth.getFullYear(), visibleMonth.getMonth(), 1);
   const monthEnd = new Date(visibleMonth.getFullYear(), visibleMonth.getMonth() + 1, 0);
   const mondayOffset = (monthStart.getDay() + 6) % 7;
   const firstCell = new Date(monthStart);
   firstCell.setDate(monthStart.getDate() - mondayOffset);
-  const available = new Set(reports.map((report) => report.date));
+  const available = new Set(reportsForType().map((report) => report.date));
 
   $("#monthLabel").textContent = new Intl.DateTimeFormat("zh-CN", {
     year: "numeric",
@@ -140,27 +175,43 @@ function renderCalendar() {
 }
 
 function reportForDate(date) {
-  return reports.find((report) => report.date === date) || reports[0];
+  return reportsForType().find((report) => report.date === date) || reportsForType()[0] || reports[0];
 }
 
 async function loadReport(date) {
   const report = reportForDate(date);
-  if (!reportData.has(report.date)) {
+  const key = reportKey(report);
+  if (!reportData.has(key)) {
     const response = await fetch(report.dataUrl, { cache: "no-store" });
-    reportData.set(report.date, await response.json());
+    reportData.set(key, await response.json());
   }
-  return { report, data: reportData.get(report.date) };
+  return { report, data: reportData.get(key) };
 }
 
 async function selectReport(date) {
   activeDate = date;
   renderCalendar();
+  renderTypeSwitcher();
   const { report, data } = await loadReport(date);
+  document.title = `${report.title} · ${formatDate(report.date)}`;
   renderIssueCard(report, data);
   renderNewspaper(report, data);
 }
 
 function renderIssueCard(report, data) {
+  if (report.type === "jobs") {
+    $("#issueLabel").textContent = `第 ${report.issue} 期`;
+    $("#issueTitle").textContent = report.title;
+    $("#issueSummary").textContent = `${formatDate(report.date)} · ${data.query.roles.join(" / ")} · ${data.query.work_types.join(" / ")} · 全国远程筛选。`;
+    $("#statTrending").textContent = data.counts.strong;
+    $("#statDeduped").textContent = data.counts.matches;
+    $("#statCross").textContent = data.counts.deadline_confirm_required;
+    document.querySelector("#statTrending + small").textContent = "强匹配";
+    document.querySelector("#statDeduped + small").textContent = "职位线索";
+    document.querySelector("#statCross + small").textContent = "需确认";
+    return;
+  }
+
   const cross = data.deduped.filter((repo) => repo.source_lists?.length > 1).length;
   $("#issueLabel").textContent = `第 ${report.issue} 期`;
   $("#issueTitle").textContent = report.title;
@@ -168,9 +219,17 @@ function renderIssueCard(report, data) {
   $("#statTrending").textContent = data.counts.trending;
   $("#statDeduped").textContent = data.counts.deduped;
   $("#statCross").textContent = cross;
+  document.querySelector("#statTrending + small").textContent = "Trending";
+  document.querySelector("#statDeduped + small").textContent = "去重仓库";
+  document.querySelector("#statCross + small").textContent = "跨榜项目";
 }
 
 function renderNewspaper(report, data) {
+  if (report.type === "jobs") {
+    renderJobsNewspaper(report, data);
+    return;
+  }
+
   const cross = data.deduped.filter((repo) => repo.source_lists?.length > 1).length;
   const lead = byFullName(data, "microsoft/markitdown") || data.trending[0];
   const second = byFullName(data, "harry0703/MoneyPrinterTurbo") || data.trending[1];
@@ -178,6 +237,28 @@ function renderNewspaper(report, data) {
   const topAi = byFullName(data, "Significant-Gravitas/AutoGPT") || data.ai[0];
   const topOverall = byFullName(data, "codecrafters-io/build-your-own-x") || data.overall[0];
   const topAlgo = byFullName(data, "freqtrade/freqtrade") || data.algorithmic[0];
+  const typeMeta = reportTypes.github;
+
+  document.querySelector(".mast-brand h2").innerHTML = "GitHub<br>Daily";
+  document.querySelector(".mast-brand p").textContent = typeMeta.subtitle;
+  document.querySelector(".mast-note span:nth-child(1)").textContent = "「开源趋势，一页读完」";
+  document.querySelector(".mast-note span:nth-child(2)").textContent = "Trending · Stars · AI · Trading";
+  document.querySelector(".section-title h3").textContent = "开源热榜";
+  document.querySelector(".section-title span").textContent = "Trending · Overall Stars · AI · Trading · Deduped";
+  document.querySelectorAll(".section-title-mid h3")[0].textContent = "GitHub Trending";
+  document.querySelectorAll(".section-title-mid h3")[1].textContent = "AI / Trading Watch";
+  document.querySelectorAll(".section-title-mid span")[1].textContent = "Top stars · Topic watch · Repo links";
+  document.querySelector(".paper-footer").textContent = typeMeta.footer;
+  document.querySelector(".insight-box").innerHTML = `
+    <h3>今日趋势洞察</h3>
+    <p><strong>AI 工作流仍是主线。</strong>文档入库、长期记忆、Agent UI、网页抓取和编码代理工具密集出现，说明开发者正在把大模型能力接到真实资料和真实操作流里。</p>
+    <p><strong>交易方向出现 LLM 化。</strong>多智能体金融交易框架与 AI 量化平台同榜出现，研究、因子和决策正在被 Agent 与强化学习重写。</p>
+    <div class="dark-metrics">
+      <div><b id="darkTrending">0</b><span>Trending</span></div>
+      <div><b id="darkDeduped">0</b><span>Deduped</span></div>
+      <div><b id="darkCross">0</b><span>Cross</span></div>
+    </div>
+  `;
 
   $("#captureTime").textContent = `数据抓取：${formatTime(data.generated_at)} CST`;
   $("#mastIssue").textContent = `第 ${report.issue} 期`;
@@ -250,6 +331,135 @@ function renderNewspaper(report, data) {
     </article>
   `).join("");
 }
+
+function jobLink(job) {
+  return `<a class="repo-link" href="${escapeHtml(job.url)}" target="_blank" rel="noreferrer"><span>${escapeHtml(job.company)}</span> / <span>${escapeHtml(job.title)}</span></a>`;
+}
+
+function jobMeta(job) {
+  return [
+    job.match_level,
+    job.work_type,
+    job.location,
+    job.salary,
+    `截止：${job.deadline}`,
+  ].filter(Boolean).join(" · ");
+}
+
+function stackLine(job) {
+  return job.stack.slice(0, 6).join(" / ");
+}
+
+function renderJobsNewspaper(report, data) {
+  const typeMeta = reportTypes.jobs;
+  const jobs = data.jobs;
+  const strong = jobs.filter((job) => job.match_level === "强匹配");
+  const backup = jobs.filter((job) => job.match_level !== "强匹配");
+  const lead = strong[0] || jobs[0];
+  const second = strong[1] || jobs[1];
+
+  document.querySelector(".mast-brand h2").innerHTML = "Remote<br>Jobs";
+  document.querySelector(".mast-brand p").textContent = typeMeta.subtitle;
+  document.querySelector(".mast-note span:nth-child(1)").textContent = "「远程兼职，先筛再投」";
+  document.querySelector(".mast-note span:nth-child(2)").textContent = "Go · Backend · Part-time · Remote";
+  document.querySelector(".section-title h3").textContent = "职位筛选";
+  document.querySelector(".section-title span").textContent = "Go / Backend · 兼职 / 项目制 · 全国远程 · 截止需确认";
+  document.querySelectorAll(".section-title-mid h3")[0].textContent = "强匹配职位";
+  document.querySelectorAll(".section-title-mid h3")[1].textContent = "备选与投递风险";
+  document.querySelectorAll(".section-title-mid span")[1].textContent = "Go signal · backend signal · remote risk";
+  document.querySelector(".paper-footer").textContent = typeMeta.footer;
+
+  $("#captureTime").textContent = `检索时间：${formatTime(data.generated_at)} CST`;
+  $("#mastIssue").textContent = `第 ${report.issue} 期`;
+  $("#mastDate").textContent = formatDate(report.date);
+  $("#mastWeekday").textContent = formatWeekday(report.date);
+  $("#trendingLabel").textContent = `${formatDate(report.date)} remote job picks`;
+
+  $("#leadHeadline").innerHTML = `${escapeHtml(lead.title)}：<br>${escapeHtml(lead.work_type)}，${escapeHtml(lead.location)}`;
+  $("#leadCopy").innerHTML = `${jobLink(lead)} 来自 ${escapeHtml(lead.source)}，发布时间 ${escapeHtml(lead.published_date)}。${escapeHtml(lead.summary)} 技术栈：${escapeHtml(stackLine(lead))}。`;
+  $("#leadMeta").textContent = jobMeta(lead);
+
+  $("#secondaryHeadline").textContent = `${second.title}：后端兼职/项目制的近期线索`;
+  $("#secondaryCopy").innerHTML = `${jobLink(second)} · ${escapeHtml(second.summary)} <strong>注意：</strong>${escapeHtml(second.risk)}`;
+
+  $("#sideRail").innerHTML = jobs.slice(2, 6).map((job) => `
+    <article class="rail-item">
+      <h4>${escapeHtml(job.match_level)} · ${escapeHtml(job.title)}</h4>
+      <b>${jobLink(job)}</b>
+      <p>${escapeHtml(job.summary)}</p>
+      <span class="repo-meta">${escapeHtml(jobMeta(job))}</span>
+    </article>
+  `).join("");
+
+  $("#featuredRepo").innerHTML = `
+    <div class="rank-box">1</div>
+    <div><h4>${jobLink(lead)}</h4></div>
+    <span class="repo-meta">${escapeHtml(lead.match_score)}分</span>
+    <p>${escapeHtml(lead.highlights.join(" · "))}<br>${escapeHtml(lead.risk)}</p>
+  `;
+
+  $("#trendingList").innerHTML = strong.slice(1).concat(backup.slice(0, 2)).map((job, index) => `
+    <article class="rank-item">
+      <span class="rank-num">${index + 2}</span>
+      <div>
+        <h4>${jobLink(job)}</h4>
+        <p>${escapeHtml(job.summary)}</p>
+        <span class="repo-meta">${escapeHtml(jobMeta(job))}</span>
+      </div>
+    </article>
+  `).join("");
+
+  document.querySelector(".insight-box").innerHTML = `
+    <h3>筛选结论</h3>
+    ${data.insights.map((item) => `<p><strong>■</strong> ${escapeHtml(item)}</p>`).join("")}
+    <div class="dark-metrics">
+      <div><b id="darkTrending">${data.counts.strong}</b><span>STRONG</span></div>
+      <div><b id="darkDeduped">${data.counts.matches}</b><span>MATCHES</span></div>
+      <div><b id="darkCross">${data.counts.deadline_confirm_required}</b><span>CHECK</span></div>
+    </div>
+  `;
+
+  $("#aiStories").innerHTML = strong.map((job) => `
+    <article class="paper-story">
+      <h4>${jobLink(job)}</h4>
+      <p>${escapeHtml(job.summary)}</p>
+      <span class="repo-meta">${escapeHtml(jobMeta(job))}</span>
+    </article>
+  `).join("");
+
+  $("#tradingWatch").innerHTML = backup.map((job, index) => `
+    <article class="watch-item">
+      <span class="rank-num">${index + 1}</span>
+      <div>
+        <h4>${jobLink(job)}</h4>
+        <p>${escapeHtml(job.risk)}</p>
+        <span class="repo-meta">${escapeHtml(stackLine(job))}</span>
+      </div>
+    </article>
+  `).join("");
+}
+
+function renderTypeSwitcher() {
+  $("#typeSwitcher").querySelectorAll("[data-type]").forEach((button) => {
+    const isActive = button.dataset.type === activeType;
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  });
+}
+
+function selectType(type) {
+  if (!reportTypes[type] || type === activeType) return;
+  activeType = type;
+  const firstReport = reportsForType(type)[0];
+  activeDate = firstReport.date;
+  visibleMonth = parseDate(firstReport.date);
+  window.history.replaceState(null, "", type === reports[0].type ? window.location.pathname : `?type=${type}`);
+  selectReport(activeDate);
+}
+
+$("#typeSwitcher").querySelectorAll("[data-type]").forEach((button) => {
+  button.addEventListener("click", () => selectType(button.dataset.type));
+});
 
 $("#prevMonth").addEventListener("click", () => {
   visibleMonth = new Date(visibleMonth.getFullYear(), visibleMonth.getMonth() - 1, 1);
