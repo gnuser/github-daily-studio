@@ -26,11 +26,11 @@ npm run dev
 http://127.0.0.1:8787
 ```
 
-普通静态服务器即可打开。若要测试 Cloudflare Pages Function：
+普通静态服务器即可打开。若要测试 Cloudflare Worker + Static Assets：
 
 ```bash
 npm install
-npm run pages:dev
+npm run worker:dev
 ```
 
 首页支持日报类型切换：
@@ -66,9 +66,15 @@ assets/github-daily-intro-poster.png
 assets/github-daily-intro.mp4
 ```
 
-## 手动发布到 Cloudflare Pages
+## 发布到 Cloudflare Worker
 
-先生成干净的 Pages 发布目录，只包含线上需要的静态文件、`_headers`、`functions/`、`assets/`、`data/` 和 `public/`：
+项目使用和 `dandantang-duel` 类似的 Wrangler Worker 配置：`wrangler.jsonc` 里设置 `assets.directory`、`run_worker_first` 和 `custom_domain` route。目标域名是：
+
+```text
+daily-studio.xiajuan.app
+```
+
+先生成干净的静态资源目录，只包含线上需要的静态文件、`_headers`、`assets/`、`data/` 和 `public/`：
 
 ```bash
 npm run pages:prepare
@@ -86,19 +92,7 @@ npm run pages:prepare
 npm run deploy
 ```
 
-默认发布到 Cloudflare Pages 项目 `github-daily-studio`、分支 `master`。如需覆盖：
-
-```bash
-CF_PAGES_PROJECT=github-daily-studio CF_PAGES_BRANCH=master npm run deploy
-```
-
-部署后绑定自定义域名，例如：
-
-```text
-github-daily.xiajuan.app
-```
-
-仓库里已包含 `_headers`、`functions/api/github-briefing.js` 和 `wrangler.toml.example`。不配置任何 secret 也能作为静态日报站点运行；Cloudflare Function 只是预留给未来实时抓取。若 Wrangler 未登录，可先运行 `npx wrangler login`，或设置 `CLOUDFLARE_API_TOKEN` 后再执行发布脚本。
+`npm run deploy` 会执行 `wrangler deploy --config wrangler.jsonc`，创建/更新名为 `daily-studio` 的 Worker，并通过 `routes` 绑定到 `daily-studio.xiajuan.app`。若 Wrangler 未登录，可先运行 `npx wrangler login`，或设置 `CLOUDFLARE_API_TOKEN` 后再执行发布脚本。API token 需要 Workers Scripts Edit、Workers Routes Edit、Zone Read、User Details Read 等部署和路由权限。
 
 ## 新增一期日报
 

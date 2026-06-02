@@ -14,7 +14,7 @@ rm -rf "$OUT_DIR"
 mkdir -p "$OUT_DIR"
 
 cp index.html app.js styles.css _headers "$OUT_DIR/"
-cp -R assets data functions public "$OUT_DIR/"
+cp -R assets data public "$OUT_DIR/"
 
 find "$OUT_DIR" -name ".DS_Store" -delete
 

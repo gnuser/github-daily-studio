@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "python3 -m http.server 8787 --bind 127.0.0.1",
-    "pages:dev": "wrangler pages dev .",
+    "worker:dev": "npm run pages:prepare && wrangler dev --config wrangler.jsonc",
     "pages:prepare": "bash scripts/prepare-pages.sh",
     "deploy": "bash scripts/deploy-pages.sh",
     "remotion:preview": "remotion preview remotion/index.jsx",
