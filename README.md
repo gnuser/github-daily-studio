@@ -11,6 +11,7 @@
 - 静态导出图：`assets/github-tech-daily.png`
 - Remotion 竖屏介绍视频：`assets/github-daily-intro.mp4`
 - Remotion 视频封面：`assets/github-daily-intro-poster.png`
+- Remotion 原创合成音频：`public/audio/`
 
 ## 本地预览
 
@@ -33,7 +34,7 @@ npm run pages:dev
 
 ## Remotion 每日热榜介绍
 
-项目包含一个 1080 × 1920、18 秒的 Remotion 竖屏短片，用来介绍每日 GitHub 热榜、Top 3 项目、AI / Trading 观察和最终日报页。
+项目包含一个 1080 × 1920、18 秒的 Remotion 竖屏短片，用来介绍每日 GitHub 热榜、Top 3 项目、AI / Trading 观察和最终日报页。视频已加入本地合成的轻节奏音乐底和转场音效，不依赖外部音乐素材。
 
 ```bash
 npm run remotion:preview

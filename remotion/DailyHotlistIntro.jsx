@@ -1,7 +1,9 @@
 import React from "react";
 import {
   AbsoluteFill,
+  Audio,
   Img,
+  Sequence,
   interpolate,
   spring,
   staticFile,
@@ -37,6 +39,32 @@ const colors = {
 };
 
 const formatNumber = (number) => new Intl.NumberFormat("en-US").format(number);
+
+const sfxEvents = [
+  {from: 5, src: "audio/paper-hit.wav", volume: 0.42},
+  {from: 34, src: "audio/tick.wav", volume: 0.48},
+  {from: 58, src: "audio/blip-mid.wav", volume: 0.34},
+  {from: 142, src: "audio/whoosh.wav", volume: 0.38},
+  {from: 165, src: "audio/blip-high.wav", volume: 0.44},
+  {from: 180, src: "audio/blip-mid.wav", volume: 0.36},
+  {from: 194, src: "audio/blip-mid.wav", volume: 0.34},
+  {from: 300, src: "audio/whoosh.wav", volume: 0.34},
+  {from: 322, src: "audio/tick.wav", volume: 0.4},
+  {from: 334, src: "audio/tick.wav", volume: 0.36},
+  {from: 420, src: "audio/whoosh.wav", volume: 0.42},
+  {from: 438, src: "audio/paper-hit.wav", volume: 0.5},
+];
+
+const AudioTimeline = () => (
+  <>
+    <Audio src={staticFile("audio/hotlist-bed.wav")} volume={0.38} />
+    {sfxEvents.map((event, index) => (
+      <Sequence key={`${event.src}-${event.from}-${index}`} from={event.from}>
+        <Audio src={staticFile(event.src)} volume={event.volume} />
+      </Sequence>
+    ))}
+  </>
+);
 
 const fade = (frame, start, duration = 18) =>
   interpolate(frame, [start, start + duration], [0, 1], clamp);
@@ -828,6 +856,7 @@ export const DailyHotlistIntro = () => {
   const frame = useCurrentFrame();
   return (
     <AbsoluteFill>
+      <AudioTimeline />
       <PaperBackdrop />
       <IntroScene frame={frame} />
       <TopReposScene frame={frame} />
