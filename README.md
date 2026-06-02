@@ -9,6 +9,8 @@
 - 去重字段：`full_name`
 - 静态日报数据：`data/github-briefing-data.json`
 - 静态导出图：`assets/github-tech-daily.png`
+- Remotion 竖屏介绍视频：`assets/github-daily-intro.mp4`
+- Remotion 视频封面：`assets/github-daily-intro-poster.png`
 
 ## 本地预览
 
@@ -27,6 +29,30 @@ http://127.0.0.1:8787
 ```bash
 npm install
 npm run pages:dev
+```
+
+## Remotion 每日热榜介绍
+
+项目包含一个 1080 × 1920、18 秒的 Remotion 竖屏短片，用来介绍每日 GitHub 热榜、Top 3 项目、AI / Trading 观察和最终日报页。
+
+```bash
+npm run remotion:preview
+npm run remotion:still
+npm run remotion:render
+```
+
+渲染结果默认写入：
+
+```text
+out/github-daily-intro.png
+out/github-daily-intro.mp4
+```
+
+当前可发布版本已复制到：
+
+```text
+assets/github-daily-intro-poster.png
+assets/github-daily-intro.mp4
 ```
 
 ## 手动发布到 Cloudflare Pages

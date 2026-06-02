@@ -5,9 +5,16 @@
   "scripts": {
     "dev": "python3 -m http.server 8787 --bind 127.0.0.1",
     "pages:dev": "wrangler pages dev .",
-    "deploy": "wrangler pages deploy . --project-name github-daily-studio"
+    "deploy": "wrangler pages deploy . --project-name github-daily-studio",
+    "remotion:preview": "remotion preview remotion/index.jsx",
+    "remotion:still": "remotion still remotion/index.jsx DailyHotlistIntro out/github-daily-intro.png --frame=96",
+    "remotion:render": "remotion render remotion/index.jsx DailyHotlistIntro out/github-daily-intro.mp4"
   },
   "devDependencies": {
+    "@remotion/cli": "^4.0.471",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "remotion": "^4.0.471",
     "wrangler": "^4.96.0"
   }
 }
