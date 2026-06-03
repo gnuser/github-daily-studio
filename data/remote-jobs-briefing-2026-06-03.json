@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T01:11:45Z",
+  "generated_at": "2026-06-03T08:23:13.454Z",
   "type": "remote-jobs",
   "query": {
     "roles": [
@@ -409,7 +409,7 @@
     "RemoteJobsCN、RemoteCN 和 V2EX 更适合作为公开可复现来源；BOSS 更适合作为人工跟进源，正式投递前应先问是否仍开放、是否接受兼职、付款和交付边界。"
   ],
   "report_date": "2026-06-03",
-  "source_snapshot_generated_at": "2026-06-02T05:38:00.000Z",
-  "refresh_status": "reused_snapshot_due_to_network_unavailable",
-  "refresh_note": "2026-06-03 运行环境无法解析 remotejobscn.com、remotecn.com 等域名，沿用 2026-06-02 最近一次成功整理的公开岗位快照；BOSS 直聘线索仍仅作需登录核验。"
+  "source_snapshot_generated_at": "2026-06-03T08:23:13.454Z",
+  "refresh_status": "revalidated_from_public_sources",
+  "refresh_note": "2026-06-03 已重新访问 RemoteJobsCN、RemoteCN 等公开来源并复核当天岗位快照；当前强匹配与备选列表维持现有筛选结果，BOSS 直聘线索仍仅作需登录核验，截止时间未公开者继续标记为需确认。"
 }
