@@ -43,6 +43,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+body.capture-mode {
+  background: #d8cbb8;
+}
+
 a {
   color: inherit;
 }
@@ -55,6 +59,30 @@ button {
   max-width: 1480px;
   margin: 0 auto;
   padding: 20px;
+}
+
+body.capture-mode .site-shell {
+  max-width: 940px;
+  padding: 0;
+}
+
+body.capture-mode .site-header,
+body.capture-mode .calendar-panel {
+  display: none;
+}
+
+body.capture-mode .layout {
+  display: block;
+}
+
+body.capture-mode .reader {
+  width: 940px;
+}
+
+body.capture-mode .newspaper {
+  width: 940px;
+  margin: 0;
+  box-shadow: none;
 }
 
 .site-header {

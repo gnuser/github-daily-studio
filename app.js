@@ -5,8 +5,9 @@ const reports = [
     date: "2026-06-03",
     issue: "002",
     title: "GitHub Daily",
-    dataUrl: "./data/github-briefing-data.json",
-    imageUrl: "./assets/github-tech-daily.png",
+    dataUrl: "./data/github-briefing-2026-06-03.json",
+    imageUrl: "./assets/github-tech-daily-2026-06-03.png",
+    videoUrl: "./assets/github-daily-intro-2026-06-03.mp4",
   },
   {
     id: "jobs-2026-06-03",
@@ -22,8 +23,9 @@ const reports = [
     date: "2026-06-02",
     issue: "001",
     title: "GitHub Daily",
-    dataUrl: "./data/github-briefing-data.json",
-    imageUrl: "./assets/github-tech-daily.png",
+    dataUrl: "./data/github-briefing-2026-06-02.json",
+    imageUrl: "./assets/github-tech-daily-2026-06-02.png",
+    videoUrl: "./assets/github-daily-intro-2026-06-02.mp4",
   },
   {
     id: "jobs-2026-06-02",
@@ -73,10 +75,17 @@ const cnBriefs = {
 };
 
 const reportData = new Map();
-const initialType = new URLSearchParams(window.location.search).get("type");
+const searchParams = new URLSearchParams(window.location.search);
+const initialType = searchParams.get("type");
+const initialDateParam = searchParams.get("date");
+const captureMode = searchParams.get("capture") === "github";
 let activeType = reportTypes[initialType] ? initialType : reports[0].type;
-let activeDate = reports.find((report) => report.type === activeType)?.date || reports[0].date;
+let activeDate = reports.find((report) => report.type === activeType && report.date === initialDateParam)?.date
+  || reports.find((report) => report.type === activeType)?.date
+  || reports[0].date;
 let visibleMonth = parseDate(activeDate);
+
+document.body.classList.toggle("capture-mode", captureMode);
 
 const $ = (selector) => document.querySelector(selector);
 
@@ -195,6 +204,40 @@ function reportForDate(date) {
   return reportsForType().find((report) => report.date === date) || reportsForType()[0] || reports[0];
 }
 
+function githubReportForDate(date = activeDate) {
+  return reports.find((report) => report.type === "github" && report.date === date)
+    || reports.find((report) => report.type === "github")
+    || null;
+}
+
+function updateMediaLinks(report) {
+  const mediaReport = report.type === "github" ? report : githubReportForDate(report.date);
+  const videoLink = $("#introVideoLink");
+  const imageLink = $("#downloadImageLink");
+
+  if (!mediaReport) {
+    videoLink.hidden = true;
+    imageLink.hidden = true;
+    return;
+  }
+
+  if (mediaReport.videoUrl) {
+    videoLink.hidden = false;
+    videoLink.href = mediaReport.videoUrl;
+  } else {
+    videoLink.hidden = true;
+  }
+
+  if (mediaReport.imageUrl) {
+    const filename = mediaReport.imageUrl.split("/").pop();
+    imageLink.hidden = false;
+    imageLink.href = mediaReport.imageUrl;
+    imageLink.download = filename;
+  } else {
+    imageLink.hidden = true;
+  }
+}
+
 async function loadReport(date) {
   const report = reportForDate(date);
   const key = reportKey(report);
@@ -211,6 +254,7 @@ async function selectReport(date) {
   renderTypeSwitcher();
   const { report, data } = await loadReport(date);
   document.title = `${report.title} · ${formatDate(report.date)}`;
+  updateMediaLinks(report);
   renderIssueCard(report, data);
   renderNewspaper(report, data);
 }
