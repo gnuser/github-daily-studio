@@ -2440,5 +2440,9 @@
         "algorithmic-trading-topic"
       ]
     }
-  ]
+  ],
+  "report_date": "2026-06-03",
+  "refresh_status": "reused_snapshot_due_to_network_unavailable",
+  "refresh_note": "2026-06-03 运行环境无法解析 github.com，沿用 2026-06-02 最近一次成功抓取快照，未完成今日实时刷新。",
+  "refresh_attempted_at": "2026-06-03T01:11:45Z"
 }

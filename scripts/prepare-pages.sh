@@ -7,8 +7,9 @@ OUT_DIR="${OUT_DIR:-$ROOT_DIR/.deploy/cloudflare-pages}"
 cd "$ROOT_DIR"
 
 node --check app.js
-python3 -m json.tool data/github-briefing-data.json >/dev/null
-python3 -m json.tool data/remote-jobs-briefing-2026-06-02.json >/dev/null
+for json_file in data/*.json; do
+  python3 -m json.tool "$json_file" >/dev/null
+done
 
 rm -rf "$OUT_DIR"
 mkdir -p "$OUT_DIR"
