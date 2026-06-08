@@ -1,0 +1,311 @@
+{
+  "generated_at": "2026-06-08T03:04:19Z",
+  "type": "remote-jobs",
+  "query": {
+    "roles": [
+      "Go 工程师",
+      "Golang 后端工程师",
+      "后端工程师"
+    ],
+    "work_types": [
+      "兼职",
+      "项目制",
+      "合同/自由职业"
+    ],
+    "locations": [
+      "全国远程",
+      "全球远程",
+      "接受居家办公"
+    ],
+    "deadline_after": "2026-06-08",
+    "note": "多数招聘帖未公开截止时间；本日报不伪造截止日期，未注明者标记为需投递前确认或需登录核验。"
+  },
+  "counts": {
+    "scanned": 24,
+    "matches": 7,
+    "strong": 2,
+    "go_or_backend": 6,
+    "part_time_or_contract": 4,
+    "remote": 7,
+    "deadline_confirm_required": 7
+  },
+  "sources": [
+    {
+      "name": "RemoteJobsCN 开发远程岗位",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91"
+    },
+    {
+      "name": "RemoteJobsCN Page 2",
+      "url": "https://remotejobscn.com/?page=2"
+    },
+    {
+      "name": "RemoteCN 聚合页",
+      "url": "https://remotecn.com/"
+    },
+    {
+      "name": "V2EX 远程工作 - golang 后端兼职",
+      "url": "https://fast.v2ex.com/t/1200518"
+    },
+    {
+      "name": "V2EX 远程工作 - 高级全栈研发工程师",
+      "url": "https://www.v2ex.com/t/1215036"
+    },
+    {
+      "name": "BOSS直聘 后端远程办公（需登录核验）",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/"
+    },
+    {
+      "name": "BOSS直聘 兼职频道（需登录核验）",
+      "url": "https://www.zhipin.com/jianzhi/"
+    }
+  ],
+  "jobs": [
+    {
+      "rank": 1,
+      "title": "Golang 后端工程师",
+      "company": "跨境电商 SaaS+AI 团队",
+      "source": "V2EX",
+      "url": "https://fast.v2ex.com/t/1200518",
+      "published_date": "2026-03-23",
+      "location": "帖子标题写远程，正文写深圳坂田，需确认",
+      "work_type": "标题写兼职，正文写全职，需确认合作方式",
+      "salary": "固定薪资 + 期权（面议）",
+      "deadline": "未注明，需确认是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "强匹配",
+      "match_score": 92,
+      "stack": [
+        "Go",
+        "Gin",
+        "GORM",
+        "MySQL",
+        "Redis",
+        "PostgreSQL",
+        "Docker",
+        "K8s",
+        "Agent"
+      ],
+      "summary": "Go 后端方向明确，职责覆盖高并发 API、数据模型和 AI 推理服务；但帖子内对兼职/全职和办公地点描述不一致。",
+      "highlights": [
+        "Go 技术栈明确",
+        "后端职责完整",
+        "远程关键词存在",
+        "需先核对合作方式"
+      ],
+      "risk": "发布时间较早，且标题与正文在兼职/地点上存在冲突，投递前必须二次确认。"
+    },
+    {
+      "rank": 2,
+      "title": "Python 后端工程师 - 第三方 API / AI 网关",
+      "company": "欧洲 AI 基础设施初创公司",
+      "source": "RemoteJobsCN / Eleduck",
+      "url": "https://remotejobscn.com/?page=2",
+      "published_date": "2026-06-01",
+      "location": "全球远程",
+      "work_type": "远程兼职 / 4-6 周 MVP",
+      "salary": "未注明",
+      "deadline": "未注明，需确认是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "强匹配",
+      "match_score": 88,
+      "stack": [
+        "Python",
+        "API Gateway",
+        "OpenAI 风格接口",
+        "隐私保护",
+        "云端服务"
+      ],
+      "summary": "公开页明确写明招募 2 名远程兼职开发者，构建 AI API 网关与隐私保护中间层，后端契约和远程属性都比较清晰。",
+      "highlights": [
+        "公开来源可复核",
+        "兼职明确",
+        "后端 API 网关",
+        "全球远程"
+      ],
+      "risk": "不是 Go 栈，且薪资与付款节奏未公开，需要先确认。"
+    },
+    {
+      "rank": 3,
+      "title": "AI 增强型全栈工程师（跨境面单 SaaS 克隆）",
+      "company": "Eleduck 招聘方",
+      "source": "RemoteCN / Eleduck",
+      "url": "https://remotecn.com/",
+      "published_date": "列表显示 5 小时前（2026-06-08 抓取）",
+      "location": "远程",
+      "work_type": "远程兼职 / 按阶段付费",
+      "salary": "按阶段付费",
+      "deadline": "未注明，需投递前确认",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 79,
+      "stack": [
+        "Next.js",
+        "Vue3",
+        "Tailwind CSS",
+        "AI 编程助手",
+        "SaaS"
+      ],
+      "summary": "岗位更新很新，明确是远程兼职和阶段付费，但偏全栈交付，不是 Go / 后端单线岗位。",
+      "highlights": [
+        "当天新线索",
+        "兼职明确",
+        "远程明确",
+        "适合能接全栈项目制"
+      ],
+      "risk": "后端边界不清晰，且技术栈偏前端/全栈，需要先确认后端占比。"
+    },
+    {
+      "rank": 4,
+      "title": "Node.js 全栈开发 - OC 社交平台后台管理系统",
+      "company": "Eleduck 招聘方",
+      "source": "RemoteCN / Eleduck",
+      "url": "https://remotecn.com/",
+      "published_date": "列表显示 1 天前（2026-06-08 抓取）",
+      "location": "远程",
+      "work_type": "远程兼职 / 项目制",
+      "salary": "未注明",
+      "deadline": "未注明，需投递前确认",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 76,
+      "stack": [
+        "Node.js",
+        "Express/Koa",
+        "MySQL",
+        "Redis",
+        "Vue3",
+        "Docker",
+        "Nginx"
+      ],
+      "summary": "明确包含后端 API 与后台管理系统交付，远程兼职属性清楚，但技术栈不是 Go。",
+      "highlights": [
+        "后端任务明确",
+        "项目制友好",
+        "远程",
+        "数据库与 API 工作量清晰"
+      ],
+      "risk": "非 Go 栈，且工时、验收和预算没有公开。"
+    },
+    {
+      "rank": 5,
+      "title": "高级全栈研发工程师（跨境支付 / Java + 前端方向）",
+      "company": "跨境支付撮合系统团队",
+      "source": "V2EX",
+      "url": "https://www.v2ex.com/t/1215036",
+      "published_date": "2026-05-24",
+      "location": "远程工作板块发布，默认远程意向",
+      "work_type": "未明确，倾向长期全职合作",
+      "salary": "未注明",
+      "deadline": "未注明，需确认是否接受项目制/兼职",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 72,
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "Spring Cloud",
+        "MySQL",
+        "Redis",
+        "RocketMQ/RabbitMQ",
+        "支付清结算"
+      ],
+      "summary": "后端深度很强，聚焦高并发撮合、账本和支付清结算，但兼职属性不明确，更像核心全职岗。",
+      "highlights": [
+        "后端深度强",
+        "支付/账本经验要求清晰",
+        "远程工作板块",
+        "高并发场景"
+      ],
+      "risk": "不满足 Go，也未明确兼职，适合作为高经验后端备选。"
+    },
+    {
+      "rank": 6,
+      "title": "Senior Backend Engineer",
+      "company": "WalletConnect",
+      "source": "RemoteJobsCN / Remote3",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91",
+      "published_date": "2026-06-06",
+      "location": "全球远程",
+      "work_type": "全职远程",
+      "salary": "未明确",
+      "deadline": "未注明，需确认是否接受合同制",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 68,
+      "stack": [
+        "Backend",
+        "Web3",
+        "全球远程"
+      ],
+      "summary": "公开来源里最新的后端岗位之一，时间新且全球远程，但目前只看到全职属性。",
+      "highlights": [
+        "公开来源较新",
+        "Backend 明确",
+        "全球远程",
+        "中国候选人可投"
+      ],
+      "risk": "公开页只显示全职，若只接受兼职/项目制，需要先问是否能转合同合作。"
+    },
+    {
+      "rank": 7,
+      "title": "交易所 Golang 后端开发工程师 - 远程办公",
+      "company": "广州末龙科技",
+      "source": "BOSS直聘",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/",
+      "published_date": "BOSS 列表未公开",
+      "location": "北京海淀 / 远程",
+      "work_type": "远程办公，兼职未明确",
+      "salary": "25-45K/月",
+      "deadline": "未注明，详情页触发安全校验，需登录确认",
+      "deadline_status": "需登录核验",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 71,
+      "stack": [
+        "Go",
+        "Golang",
+        "微服务",
+        "撮合引擎",
+        "交易系统"
+      ],
+      "summary": "列表层面能看到 Golang 与远程关键词，方向与本日报筛选接近，但详情页需要登录后才能确认是否仍开放。",
+      "highlights": [
+        "Golang 明确",
+        "远程关键词",
+        "交易系统后端",
+        "国内线索"
+      ],
+      "risk": "发布时间、截止时间、合作方式都无法在公开页核验，只能作为人工登录后的线索池。"
+    }
+  ],
+  "insights": [
+    "2026-06-08 公开可访问来源里，真正同时满足 Go/后端、兼职或项目制、远程居家的新岗位仍然不多，公开强匹配仍以 V2EX 与 Eleduck 聚合线索为主。",
+    "RemoteCN 今天有新的远程兼职项目出现，但更偏全栈交付；如果只收 Go 后端，需要继续降权处理。",
+    "RemoteJobsCN 最近两天的 Backend 岗位以全职远程为主，可保留为备选，但不应混入强匹配池。",
+    "BOSS 直聘仍有 Golang 远程办公线索，不过公开页无法验证发布时间和截止时间，只适合作为人工登录复核项。"
+  ],
+  "report_date": "2026-06-08",
+  "source_snapshot_generated_at": "2026-06-08T03:04:19Z",
+  "refresh_status": "public_sources_reviewed_with_login_required_clues",
+  "refresh_note": "2026-06-08 复核了 RemoteJobsCN、RemoteCN 与 V2EX 的公开内容；新公开岗位中存在后端/远程/兼职线索，但 Go 精准匹配仍稀缺。BOSS 直聘仅保留为需登录核验线索，未公开截止时间者未做推断。"
+}
