@@ -1,0 +1,293 @@
+{
+  "generated_at": "2026-06-14T03:04:41Z",
+  "type": "remote-jobs",
+  "query": {
+    "roles": [
+      "Go 工程师",
+      "Golang 后端工程师",
+      "后端工程师"
+    ],
+    "work_types": [
+      "兼职",
+      "项目制",
+      "合同/自由职业"
+    ],
+    "locations": [
+      "全国远程",
+      "全球远程",
+      "接受居家办公"
+    ],
+    "deadline_after": "2026-06-14",
+    "note": "多数招聘帖未公开截止时间；本日报不伪造截止日期，未注明者标记为需投递前确认或需登录核验。"
+  },
+  "counts": {
+    "scanned": 20,
+    "matches": 7,
+    "strong": 1,
+    "go_or_backend": 7,
+    "part_time_or_contract": 2,
+    "remote": 7,
+    "deadline_confirm_required": 7
+  },
+  "sources": [
+    {
+      "name": "RemoteJobsCN 开发远程岗位",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91"
+    },
+    {
+      "name": "RemoteCN 聚合页",
+      "url": "https://remotecn.com/"
+    },
+    {
+      "name": "V2EX 远程工作 - golang 后端兼职",
+      "url": "https://www.v2ex.com/t/1200518"
+    },
+    {
+      "name": "BOSS直聘 后端远程办公列表（需登录核验）",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/"
+    }
+  ],
+  "jobs": [
+    {
+      "rank": 1,
+      "title": "Golang 后端工程师",
+      "company": "跨境电商 SaaS+AI 团队",
+      "source": "V2EX",
+      "url": "https://www.v2ex.com/t/1200518",
+      "published_date": "2026-03-23",
+      "location": "帖子主楼写远程办公，职位信息区同时写深圳坂田，需确认是否仍完全居家",
+      "work_type": "远程办公，接受长期兼职合作，按工时计费",
+      "salary": "120-150/工时；另有固定薪资 + 期权表述，需确认",
+      "deadline": "未注明，需确认是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "强匹配",
+      "match_score": 93,
+      "stack": [
+        "Go",
+        "Gin",
+        "GORM",
+        "MySQL",
+        "Redis",
+        "PostgreSQL",
+        "Docker",
+        "K8s",
+        "Agent"
+      ],
+      "summary": "公开帖仍明确写到 Golang 后端、远程办公、长期兼职和工时计费，公开来源里仍是最接近筛选条件的一条。",
+      "highlights": [
+        "Go 栈明确",
+        "后端职责完整",
+        "远程兼职明写",
+        "按工时合作"
+      ],
+      "risk": "帖子创建于 2026-03-23，且正文同时出现深圳地点与远程描述，投递前必须确认岗位是否仍开放、是否继续接受兼职。"
+    },
+    {
+      "rank": 2,
+      "title": "Senior Golang Developer (Fullstack, BE-Heavy)",
+      "company": "Proxify 聚合岗位",
+      "source": "RemoteCN / Proxify",
+      "url": "https://remotecn.com/",
+      "published_date": "列表显示 1 天前（2026-06-14 抓取）",
+      "location": "远程",
+      "work_type": "全职远程",
+      "salary": "未注明",
+      "deadline": "未注明，需确认是否接受合同制",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 80,
+      "stack": [
+        "Go",
+        "Golang",
+        "Fullstack",
+        "Backend"
+      ],
+      "summary": "RemoteCN 首页公开可见 Golang 偏后端岗位，发布时间较新，但当前只能确认其为全职远程。",
+      "highlights": [
+        "发布时间新",
+        "Golang 明确",
+        "后端倾向明显",
+        "公开可复核"
+      ],
+      "risk": "聚合页只显示摘要，预算、时区限制、是否接受项目制需要进入原始职位页进一步确认。"
+    },
+    {
+      "rank": 3,
+      "title": "Senior Backend Engineer",
+      "company": "WalletConnect",
+      "source": "RemoteJobsCN / Remote3",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91",
+      "published_date": "2026-06-06",
+      "location": "全球远程",
+      "work_type": "全职远程",
+      "salary": "未明确",
+      "deadline": "未注明，需确认是否接受合同制",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 75,
+      "stack": [
+        "Backend",
+        "Remote3",
+        "全球远程",
+        "Web3"
+      ],
+      "summary": "RemoteJobsCN 公开页当前仍可见，全球远程且中国候选人可投，适合作为后端远程备选池。",
+      "highlights": [
+        "全球远程",
+        "中国候选人可投",
+        "后端方向明确",
+        "公开来源稳定"
+      ],
+      "risk": "页面只展示全职属性，不符合兼职优先条件；合作方式和截止时间都未公开。"
+    },
+    {
+      "rank": 4,
+      "title": "Senior Backend & Platform Engineer – FinOps, IAM & Blockchain",
+      "company": "Moonshot",
+      "source": "RemoteJobsCN / Remote3",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91",
+      "published_date": "2026-06-06",
+      "location": "全球远程",
+      "work_type": "全职远程",
+      "salary": "未明确",
+      "deadline": "未注明，需确认是否接受合同制",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 72,
+      "stack": [
+        "Backend",
+        "Platform",
+        "FinOps",
+        "IAM",
+        "Blockchain"
+      ],
+      "summary": "RemoteJobsCN 公开页仍能看到这条资深后端平台岗，远程范围和岗位边界较清楚。",
+      "highlights": [
+        "全球远程",
+        "平台后端明确",
+        "中国候选人可投",
+        "公开可访问"
+      ],
+      "risk": "依旧是全职岗，若只接受兼职或项目制，需要人工确认是否可按合同方式合作。"
+    },
+    {
+      "rank": 5,
+      "title": "Go高级后端开发工程师（远程｜硅谷)",
+      "company": "BOSS 列表页公开信息（公司与详情需登录核验）",
+      "source": "BOSS直聘",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/",
+      "published_date": "BOSS 列表页未公开具体发布日期",
+      "location": "成都锦江区红星路 / 远程｜硅谷",
+      "work_type": "远程，兼职未明确，需登录确认",
+      "salary": "15-20K",
+      "deadline": "未注明，详情与开放状态需登录核验",
+      "deadline_status": "需登录核验",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 78,
+      "stack": [
+        "Go",
+        "Golang",
+        "后端",
+        "海外交付"
+      ],
+      "summary": "公开列表页可见 Go 高级后端与远程关键词，技术方向贴近筛选条件。",
+      "highlights": [
+        "Go 明确",
+        "远程关键词",
+        "后端职责",
+        "国内公开线索"
+      ],
+      "risk": "发布时间、是否接受兼职或项目制、实际雇主主体与截止时间都需要登录后核验。"
+    },
+    {
+      "rank": 6,
+      "title": "〖远程兼职〗后端代码标注",
+      "company": "上海加运未来科技服务（公开列表页显示）",
+      "source": "BOSS直聘",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/",
+      "published_date": "BOSS 列表页未公开具体发布日期",
+      "location": "北京朝阳区望京 / 远程兼职",
+      "work_type": "远程兼职",
+      "salary": "500-1000 元/天",
+      "deadline": "未注明，详情与开放状态需登录核验",
+      "deadline_status": "需登录核验",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 73,
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "Spring Cloud",
+        "代码标注"
+      ],
+      "summary": "公开列表页能确认远程兼职和后端代码标注形态，虽然不是 Go 研发岗，但合作模式更接近项目制。",
+      "highlights": [
+        "远程兼职明确",
+        "按天计费感强",
+        "后端方向",
+        "国内公开列表可见"
+      ],
+      "risk": "偏代码标注而非产品后端开发，且需要登录后确认任务周期、交付边界与当前开放状态。"
+    },
+    {
+      "rank": 7,
+      "title": "交易所-Golang 后端开发工程师-远程",
+      "company": "BOSS 列表页公开信息（公司与详情需登录核验）",
+      "source": "BOSS直聘",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/",
+      "published_date": "BOSS 列表页未公开具体发布日期",
+      "location": "北京海淀区学院路 / 远程",
+      "work_type": "远程，兼职未明确，需登录确认",
+      "salary": "25-45K",
+      "deadline": "未注明，详情与开放状态需登录核验",
+      "deadline_status": "需登录核验",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 77,
+      "stack": [
+        "Go",
+        "Golang",
+        "微服务",
+        "撮合引擎",
+        "交易系统"
+      ],
+      "summary": "公开列表页仍能确认 Golang、交易所核心系统和远程关键词，技术方向贴合筛选条件。",
+      "highlights": [
+        "Golang 明确",
+        "远程关键词",
+        "交易系统后端",
+        "国内线索"
+      ],
+      "risk": "是否接受兼职或项目制、发布时间与截止时间都需要登录后核验，不应在日报中推断。"
+    }
+  ],
+  "insights": [
+    "2026-06-14 公开可访问来源里，严格同时满足 Go/后端、兼职或项目制、全国/全球远程的公开新增岗位仍然偏少，V2EX 旧帖仍是最强公开匹配。",
+    "RemoteCN 当前可见新的 Golang 偏后端远程岗位，但公开信息仍更接近全职远程，需要在兼职筛选里降权。",
+    "RemoteJobsCN 最近可见的后端岗位依旧以全球远程全职为主，适合作为备选池而不是强匹配池。",
+    "BOSS 直聘列表页当前能补到 Go/后端/远程与兼职线索，但发布时间、截止时间和开放状态都需要人工登录核验。"
+  ],
+  "report_date": "2026-06-14",
+  "source_snapshot_generated_at": "2026-06-14T03:04:41Z",
+  "refresh_status": "public_sources_reviewed_with_login_required_clues",
+  "refresh_note": "2026-06-14 复核了 RemoteJobsCN、RemoteCN、V2EX 与 BOSS 直聘公开列表页；BOSS 仍仅保留为需登录核验线索，未公开截止时间者未做推断。"
+}
