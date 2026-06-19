@@ -1,0 +1,226 @@
+{
+  "generated_at": "2026-06-19T03:20:00Z",
+  "type": "remote-jobs",
+  "query": {
+    "roles": [
+      "Go 工程师",
+      "Golang 后端工程师",
+      "后端工程师"
+    ],
+    "work_types": [
+      "兼职",
+      "项目制",
+      "合同/自由职业"
+    ],
+    "locations": [
+      "全国远程",
+      "全球远程",
+      "接受居家办公"
+    ],
+    "deadline_after": "2026-06-19",
+    "note": "多数招聘帖未公开截止时间；本日报不伪造截止日期，未注明者标记为需投递前确认或需登录核验。"
+  },
+  "counts": {
+    "scanned": 18,
+    "matches": 5,
+    "strong": 1,
+    "go_or_backend": 5,
+    "part_time_or_contract": 2,
+    "remote": 5,
+    "deadline_confirm_required": 5
+  },
+  "sources": [
+    {
+      "name": "V2EX 远程工作 - golang 后端兼职",
+      "url": "https://www.v2ex.com/t/1200518"
+    },
+    {
+      "name": "RemoteJobsCN 开发远程岗位",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91"
+    },
+    {
+      "name": "RemoteCN 聚合页（当前显示暂无相关职位）",
+      "url": "https://remotecn.com/"
+    },
+    {
+      "name": "BOSS直聘 后端远程办公列表（需登录核验）",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/"
+    }
+  ],
+  "insights": [
+    "2026-06-19 公开可访问来源里，严格同时满足 Go/后端、兼职或项目制、全国/全球远程的公开新帖仍然偏少，V2EX 这条老帖依然是最强公开匹配。",
+    "RemoteCN 首页今天直接显示“暂无相关职位”，说明昨天能看到的聚合兼职线索已不在公开首页，不能继续当作当天公开岗位复用。",
+    "RemoteJobsCN 开发分类当前仍以全球远程全职后端岗为主，适合作为远程后端备选池，不适合作为兼职优先池。",
+    "BOSS 直聘公开列表页今天仍能看到 Go/后端/远程与远程兼职线索，但发布时间、合作方式和截止时间都需要登录后人工核验。"
+  ],
+  "jobs": [
+    {
+      "rank": 1,
+      "title": "Golang 后端工程师",
+      "company": "跨境电商 SaaS+AI 团队",
+      "source": "V2EX",
+      "url": "https://www.v2ex.com/t/1200518",
+      "published_date": "2026-03-23",
+      "location": "帖子主楼写远程办公，职位信息区同时写深圳坂田，需确认是否仍完全居家",
+      "work_type": "远程办公，接受长期兼职合作，按工时计费",
+      "salary": "120-150/工时；另有固定薪资 + 期权表述，需确认",
+      "deadline": "未注明，需确认是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "强匹配",
+      "match_score": 93,
+      "stack": [
+        "Go",
+        "Gin",
+        "GORM",
+        "MySQL",
+        "Redis",
+        "PostgreSQL",
+        "Docker",
+        "K8s",
+        "Agent"
+      ],
+      "summary": "公开帖仍明确写到 Golang 后端、远程办公、长期兼职和工时计费，今天公开来源里仍是最接近筛选条件的一条。",
+      "highlights": [
+        "Go 栈明确",
+        "后端职责完整",
+        "远程兼职明写",
+        "按工时合作"
+      ],
+      "risk": "帖子创建于 2026-03-23，且正文同时出现深圳地点与远程描述，投递前必须确认岗位是否仍开放、是否继续接受兼职。"
+    },
+    {
+      "rank": 2,
+      "title": "Senior Backend Engineer",
+      "company": "WalletConnect",
+      "source": "RemoteJobsCN / Remote3",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91",
+      "published_date": "2026-06-06",
+      "location": "全球远程",
+      "work_type": "全职远程",
+      "salary": "未明确",
+      "deadline": "未注明，需确认是否接受合同制",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 75,
+      "stack": [
+        "Backend",
+        "Remote3",
+        "全球远程",
+        "Web3"
+      ],
+      "summary": "RemoteJobsCN 开发列表今天仍可见，全球远程且中国候选人可投，适合作为后端远程备选池。",
+      "highlights": [
+        "全球远程",
+        "中国候选人可投",
+        "后端方向明确",
+        "公开来源稳定"
+      ],
+      "risk": "页面只展示全职属性，不符合兼职优先条件；合作方式和截止时间都未公开。"
+    },
+    {
+      "rank": 3,
+      "title": "Senior Backend & Platform Engineer – FinOps, IAM & Blockchain",
+      "company": "Moonshot",
+      "source": "RemoteJobsCN / Remote3",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91",
+      "published_date": "2026-06-06",
+      "location": "全球远程",
+      "work_type": "全职远程",
+      "salary": "未明确",
+      "deadline": "未注明，需确认是否接受合同制",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 72,
+      "stack": [
+        "Backend",
+        "Platform",
+        "FinOps",
+        "IAM",
+        "Blockchain"
+      ],
+      "summary": "同样来自今天仍在线的 RemoteJobsCN 开发分类，偏资深平台后端，远程属性明确，但合作方式仍偏全职。",
+      "highlights": [
+        "全球远程",
+        "平台后端方向",
+        "中国候选人可投",
+        "公开页可访问"
+      ],
+      "risk": "不是 Go 精准岗位，且页面只显示全职，没有兼职或项目制信息。"
+    },
+    {
+      "rank": 4,
+      "title": "交易所-Golang 后端开发工程师-远程",
+      "company": "深圳市力天合创投资",
+      "source": "BOSS直聘",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/",
+      "published_date": "BOSS 列表页未公开具体发布日期",
+      "location": "北京海淀区学院路 / 远程",
+      "work_type": "远程，兼职未明确，需登录确认",
+      "salary": "25-45K",
+      "deadline": "未注明，详情与开放状态需登录核验",
+      "deadline_status": "需登录核验",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 84,
+      "stack": [
+        "Golang",
+        "微服务",
+        "撮合引擎",
+        "行情服务",
+        "交易系统"
+      ],
+      "summary": "公开列表页今天能直接看到 Golang、交易所核心系统和远程关键词，是与筛选方向最接近的 BOSS 线索。",
+      "highlights": [
+        "Golang 明确",
+        "远程明确",
+        "后端核心系统",
+        "方向贴近筛选"
+      ],
+      "risk": "合作方式、是否仍开放、完整 JD 和截止时间都需要登录后核验。"
+    },
+    {
+      "rank": 5,
+      "title": "〖远程兼职〗后端代码标注",
+      "company": "北京中强智联科技",
+      "source": "BOSS直聘",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/",
+      "published_date": "BOSS 列表页未公开具体发布日期",
+      "location": "北京朝阳区望京 / 远程兼职",
+      "work_type": "远程兼职，需登录确认",
+      "salary": "500-1000 元/天",
+      "deadline": "未注明，详情与开放状态需登录核验",
+      "deadline_status": "需登录核验",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 70,
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "Spring Cloud",
+        "代码标注"
+      ],
+      "summary": "公开列表页今天可见远程兼职后端线索，合作方式足够明确，但技术方向偏 Java 代码标注而非 Go 后端交付。",
+      "highlights": [
+        "远程兼职明确",
+        "日薪明确",
+        "后端方向可见",
+        "适合人工复核"
+      ],
+      "risk": "不是 Go 主栈，且完整任务范围、交付方式和真实开放状态需要登录后核验。"
+    }
+  ],
+  "refresh_note": "2026-06-19 复核了 V2EX、RemoteJobsCN、RemoteCN 与 BOSS 直聘公开列表页；RemoteCN 首页当前显示“暂无相关职位”；BOSS 仍仅保留为需登录核验线索，未公开截止时间者未做推断。"
+}
