@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-06-24T03:34:00Z",
+  "type": "remote-jobs",
+  "query": {
+    "roles": [
+      "Go 工程师",
+      "Golang 后端工程师",
+      "后端工程师"
+    ],
+    "work_types": [
+      "兼职",
+      "项目制",
+      "合同/自由职业"
+    ],
+    "locations": [
+      "全国远程",
+      "全球远程",
+      "接受居家办公"
+    ],
+    "deadline_after": "2026-06-24",
+    "note": "多数招聘帖未公开截止时间；本日报不伪造截止日期，未注明者标记为需投递前确认或需登录核验。"
+  },
+  "counts": {
+    "scanned": 24,
+    "matches": 5,
+    "strong": 2,
+    "go_or_backend": 5,
+    "part_time_or_contract": 3,
+    "remote": 5,
+    "deadline_confirm_required": 5
+  },
+  "sources": [
+    {
+      "name": "RemoteCN 聚合首页",
+      "url": "https://remotecn.com/"
+    },
+    {
+      "name": "RemoteJobsCN 开发远程岗位",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91"
+    },
+    {
+      "name": "V2EX 远程工作 - golang 后端兼职",
+      "url": "https://www.v2ex.com/t/1200518"
+    },
+    {
+      "name": "V2EX 酷工作 - Go 研发和 Python 爬虫岗位",
+      "url": "https://www.v2ex.com/t/1221583"
+    },
+    {
+      "name": "BOSS直聘 后端远程办公列表（需登录或安全校验）",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/"
+    }
+  ],
+  "insights": [
+    "2026-06-24 公开可访问来源里，精准满足 Go/Golang 后端 + 兼职/项目制 + 全国/全球远程 的新公开岗位仍然稀缺；最完整的公开强匹配依旧是 V2EX 的远程 Golang 兼职帖。",
+    "RemoteCN 首页当前可见的后端项目制岗位仍以 Eleduck 聚合项目为主，最新接近筛选条件的是 2026-06-22 发布的海外艺术创作者委托平台 MVP 开发项目，但主栈并未明确为 Go。",
+    "V2EX 的 Go 全职帖最后公开互动仍停留在 2026-06-23，招聘方确认“磨合期过了可以远程”，说明帖子仍可见，但它仍不满足兼职优先条件。",
+    "BOSS 直聘入口今天仍属于需登录或安全校验来源，只保留为人工核验线索；截止时间、合作方式和岗位是否仍开放均不得从公开列表外推。"
+  ],
+  "jobs": [
+    {
+      "rank": 1,
+      "title": "交易所-Golang 后端开发工程师-远程",
+      "company": "深圳市力天合创投资",
+      "source": "BOSS直聘",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/",
+      "published_date": "BOSS 列表页未公开具体发布日期",
+      "location": "北京海淀区学院路 / 远程",
+      "work_type": "远程，兼职未明确，需登录确认",
+      "salary": "25-45K",
+      "deadline": "未注明，详情与开放状态需登录核验",
+      "deadline_status": "需登录核验",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "强匹配",
+      "match_score": 91,
+      "stack": [
+        "Golang",
+        "微服务",
+        "撮合引擎",
+        "行情服务",
+        "交易系统"
+      ],
+      "summary": "今天公开入口仍能定位到这条 Golang 远程后端线索，但关键字段依旧停留在 BOSS 的公开列表层。",
+      "highlights": [
+        "Golang 明确",
+        "远程明确",
+        "后端核心系统",
+        "方向贴近筛选"
+      ],
+      "risk": "合作方式、岗位是否仍开放、完整 JD 和截止时间都需要登录后核验。"
+    },
+    {
+      "rank": 2,
+      "title": "golang 后端兼职—跨境电商 SaaS+AI",
+      "company": "跨境电商 SaaS+AI 团队",
+      "source": "V2EX",
+      "url": "https://www.v2ex.com/t/1200518",
+      "published_date": "2026-03-23",
+      "location": "帖子主楼写远程办公，职位信息区同时写深圳坂田，需确认是否仍完全居家",
+      "work_type": "远程办公，接受长期兼职合作，按工时计费",
+      "salary": "120-150/工时；另有固定薪资 + 期权表述，需确认",
+      "deadline": "未注明，需确认是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "强匹配",
+      "match_score": 88,
+      "stack": [
+        "Go",
+        "Gin",
+        "GORM",
+        "MySQL",
+        "Redis",
+        "PostgreSQL",
+        "Docker",
+        "K8s",
+        "Agent"
+      ],
+      "summary": "公开页面今天仍可正常访问，Go 栈、长期兼职、按工时和远程办公描述都还在，仍是最完整的公开强匹配。",
+      "highlights": [
+        "Go 栈明确",
+        "远程兼职明写",
+        "按工时合作",
+        "公开页可复核"
+      ],
+      "risk": "帖子发布时间较早，且正文对远程与深圳地点描述并存，投递前必须确认是否仍开放、是否继续接受兼职。"
+    },
+    {
+      "rank": 3,
+      "title": "海外艺术创作者委托平台MVP开发 源码二次开发",
+      "company": "RemoteCN / Eleduck 聚合项目方",
+      "source": "RemoteCN",
+      "url": "https://eleduck.com/posts/x0f1x9",
+      "published_date": "2026-06-22",
+      "location": "中国开发者可投 / 远程",
+      "work_type": "远程兼职，项目制外包",
+      "salary": "未公开",
+      "deadline": "未注明，需确认是否仍在招募",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 80,
+      "stack": [
+        "Marketplace",
+        "后端",
+        "支付分账",
+        "聊天系统",
+        "AI 翻译"
+      ],
+      "summary": "这是 RemoteCN 首页当前最贴近筛选条件的后端项目制岗位，公开页可见发布时间和远程属性，但技术栈未明确 Go。",
+      "highlights": [
+        "远程项目制明确",
+        "后端方向明确",
+        "发布时间较新",
+        "公开聚合可复核"
+      ],
+      "risk": "主栈未明确是 Go，且最终沟通通常需跳转 Eleduck 原帖确认预算、交付边界和是否仍开放。"
+    },
+    {
+      "rank": 4,
+      "title": "远程招募技术负责人 / 高级全栈：Chatwoot 二开 + AI 客服 + 跨境多语言客服系统",
+      "company": "RemoteCN / Eleduck 聚合项目方",
+      "source": "RemoteCN",
+      "url": "https://eleduck.com/posts/kRfDpX",
+      "published_date": "2026-06-20",
+      "location": "中国开发者可投 / 远程",
+      "work_type": "远程全职或长期合作，兼职未明确",
+      "salary": "未公开",
+      "deadline": "未注明，需确认合作方式",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 76,
+      "stack": [
+        "Chatwoot",
+        "全栈",
+        "后端",
+        "AI 客服",
+        "跨境系统"
+      ],
+      "summary": "RemoteCN 当前公开列表仍能看到这类后端系统建设项目，远程属性明确，但不是 Go 兼职优先。",
+      "highlights": [
+        "远程明确",
+        "后端系统建设",
+        "AI 场景明确",
+        "公开聚合可复核"
+      ],
+      "risk": "兼职/项目制边界未公开确认，也不是 Go 主栈，只适合作为后端远程备选。"
+    },
+    {
+      "rank": 5,
+      "title": "招人啦， Go 研发和 Python 爬虫岗位各一人",
+      "company": "V2EX 招聘方",
+      "source": "V2EX",
+      "url": "https://www.v2ex.com/t/1221583",
+      "published_date": "2026-06-19",
+      "location": "成都 base，过磨合期后可远程",
+      "work_type": "全职，过磨合期后可远程",
+      "salary": "薪资面议",
+      "deadline": "未注明，需确认是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": false,
+      "home_office": false,
+      "match_level": "备选",
+      "match_score": 73,
+      "stack": [
+        "Go",
+        "OpenIM",
+        "Kafka",
+        "Nats",
+        "gRPC",
+        "Gin",
+        "Go-Zero"
+      ],
+      "summary": "这是当前公开源里较新的 Go 后端帖子之一，且招聘方在 2026-06-23 回复确认“磨合期过了可以远程”，但明确写的是全职。",
+      "highlights": [
+        "Go 栈明确",
+        "发布时间较新",
+        "2026-06-23 仍有互动",
+        "公开页可复核"
+      ],
+      "risk": "不符合兼职优先条件，且居家远程不是入职即支持，只适合作为较新的 Go 后端备选。"
+    }
+  ]
+}
