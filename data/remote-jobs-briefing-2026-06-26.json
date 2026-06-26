@@ -1,0 +1,246 @@
+{
+  "generated_at": "2026-06-26T03:04:40.632Z",
+  "type": "remote-jobs",
+  "query": {
+    "roles": [
+      "Go 工程师",
+      "Golang 后端工程师",
+      "后端工程师"
+    ],
+    "work_types": [
+      "兼职",
+      "项目制",
+      "合同/自由职业"
+    ],
+    "locations": [
+      "全国远程",
+      "全球远程",
+      "接受居家办公"
+    ],
+    "deadline_after": "2026-06-26",
+    "note": "多数招聘帖未公开截止时间；本日报不伪造截止日期，未注明者标记为需投递前确认；2026-06-26 抓取 BOSS 直聘列表仍停在“请稍候”安全校验页，只作为需登录核验线索保留。"
+  },
+  "counts": {
+    "scanned": 16,
+    "matches": 5,
+    "strong": 1,
+    "go_or_backend": 4,
+    "part_time_or_contract": 4,
+    "remote": 5,
+    "deadline_confirm_required": 5
+  },
+  "sources": [
+    {
+      "name": "RemoteJobsCN 开发远程岗位",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91"
+    },
+    {
+      "name": "RemoteJobsCN 高级全栈研发工程师（远程全职/兼职）",
+      "url": "https://remotejobscn.com/jobs/47b11751-9862-4335-a11d-e2441c34b4ba"
+    },
+    {
+      "name": "RemoteJobsCN OpenClaw 开发工程师（合同制/项目合作）",
+      "url": "https://remotejobscn.com/jobs/2afb5e63-e8ee-44c8-9422-cce85d64e2e5"
+    },
+    {
+      "name": "RemoteJobsCN AWS DevOps 运维工程师（远程兼职）",
+      "url": "https://remotejobscn.com/jobs/c160a6d7-502f-404d-a2a8-39b4edd6ff3c"
+    },
+    {
+      "name": "V2EX 远程工作 - golang 后端兼职",
+      "url": "https://www.v2ex.com/t/1200518"
+    },
+    {
+      "name": "V2EX 酷工作 - Go 研发和 Python 爬虫岗位",
+      "url": "https://www.v2ex.com/t/1221583"
+    },
+    {
+      "name": "RemoteCN 首页（静态首屏未给出符合筛选的公开岗位）",
+      "url": "https://remotecn.com/"
+    },
+    {
+      "name": "BOSS直聘 后端远程办公列表（需登录或安全校验）",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/"
+    }
+  ],
+  "insights": [
+    "2026-06-26 公开可复核来源里，严格同时满足 Go/Golang 后端 + 兼职/项目制 + 全国/全球远程 的强匹配仍然稀缺；V2EX 这条 golang 后端兼职帖依旧是信息最完整的公开强匹配。",
+    "RemoteJobsCN 今天公开详情页仍能复核到 3 条远程兼职或项目制技术岗位，但更偏全栈、Agent 平台或 DevOps，只有少数贴近 Go 后端主筛选。",
+    "RemoteCN 首页今天可正常打开，但静态首屏显示“暂无相关职位”，未直接暴露出可公开复核的 Go/后端兼职卡片；本日报未借助登录态或私有接口扩展结论。",
+    "BOSS 直聘今天仍然只返回“请稍候”的安全校验页，因此只保留为人工登录核验线索，不据此推断截止时间或岗位开放状态。"
+  ],
+  "jobs": [
+    {
+      "rank": 1,
+      "title": "golang 后端兼职—跨境电商 SaaS+AI",
+      "company": "跨境电商 SaaS+AI 团队",
+      "source": "V2EX",
+      "url": "https://www.v2ex.com/t/1200518",
+      "published_date": "2026-03-23",
+      "location": "正文写深圳坂田，同时工作模式写远程办公；投递前需确认是否仍完全居家。",
+      "work_type": "远程办公，接受长期兼职合作，按工时计费",
+      "salary": "120-150/工时；另有固定薪资 + 期权表述，需确认当前合作口径",
+      "deadline": "未注明，需确认是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "强匹配",
+      "match_score": 89,
+      "stack": [
+        "Go",
+        "Gin",
+        "GORM",
+        "MySQL",
+        "Redis",
+        "PostgreSQL",
+        "Docker",
+        "K8s",
+        "Agent"
+      ],
+      "summary": "公开正文 2026-06-26 仍可访问，Go 栈、远程办公、长期兼职和按工时合作都写得很完整，仍是今天最强的公开匹配。",
+      "highlights": [
+        "Go 栈明确",
+        "远程兼职明写",
+        "按工时合作",
+        "公开正文可复核"
+      ],
+      "risk": "帖子发布时间较早，且正文同时出现深圳地点和远程办公描述，投递前必须确认是否仍开放以及是否继续接受兼职。"
+    },
+    {
+      "rank": 2,
+      "title": "高级全栈研发工程师（桌面端 + 云端 / 远程全职/兼职）",
+      "company": "Eleduck Hiring",
+      "source": "RemoteJobsCN",
+      "url": "https://remotejobscn.com/jobs/47b11751-9862-4335-a11d-e2441c34b4ba",
+      "published_date": "2026-06-24",
+      "location": "全球远程",
+      "work_type": "远程兼职，要求每周 25-30 小时；也接受按项目里程碑结算",
+      "salary": "未公开",
+      "deadline": "未注明；结构化数据 validThrough 为 2026-07-24，仍建议投递前确认是否继续招募",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 84,
+      "stack": [
+        "云端研发",
+        "SaaS",
+        "AI 工具",
+        "长期合作",
+        "Milestone 结算"
+      ],
+      "summary": "今天公开详情页仍可见全球远程、每周投入和里程碑结算信息，合作方式很清晰，但岗位更偏全栈而不是明确 Go 后端。",
+      "highlights": [
+        "全球远程明确",
+        "兼职强约束明确",
+        "项目结算方式明确",
+        "公开详情可复核"
+      ],
+      "risk": "主栈没有明确写 Go，且岗位覆盖桌面端 + 云端，技术匹配度要在沟通时再次确认。"
+    },
+    {
+      "rank": 3,
+      "title": "OpenClaw 开发工程师",
+      "company": "Eleduck Hiring",
+      "source": "RemoteJobsCN",
+      "url": "https://remotejobscn.com/jobs/2afb5e63-e8ee-44c8-9422-cce85d64e2e5",
+      "published_date": "2026-06-22",
+      "location": "全球远程；正文说明广州 / 深圳 / 香港偶尔线下见面，主要远程",
+      "work_type": "合同制/项目合作，非全职岗位",
+      "salary": "未公开",
+      "deadline": "未注明；结构化数据 validThrough 为 2026-07-22，仍建议确认合作周期与是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 80,
+      "stack": [
+        "OpenClaw",
+        "多代理编排",
+        "自动化开发",
+        "合同制",
+        "项目合作"
+      ],
+      "summary": "公开详情页今天仍明确写了合同制/项目合作和主要远程，适合作为后端/Agent 工程方向的项目制备选。",
+      "highlights": [
+        "合同制明确",
+        "主要远程",
+        "项目合作明确",
+        "公开详情可复核"
+      ],
+      "risk": "岗位更偏 Agent 平台工程而非纯 Go 后端，且有偶发线下见面要求，不适合作为纯居家强匹配。"
+    },
+    {
+      "rank": 4,
+      "title": "招人啦，Go 研发和 Python 爬虫岗位各一人",
+      "company": "V2EX 招聘方",
+      "source": "V2EX",
+      "url": "https://www.v2ex.com/t/1221583",
+      "published_date": "2026-06-19",
+      "location": "成都 base，评论区说明过磨合期后可远程",
+      "work_type": "全职，过磨合期后可远程",
+      "salary": "薪资面议",
+      "deadline": "未注明，需确认是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": false,
+      "home_office": false,
+      "match_level": "备选",
+      "match_score": 76,
+      "stack": [
+        "Go",
+        "OpenIM",
+        "Kafka",
+        "Nats",
+        "gRPC",
+        "Gin",
+        "Go-Zero"
+      ],
+      "summary": "公开页 2026-06-26 仍可访问，Go 后端栈很明确，但合作方式是全职且需要先磨合，不满足兼职优先。",
+      "highlights": [
+        "Go 栈明确",
+        "后端中间件明确",
+        "公开正文可复核",
+        "后续可远程"
+      ],
+      "risk": "不是兼职或项目制，且先成都磨合再远程，和本日报主筛选仍有明显偏差。"
+    },
+    {
+      "rank": 5,
+      "title": "AWS DevOps 运维工程师 | 实时音视频基础设施",
+      "company": "Eleduck Hiring",
+      "source": "RemoteJobsCN",
+      "url": "https://remotejobscn.com/jobs/c160a6d7-502f-404d-a2a8-39b4edd6ff3c",
+      "published_date": "2026-06-22",
+      "location": "全球远程",
+      "work_type": "兼职/远程；有全栈经验者也可转杭州全职",
+      "salary": "未公开",
+      "deadline": "未注明；结构化数据 validThrough 为 2026-07-22，仍建议确认是否继续招募",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 71,
+      "stack": [
+        "AWS",
+        "Terraform",
+        "Docker",
+        "EKS",
+        "LiveKit",
+        "运维"
+      ],
+      "summary": "公开详情页里兼职和全球远程都明确，虽然更偏基础设施而非 Go 后端，但仍属于今天可复核的远程技术合作线索。",
+      "highlights": [
+        "兼职明确",
+        "全球远程明确",
+        "基础设施职责清晰",
+        "公开详情可复核"
+      ],
+      "risk": "岗位主责是 DevOps/运维，不是后端工程师主线；如果只投 Go 后端，这条相关性较弱。"
+    }
+  ]
+}
