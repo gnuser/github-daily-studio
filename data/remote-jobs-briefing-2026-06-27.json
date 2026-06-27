@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-06-27T03:05:07.056Z",
+  "type": "remote-jobs",
+  "query": {
+    "roles": [
+      "Go 工程师",
+      "Golang 后端工程师",
+      "后端工程师"
+    ],
+    "work_types": [
+      "兼职",
+      "项目制",
+      "合同/自由职业"
+    ],
+    "locations": [
+      "全国远程",
+      "全球远程",
+      "接受居家办公"
+    ],
+    "deadline_after": "2026-06-27",
+    "note": "多数招聘帖未公开截止时间；本日报不伪造截止日期，未注明者统一标记为需投递前确认；2026-06-27 对 BOSS 直聘公开列表抓取仍停在“请稍候”安全校验页，只保留为需登录核验线索。"
+  },
+  "counts": {
+    "scanned": 7,
+    "matches": 3,
+    "strong": 1,
+    "go_or_backend": 2,
+    "part_time_or_contract": 3,
+    "remote": 3,
+    "deadline_confirm_required": 3
+  },
+  "sources": [
+    {
+      "name": "RemoteJobsCN 开发远程岗位",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91"
+    },
+    {
+      "name": "RemoteJobsCN 高级全栈研发工程师（桌面端 + 云端 / 远程全职/兼职）",
+      "url": "https://remotejobscn.com/jobs/47b11751-9862-4335-a11d-e2441c34b4ba"
+    },
+    {
+      "name": "RemoteJobsCN OpenClaw 开发工程师（合同制/项目合作）",
+      "url": "https://remotejobscn.com/jobs/2afb5e63-e8ee-44c8-9422-cce85d64e2e5"
+    },
+    {
+      "name": "V2EX 远程工作 - golang 后端兼职",
+      "url": "https://www.v2ex.com/t/1200518"
+    },
+    {
+      "name": "RemoteCN 首页（静态首屏未给出符合筛选的公开岗位）",
+      "url": "https://remotecn.com/"
+    },
+    {
+      "name": "BOSS直聘 后端远程办公列表（需登录或安全校验）",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/"
+    }
+  ],
+  "insights": [
+    "2026-06-27 公开可复核来源里，严格同时满足 Go/Golang 后端 + 兼职/项目制 + 全国/全球远程 的强匹配依旧稀缺；V2EX 这条 golang 后端兼职帖仍是最完整的公开强匹配。",
+    "RemoteJobsCN 今天公开详情页仍能复核到 2 条适合作为远程兼职/项目制备选的技术岗位，但分别偏全栈与 Agent 平台工程，不是纯 Go 后端。",
+    "RemoteCN 首屏今天未直接暴露出符合筛选的公开卡片，BOSS 直聘公开抓取仍只返回安全校验页，因此仅保留为人工登录核验线索。"
+  ],
+  "jobs": [
+    {
+      "rank": 1,
+      "title": "golang 后端兼职—跨境电商 SaaS+AI",
+      "company": "跨境电商 SaaS+AI 团队",
+      "source": "V2EX",
+      "url": "https://www.v2ex.com/t/1200518",
+      "published_date": "2026-03-23",
+      "location": "正文写深圳坂田，同时工作模式写远程办公；投递前需确认是否仍完全居家。",
+      "work_type": "远程办公，接受长期兼职合作，按工时计费",
+      "salary": "120-150/工时；另有固定薪资 + 期权表述，需确认当前合作口径",
+      "deadline": "未注明，需确认是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "强匹配",
+      "match_score": 89,
+      "stack": [
+        "Go",
+        "Gin",
+        "GORM",
+        "MySQL",
+        "Redis",
+        "PostgreSQL",
+        "Docker",
+        "K8s",
+        "Agent"
+      ],
+      "summary": "2026-06-27 公开正文仍可访问，Go 栈、远程办公、长期兼职和按工时合作都写得很完整，仍是今天最强的公开匹配。",
+      "highlights": [
+        "Go 栈明确",
+        "远程兼职明写",
+        "按工时合作",
+        "公开正文可复核"
+      ],
+      "risk": "帖子创建于 2026-03-23，且正文同时出现深圳地点和远程办公描述，投递前必须确认是否仍开放以及是否继续接受兼职。"
+    },
+    {
+      "rank": 2,
+      "title": "高级全栈研发工程师（桌面端 + 云端 / 远程全职/兼职）",
+      "company": "Eleduck Hiring",
+      "source": "RemoteJobsCN",
+      "url": "https://remotejobscn.com/jobs/47b11751-9862-4335-a11d-e2441c34b4ba",
+      "published_date": "2026-06-24",
+      "location": "全球远程",
+      "work_type": "远程兼职，要求每周 25-30 小时；也接受按项目里程碑结算",
+      "salary": "未公开",
+      "deadline": "未注明；结构化数据 validThrough 为 2026-07-24，仍建议投递前确认是否继续招募",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 84,
+      "stack": [
+        "云端研发",
+        "SaaS",
+        "AI 工具",
+        "长期合作",
+        "Milestone 结算"
+      ],
+      "summary": "2026-06-27 公开详情页仍可见全球远程、每周投入和里程碑结算信息，合作方式清晰，但岗位更偏全栈而不是明确 Go 后端。",
+      "highlights": [
+        "全球远程明确",
+        "兼职强约束明确",
+        "项目结算方式明确",
+        "公开详情可复核"
+      ],
+      "risk": "主栈没有明确写 Go，且岗位覆盖桌面端 + 云端，技术匹配度需要在沟通时再次确认。"
+    },
+    {
+      "rank": 3,
+      "title": "OpenClaw 开发工程师",
+      "company": "Eleduck Hiring",
+      "source": "RemoteJobsCN",
+      "url": "https://remotejobscn.com/jobs/2afb5e63-e8ee-44c8-9422-cce85d64e2e5",
+      "published_date": "2026-06-22",
+      "location": "全球远程；正文说明广州 / 深圳 / 香港偶尔线下见面，主要远程",
+      "work_type": "合同制/项目合作，非全职岗位",
+      "salary": "未公开",
+      "deadline": "未注明；结构化数据 validThrough 为 2026-07-22，仍建议确认合作周期与是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 80,
+      "stack": [
+        "OpenClaw",
+        "多代理编排",
+        "自动化开发",
+        "合同制",
+        "项目合作"
+      ],
+      "summary": "2026-06-27 公开详情页仍明确写了合同制/项目合作和主要远程，适合作为后端/Agent 工程方向的项目制备选。",
+      "highlights": [
+        "合同制明确",
+        "主要远程",
+        "项目合作明确",
+        "公开详情可复核"
+      ],
+      "risk": "岗位更偏 Agent 平台工程而非纯 Go 后端，且有偶发线下见面要求，不适合作为纯居家强匹配。"
+    }
+  ]
+}
