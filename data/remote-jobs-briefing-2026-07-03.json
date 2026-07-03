@@ -1,0 +1,205 @@
+{
+  "generated_at": "2026-07-03T03:30:00.000Z",
+  "type": "remote-jobs",
+  "query": {
+    "roles": [
+      "Go 工程师",
+      "Golang 后端工程师",
+      "后端工程师"
+    ],
+    "work_types": [
+      "兼职",
+      "项目制",
+      "合同/自由职业"
+    ],
+    "locations": [
+      "全国远程",
+      "全球远程",
+      "接受居家办公"
+    ],
+    "deadline_after": "2026-07-03",
+    "note": "仅收录截至 2026-07-03 仍可公开复核的远程岗位页面；需要登录、安全校验、验证码或无法确认是否仍开放的来源只保留为人工核验线索，不伪造截止日期。"
+  },
+  "counts": {
+    "scanned": 8,
+    "matches": 3,
+    "strong": 1,
+    "go_or_backend": 5,
+    "part_time_or_contract": 3,
+    "remote": 6,
+    "deadline_confirm_required": 3
+  },
+  "sources": [
+    {
+      "name": "V2EX 远程工作 - golang 后端兼职—跨境电商 SaaS+AI",
+      "url": "https://www.v2ex.com/t/1200518"
+    },
+    {
+      "name": "V2EX 远程工作 - [远程]后端研发（Go）/Suger.io",
+      "url": "https://www.v2ex.com/t/1223546"
+    },
+    {
+      "name": "RemoteJobsCN - Golang 工程师 | OneBullEx",
+      "url": "https://remotejobscn.com/jobs/864cf015-9b42-4871-9135-0b7c1dd2192d"
+    },
+    {
+      "name": "RemoteCN / 电鸭 - AI中台技术负责人",
+      "url": "https://eleduck.com/posts/QZfplV"
+    },
+    {
+      "name": "RemoteJobsCN 开发岗位聚合页",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91"
+    },
+    {
+      "name": "RemoteJobsCN Go 关键词检索页",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91&q=Go&days=7"
+    },
+    {
+      "name": "BOSS直聘 后端远程办公列表（需登录或安全校验）",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/"
+    },
+    {
+      "name": "BOSS直聘 北京 go 兼职开发工程师（移动搜索页，需登录核验）",
+      "url": "https://m.zhipin.com/zhaopin/1c6facca32e45fd01H1439q8FA~~/"
+    }
+  ],
+  "insights": [
+    "截至 2026-07-03，公开可复核来源里，严格同时满足 Go/后端 + 远程 + 兼职/项目制 的岗位仍然稀缺，V2EX 这条跨境电商 SaaS+AI 帖子依旧是最完整的公开强匹配。",
+    "最近两天新增的公开 Go 后端远程线索以全职为主，例如 Suger.io 和 OneBullEx；技术与远程条件匹配，但不满足兼职/项目制主筛选，因此只保留为备选。",
+    "RemoteCN/电鸭 与 BOSS 直聘仍能看到后端/AI 中台/项目制相关线索，但详情需要验证码或登录后才能可靠确认边界条件，只能列为人工核验。"
+  ],
+  "jobs": [
+    {
+      "rank": 1,
+      "title": "golang 后端兼职—跨境电商 SaaS+AI",
+      "company": "跨境电商 SaaS+AI 团队",
+      "source": "V2EX",
+      "url": "https://www.v2ex.com/t/1200518",
+      "published_date": "2026-03-23",
+      "location": "帖子正文写有远程岗位；职位信息区出现“深圳坂田”，截至 2026-07-03 是否必须线下未见新增澄清，需投递前确认。",
+      "work_type": "远程办公，接受长期兼职合作，工作时间灵活，按工时制",
+      "salary": "120-150/工时；正文另有“固定薪资+期权（面议）”表述，需确认当前结算口径",
+      "deadline": "未注明，需确认是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": true,
+      "home_office": true,
+      "match_level": "强匹配",
+      "match_score": 88,
+      "stack": [
+        "Go",
+        "Gin",
+        "GORM",
+        "MySQL",
+        "Redis",
+        "PostgreSQL",
+        "Docker",
+        "K8s",
+        "Agent"
+      ],
+      "summary": "截至 2026-07-03 公开正文仍可访问，Go 栈、远程办公、长期兼职和按工时合作都还能从公开页面复核，仍是今天最强的公开匹配。",
+      "highlights": [
+        "Go 栈明确",
+        "远程兼职明写",
+        "按工时合作",
+        "公开正文可复核"
+      ],
+      "risk": "帖子发布时间较早，且“类型：全职”与“接受长期兼职合作”存在口径冲突；投递前必须确认是否仍开放以及当前合作形式。"
+    },
+    {
+      "rank": 2,
+      "title": "[远程]后端研发（Go）/Suger.io",
+      "company": "Suger.io",
+      "source": "V2EX",
+      "url": "https://www.v2ex.com/t/1223546",
+      "published_date": "2026-06-29",
+      "location": "中国境内远程居家办公，含温哥华出差及团建机会",
+      "work_type": "远程全职",
+      "salary": "未公开",
+      "deadline": "未注明，需确认是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 75,
+      "stack": [
+        "Go",
+        "AWS",
+        "EKS",
+        "Postgres"
+      ],
+      "summary": "截至 2026-07-03 页面仍可公开访问，并能复核到 Go 后端、中国境内远程居家办公等关键信息，但合作方式是全职，因此仅作为备选。",
+      "highlights": [
+        "Go 后端明确",
+        "远程居家明确",
+        "发布时间较近",
+        "公开正文可复核"
+      ],
+      "risk": "不满足兼职/项目制主筛选；岗位描述强调高级后端全职招聘，投递前需要确认是否接受项目制或顾问式合作。"
+    },
+    {
+      "rank": 3,
+      "title": "Golang 工程师",
+      "company": "OneBullEx",
+      "source": "RemoteJobsCN",
+      "url": "https://remotejobscn.com/jobs/864cf015-9b42-4871-9135-0b7c1dd2192d",
+      "published_date": "2026-07-02",
+      "location": "全球远程",
+      "work_type": "全职",
+      "salary": "$1000 - $5000 / month",
+      "deadline": "未注明，需确认是否仍开放",
+      "deadline_status": "需确认",
+      "remote": true,
+      "part_time": false,
+      "home_office": true,
+      "match_level": "备选",
+      "match_score": 68,
+      "stack": [
+        "Go",
+        "Gin",
+        "Echo",
+        "Pulsar",
+        "Kafka",
+        "SQL",
+        "NoSQL",
+        "容器化"
+      ],
+      "summary": "RemoteJobsCN 在 2026-07-03 仍可公开访问该岗位详情，全球远程与 Golang 条件明确，但岗位类型是全职，所以只保留为远程 Go 后端备选。",
+      "highlights": [
+        "全球远程",
+        "发布时间近",
+        "Golang 明确",
+        "薪资区间公开"
+      ],
+      "risk": "来源为 TG 聚合二次整理，页面明确提示需自行确认真实性、薪资与中国候选人接受度；不满足兼职/项目制主筛选。"
+    }
+  ],
+  "manual_review_clues": [
+    {
+      "title": "AI中台技术负责人",
+      "source": "RemoteCN / 电鸭",
+      "url": "https://eleduck.com/posts/QZfplV",
+      "reason": "搜索结果显示该帖发布时间约为 2026-06-29，描述为海外客户服务 AI 中台项目，带后端/知识库/自动触达等信号；但详情页需要验证码，远程边界和合作方式需人工复核。"
+    },
+    {
+      "title": "BOSS 直聘后端远程办公列表",
+      "source": "BOSS直聘",
+      "url": "https://www.zhipin.com/zhaopin/4b05959f38b862de1nB_3tm4EQ~~/",
+      "reason": "公开搜索摘要能看到“后端开发兼职〖可远程〗”等标题，但岗位详情、截止时间与兼职真实性无法在未登录状态下稳定复核，只能作为登录后排查入口。"
+    },
+    {
+      "title": "BOSS 北京 go 兼职开发工程师搜索页",
+      "source": "BOSS直聘移动页",
+      "url": "https://m.zhipin.com/zhaopin/1c6facca32e45fd01H1439q8FA~~/",
+      "reason": "公开摘要出现“后端研发工程师（go）”“可以签订项目制合同，兼职”等表述，但来源受登录和安全校验影响，且无法可靠确认远程范围，只能作为人工核验线索。"
+    },
+    {
+      "title": "RemoteJobsCN Go 检索页",
+      "source": "RemoteJobsCN",
+      "url": "https://remotejobscn.com/?category=%E5%BC%80%E5%8F%91&q=Go&days=7",
+      "reason": "2026-07-03 可公开访问到最近 7 天 Go 开发检索页，但新增结果以全职为主；若继续追兼职/项目制线索，需要逐条人工打开确认合作方式。"
+    }
+  ],
+  "refresh_note": "2026-07-03 复核了 V2EX、RemoteJobsCN、RemoteCN/电鸭与 BOSS 直聘的公开结果页；继续遵守“需登录/验证码来源只保留线索、不伪造截止时间”的归档规则。"
+}

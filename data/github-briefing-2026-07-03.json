@@ -1,0 +1,2397 @@
+{
+  "generated_at": "2026-07-03T03:15:09.930Z",
+  "sources": {
+    "trending_today": "https://github.com/trending?since=daily",
+    "overall_stars": "https://api.github.com/search/repositories?q=stars%3A%3E50000%20archived%3Afalse&sort=stars&order=desc",
+    "ai_topic": "https://github.com/topics/artificial-intelligence?o=desc&s=stars",
+    "trading_topic": "https://github.com/topics/trading?o=desc&s=stars",
+    "algorithmic_trading_topic": "https://github.com/topics/algorithmic-trading?o=desc&s=stars"
+  },
+  "counts": {
+    "trending": 16,
+    "overall": 8,
+    "ai": 8,
+    "trading": 8,
+    "algorithmic": 8,
+    "deduped": 45
+  },
+  "trending": [
+    {
+      "rank": 1,
+      "owner": "usestrix",
+      "name": "strix",
+      "full_name": "usestrix/strix",
+      "html_url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "stargazers_count": 32472,
+      "forks_count": 3393,
+      "stars_today": 2137,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 2,
+      "owner": "JuliusBrussee",
+      "name": "caveman",
+      "full_name": "JuliusBrussee/caveman",
+      "html_url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "JavaScript",
+      "stargazers_count": 81233,
+      "forks_count": 4537,
+      "stars_today": 926,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 3,
+      "owner": "msitarzewski",
+      "name": "agency-agents",
+      "full_name": "msitarzewski/agency-agents",
+      "html_url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stargazers_count": 125648,
+      "forks_count": 20386,
+      "stars_today": 3032,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 4,
+      "owner": "hasaneyldrm",
+      "name": "exercises-dataset",
+      "full_name": "hasaneyldrm/exercises-dataset",
+      "html_url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "language": "HTML",
+      "stargazers_count": 9345,
+      "forks_count": 1044,
+      "stars_today": 938,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 5,
+      "owner": "santifer",
+      "name": "career-ops",
+      "full_name": "santifer/career-ops",
+      "html_url": "https://github.com/santifer/career-ops",
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "language": "JavaScript",
+      "stargazers_count": 57945,
+      "forks_count": 11398,
+      "stars_today": 372,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 6,
+      "owner": "obra",
+      "name": "superpowers",
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stargazers_count": 244570,
+      "forks_count": 21692,
+      "stars_today": 897,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 7,
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stargazers_count": 45133,
+      "forks_count": 2936,
+      "stars_today": 104,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 8,
+      "owner": "browser-use",
+      "name": "video-use",
+      "full_name": "browser-use/video-use",
+      "html_url": "https://github.com/browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "language": "Python",
+      "stargazers_count": 13878,
+      "forks_count": 1696,
+      "stars_today": 554,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 9,
+      "owner": "actions",
+      "name": "checkout",
+      "full_name": "actions/checkout",
+      "html_url": "https://github.com/actions/checkout",
+      "description": "Action for checking out a repo",
+      "language": "TypeScript",
+      "stargazers_count": 8179,
+      "forks_count": 2527,
+      "stars_today": 26,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 10,
+      "owner": "affaan-m",
+      "name": "ECC",
+      "full_name": "affaan-m/ECC",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stargazers_count": 225256,
+      "forks_count": 34464,
+      "stars_today": 486,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 11,
+      "owner": "HKUDS",
+      "name": "Vibe-Trading",
+      "full_name": "HKUDS/Vibe-Trading",
+      "html_url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "stargazers_count": 17407,
+      "forks_count": 2892,
+      "stars_today": 939,
+      "source_lists": [
+        "trending-today",
+        "algorithmic-trading-topic"
+      ],
+      "open_issues_count": 18,
+      "pushed_at": "2026-07-02T08:48:33Z",
+      "updated_at": "2026-07-03T03:13:50Z",
+      "topics": [
+        "ai-agent",
+        "algorithmic-trading",
+        "backtesting",
+        "fintech",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "python",
+        "quantitative-finance",
+        "trading"
+      ]
+    },
+    {
+      "rank": 12,
+      "owner": "agentskills",
+      "name": "agentskills",
+      "full_name": "agentskills/agentskills",
+      "html_url": "https://github.com/agentskills/agentskills",
+      "description": "Specification and documentation for Agent Skills",
+      "language": "Python",
+      "stargazers_count": 21660,
+      "forks_count": 1377,
+      "stars_today": 86,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 13,
+      "owner": "openai",
+      "name": "codex-plugin-cc",
+      "full_name": "openai/codex-plugin-cc",
+      "html_url": "https://github.com/openai/codex-plugin-cc",
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "language": "JavaScript",
+      "stargazers_count": 22703,
+      "forks_count": 1380,
+      "stars_today": 352,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 14,
+      "owner": "langflow-ai",
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "html_url": "https://github.com/langflow-ai/langflow",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "language": "Python",
+      "stargazers_count": 150800,
+      "forks_count": 9401,
+      "stars_today": 117,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 15,
+      "owner": "pytorch",
+      "name": "pytorch",
+      "full_name": "pytorch/pytorch",
+      "html_url": "https://github.com/pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "language": "Python",
+      "stargazers_count": 101257,
+      "forks_count": 28229,
+      "stars_today": 65,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 16,
+      "owner": "harvard-edge",
+      "name": "cs249r_book",
+      "full_name": "harvard-edge/cs249r_book",
+      "html_url": "https://github.com/harvard-edge/cs249r_book",
+      "description": "Machine Learning Systems",
+      "language": "Python",
+      "stargazers_count": 25656,
+      "forks_count": 3072,
+      "stars_today": 68,
+      "source_lists": [
+        "trending-today"
+      ]
+    }
+  ],
+  "overall": [
+    {
+      "owner": "codecrafters-io",
+      "name": "build-your-own-x",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "html_url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stargazers_count": 521904,
+      "forks_count": 49377,
+      "open_issues_count": 516,
+      "pushed_at": "2026-06-25T14:41:09Z",
+      "updated_at": "2026-07-03T03:11:31Z",
+      "topics": [
+        "awesome-list",
+        "free",
+        "programming",
+        "tutorial-code",
+        "tutorial-exercises",
+        "tutorials"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "sindresorhus",
+      "name": "awesome",
+      "full_name": "sindresorhus/awesome",
+      "html_url": "https://github.com/sindresorhus/awesome",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "language": "",
+      "stargazers_count": 480937,
+      "forks_count": 35649,
+      "open_issues_count": 88,
+      "pushed_at": "2026-06-30T18:21:16Z",
+      "updated_at": "2026-07-03T03:14:46Z",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "lists",
+        "resources",
+        "unicorns"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "freeCodeCamp",
+      "name": "freeCodeCamp",
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "stargazers_count": 450939,
+      "forks_count": 45342,
+      "open_issues_count": 204,
+      "pushed_at": "2026-07-02T21:49:23Z",
+      "updated_at": "2026-07-03T03:14:23Z",
+      "topics": [
+        "careers",
+        "certification",
+        "community",
+        "curriculum",
+        "d3",
+        "education",
+        "freecodecamp",
+        "javascript",
+        "learn-to-code",
+        "math",
+        "nodejs",
+        "nonprofits",
+        "programming",
+        "react",
+        "teachers"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "public-apis",
+      "name": "public-apis",
+      "full_name": "public-apis/public-apis",
+      "html_url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stargazers_count": 446121,
+      "forks_count": 48969,
+      "open_issues_count": 1483,
+      "pushed_at": "2026-06-30T20:55:54Z",
+      "updated_at": "2026-07-03T03:12:01Z",
+      "topics": [
+        "api",
+        "apis",
+        "dataset",
+        "development",
+        "free",
+        "list",
+        "lists",
+        "open-source",
+        "public",
+        "public-api",
+        "public-apis",
+        "resources",
+        "software"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "EbookFoundation",
+      "name": "free-programming-books",
+      "full_name": "EbookFoundation/free-programming-books",
+      "html_url": "https://github.com/EbookFoundation/free-programming-books",
+      "description": ":books: Freely available programming books",
+      "language": "Python",
+      "stargazers_count": 391162,
+      "forks_count": 66466,
+      "open_issues_count": 76,
+      "pushed_at": "2026-06-30T19:47:56Z",
+      "updated_at": "2026-07-03T03:15:03Z",
+      "topics": [
+        "books",
+        "education",
+        "hacktoberfest",
+        "list",
+        "resource"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "openclaw",
+      "name": "openclaw",
+      "full_name": "openclaw/openclaw",
+      "html_url": "https://github.com/openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "language": "TypeScript",
+      "stargazers_count": 381507,
+      "forks_count": 79965,
+      "open_issues_count": 6927,
+      "pushed_at": "2026-07-03T03:13:57Z",
+      "updated_at": "2026-07-03T03:14:33Z",
+      "topics": [
+        "ai",
+        "assistant",
+        "crustacean",
+        "molty",
+        "openclaw",
+        "own-your-data",
+        "personal"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "nilbuild",
+      "name": "developer-roadmap",
+      "full_name": "nilbuild/developer-roadmap",
+      "html_url": "https://github.com/nilbuild/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "language": "TypeScript",
+      "stargazers_count": 359026,
+      "forks_count": 44336,
+      "open_issues_count": 25,
+      "pushed_at": "2026-06-30T15:53:32Z",
+      "updated_at": "2026-07-03T03:09:31Z",
+      "topics": [
+        "angular-roadmap",
+        "backend-roadmap",
+        "blockchain-roadmap",
+        "computer-science",
+        "dba-roadmap",
+        "developer-roadmap",
+        "devops-roadmap",
+        "frontend-roadmap",
+        "go-roadmap",
+        "java-roadmap",
+        "javascript-roadmap",
+        "nodejs-roadmap",
+        "python-roadmap",
+        "qa-roadmap",
+        "react-roadmap",
+        "roadmap",
+        "software-architect-roadmap",
+        "vue-roadmap"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "donnemartin",
+      "name": "system-design-primer",
+      "full_name": "donnemartin/system-design-primer",
+      "html_url": "https://github.com/donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "language": "Python",
+      "stargazers_count": 355867,
+      "forks_count": 57006,
+      "open_issues_count": 567,
+      "pushed_at": "2026-03-20T01:52:19Z",
+      "updated_at": "2026-07-03T03:13:31Z",
+      "topics": [
+        "design",
+        "design-patterns",
+        "design-system",
+        "development",
+        "interview",
+        "interview-practice",
+        "interview-questions",
+        "programming",
+        "python",
+        "system",
+        "web",
+        "web-application",
+        "webapp"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    }
+  ],
+  "ai": [
+    {
+      "owner": "Significant-Gravitas",
+      "name": "AutoGPT",
+      "full_name": "Significant-Gravitas/AutoGPT",
+      "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "language": "Python",
+      "stargazers_count": 185292,
+      "forks_count": 46118,
+      "open_issues_count": 461,
+      "pushed_at": "2026-07-03T03:09:38Z",
+      "updated_at": "2026-07-03T02:59:13Z",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "artificial-intelligence",
+        "autonomous-agents",
+        "claude",
+        "gpt",
+        "llama-api",
+        "llm",
+        "openai",
+        "python"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "f",
+      "name": "prompts.chat",
+      "full_name": "f/prompts.chat",
+      "html_url": "https://github.com/f/prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "language": "HTML",
+      "stargazers_count": 164651,
+      "forks_count": 21306,
+      "open_issues_count": 58,
+      "pushed_at": "2026-07-02T04:28:23Z",
+      "updated_at": "2026-07-03T03:14:29Z",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt",
+        "chatgpt-prompts",
+        "claude",
+        "gemini",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "machine-learning",
+        "nextjs",
+        "open-source",
+        "openai",
+        "prompt-engineering",
+        "prompts",
+        "prompts-chat",
+        "typescript"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "rasbt",
+      "name": "LLMs-from-scratch",
+      "full_name": "rasbt/LLMs-from-scratch",
+      "html_url": "https://github.com/rasbt/LLMs-from-scratch",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "language": "Jupyter Notebook",
+      "stargazers_count": 98413,
+      "forks_count": 15089,
+      "open_issues_count": 3,
+      "pushed_at": "2026-06-02T14:14:19Z",
+      "updated_at": "2026-07-03T02:59:59Z",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "attention-mechanism",
+        "deep-learning",
+        "finetuning",
+        "from-scratch",
+        "generative-ai",
+        "gpt",
+        "instruction-tuning",
+        "language-model",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "natural-language-processing",
+        "pretraining",
+        "python",
+        "pytorch",
+        "tokenizer",
+        "transformers"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "hacksider",
+      "name": "Deep-Live-Cam",
+      "full_name": "hacksider/Deep-Live-Cam",
+      "html_url": "https://github.com/hacksider/Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "language": "Python",
+      "stargazers_count": 94526,
+      "forks_count": 13793,
+      "open_issues_count": 59,
+      "pushed_at": "2026-06-24T10:15:41Z",
+      "updated_at": "2026-07-03T00:06:44Z",
+      "topics": [
+        "ai",
+        "ai-deep-fake",
+        "ai-face",
+        "ai-webcam",
+        "artificial-intelligence",
+        "deep-fake",
+        "deepfake",
+        "deepfake-webcam",
+        "faceswap",
+        "fake-webcam",
+        "gan",
+        "real-time-deepfake",
+        "realtime",
+        "realtime-deepfake",
+        "realtime-face-changer",
+        "video-deepfake",
+        "webcam",
+        "webcamera"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "thedotmack",
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "html_url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "JavaScript",
+      "stargazers_count": 85558,
+      "forks_count": 7397,
+      "open_issues_count": 244,
+      "pushed_at": "2026-07-02T20:09:34Z",
+      "updated_at": "2026-07-03T03:14:53Z",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence",
+        "chromadb",
+        "claude",
+        "claude-agent-sdk",
+        "claude-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "embeddings",
+        "long-term-memory",
+        "mem0",
+        "memory-engine",
+        "openmemory",
+        "rag",
+        "sqlite",
+        "supermemory"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "OpenHands",
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "html_url": "https://github.com/OpenHands/OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "language": "Python",
+      "stargazers_count": 79197,
+      "forks_count": 10077,
+      "open_issues_count": 337,
+      "pushed_at": "2026-07-03T02:57:19Z",
+      "updated_at": "2026-07-03T03:03:53Z",
+      "topics": [
+        "agent",
+        "artificial-intelligence",
+        "chatgpt",
+        "claude-ai",
+        "cli",
+        "developer-tools",
+        "gpt",
+        "llm",
+        "openai"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "FlowiseAI",
+      "name": "Flowise",
+      "full_name": "FlowiseAI/Flowise",
+      "html_url": "https://github.com/FlowiseAI/Flowise",
+      "description": "Build AI Agents, Visually",
+      "language": "TypeScript",
+      "stargazers_count": 54216,
+      "forks_count": 24632,
+      "open_issues_count": 971,
+      "pushed_at": "2026-07-01T09:28:31Z",
+      "updated_at": "2026-07-03T03:13:12Z",
+      "topics": [
+        "agentic-ai",
+        "agentic-workflow",
+        "agents",
+        "artificial-intelligence",
+        "chatbot",
+        "chatgpt",
+        "javascript",
+        "langchain",
+        "large-language-models",
+        "low-code",
+        "multiagent-systems",
+        "no-code",
+        "openai",
+        "rag",
+        "react",
+        "typescript",
+        "workflow-automation"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "jingyaogong",
+      "name": "minimind",
+      "full_name": "jingyaogong/minimind",
+      "html_url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!",
+      "language": "Python",
+      "stargazers_count": 52484,
+      "forks_count": 6768,
+      "open_issues_count": 45,
+      "pushed_at": "2026-06-28T10:03:46Z",
+      "updated_at": "2026-07-03T02:54:26Z",
+      "topics": [
+        "artificial-intelligence",
+        "large-language-model"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    }
+  ],
+  "trading": [
+    {
+      "owner": "TauricResearch",
+      "name": "TradingAgents",
+      "full_name": "TauricResearch/TradingAgents",
+      "html_url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stargazers_count": 90442,
+      "forks_count": 17466,
+      "open_issues_count": 289,
+      "pushed_at": "2026-06-22T02:05:09Z",
+      "updated_at": "2026-07-03T03:11:42Z",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ],
+      "source_lists": [
+        "trading-topic"
+      ]
+    },
+    {
+      "owner": "ccxt",
+      "name": "ccxt",
+      "full_name": "ccxt/ccxt",
+      "html_url": "https://github.com/ccxt/ccxt",
+      "description": "A cryptocurrency trading API with more than 100 exchanges in JavaScript / TypeScript / Python / C# / PHP / Go / Java ",
+      "language": "Python",
+      "stargazers_count": 43161,
+      "forks_count": 8722,
+      "open_issues_count": 1326,
+      "pushed_at": "2026-07-02T21:20:12Z",
+      "updated_at": "2026-07-03T03:14:08Z",
+      "topics": [
+        "altcoin",
+        "api",
+        "arbitrage",
+        "bitcoin",
+        "bot",
+        "btc",
+        "crypto",
+        "cryptocurrencies",
+        "cryptocurrency",
+        "eth",
+        "ethereum",
+        "exchange",
+        "invest",
+        "library",
+        "market-data",
+        "memecoin",
+        "merchant",
+        "strategy",
+        "trade",
+        "trading"
+      ],
+      "source_lists": [
+        "trading-topic"
+      ]
+    },
+    {
+      "owner": "vnpy",
+      "name": "vnpy",
+      "full_name": "vnpy/vnpy",
+      "html_url": "https://github.com/vnpy/vnpy",
+      "description": "基于Python的开源量化交易平台开发框架",
+      "language": "Python",
+      "stargazers_count": 42579,
+      "forks_count": 12053,
+      "open_issues_count": 19,
+      "pushed_at": "2026-05-17T08:05:41Z",
+      "updated_at": "2026-07-03T02:27:49Z",
+      "topics": [
+        "algotrading",
+        "finance",
+        "fintech",
+        "investment",
+        "python",
+        "quant",
+        "trading",
+        "vnpy"
+      ],
+      "source_lists": [
+        "trading-topic"
+      ]
+    },
+    {
+      "owner": "Fincept-Corporation",
+      "name": "FinceptTerminal",
+      "full_name": "Fincept-Corporation/FinceptTerminal",
+      "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "C++",
+      "stargazers_count": 27855,
+      "forks_count": 3891,
+      "open_issues_count": 25,
+      "pushed_at": "2026-06-24T08:41:31Z",
+      "updated_at": "2026-07-03T03:13:11Z",
+      "topics": [
+        "ai-agents",
+        "algorithmic-trading",
+        "bloomberg-terminal",
+        "cpp",
+        "finance",
+        "financial-markets",
+        "fintech",
+        "good-first-issue",
+        "investment",
+        "investment-research",
+        "machine-learning",
+        "opensource",
+        "python",
+        "qt",
+        "quantitative-finance",
+        "stock-market",
+        "trading"
+      ],
+      "source_lists": [
+        "trading-topic",
+        "algorithmic-trading-topic"
+      ],
+      "stars_today": 0
+    },
+    {
+      "owner": "nautechsystems",
+      "name": "nautilus_trader",
+      "full_name": "nautechsystems/nautilus_trader",
+      "html_url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "stargazers_count": 24384,
+      "forks_count": 3098,
+      "open_issues_count": 77,
+      "pushed_at": "2026-07-03T01:36:15Z",
+      "updated_at": "2026-07-03T02:41:51Z",
+      "topics": [
+        "algorithmic-trading-engine",
+        "artificial-intelligence",
+        "crypto-trading",
+        "equity-trading",
+        "forex",
+        "futures-trading",
+        "machine-learning",
+        "options-trading",
+        "python",
+        "rust",
+        "sports-betting",
+        "trading",
+        "trading-platform"
+      ],
+      "source_lists": [
+        "trading-topic"
+      ]
+    },
+    {
+      "owner": "mementum",
+      "name": "backtrader",
+      "full_name": "mementum/backtrader",
+      "html_url": "https://github.com/mementum/backtrader",
+      "description": "Python Backtesting library for trading strategies",
+      "language": "Python",
+      "stargazers_count": 22282,
+      "forks_count": 5176,
+      "open_issues_count": 63,
+      "pushed_at": "2024-08-19T17:47:36Z",
+      "updated_at": "2026-07-03T03:03:35Z",
+      "topics": [
+        "backtesting",
+        "metaclass",
+        "python",
+        "trading"
+      ],
+      "source_lists": [
+        "trading-topic"
+      ]
+    },
+    {
+      "owner": "QuantConnect",
+      "name": "Lean",
+      "full_name": "QuantConnect/Lean",
+      "html_url": "https://github.com/QuantConnect/Lean",
+      "description": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#)",
+      "language": "C#",
+      "stargazers_count": 20318,
+      "forks_count": 4993,
+      "open_issues_count": 249,
+      "pushed_at": "2026-07-02T18:42:15Z",
+      "updated_at": "2026-07-03T03:10:34Z",
+      "topics": [
+        "algorithm",
+        "algorithmic-trading-engine",
+        "c-sharp",
+        "finance",
+        "forex",
+        "lean-engine",
+        "options",
+        "python",
+        "quantconnect",
+        "stock-indicators",
+        "trading",
+        "trading-algorithms",
+        "trading-bot",
+        "trading-platform",
+        "trading-strategies"
+      ],
+      "source_lists": [
+        "trading-topic"
+      ]
+    },
+    {
+      "owner": "stefan-jansen",
+      "name": "machine-learning-for-trading",
+      "full_name": "stefan-jansen/machine-learning-for-trading",
+      "html_url": "https://github.com/stefan-jansen/machine-learning-for-trading",
+      "description": "Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution.",
+      "language": "Jupyter Notebook",
+      "stargazers_count": 19489,
+      "forks_count": 5356,
+      "open_issues_count": 1,
+      "pushed_at": "2026-07-01T18:41:07Z",
+      "updated_at": "2026-07-03T02:23:01Z",
+      "topics": [
+        "algorithmic-trading",
+        "artificial-intelligence",
+        "backtesting",
+        "data-science",
+        "deep-learning",
+        "finance",
+        "investment",
+        "investment-strategies",
+        "large-language-models",
+        "machine-learning",
+        "ml4t-workflow",
+        "polars",
+        "quantitative-finance",
+        "reinforcement-learning",
+        "synthetic-data",
+        "trading",
+        "trading-agent",
+        "trading-strategies"
+      ],
+      "source_lists": [
+        "trading-topic",
+        "algorithmic-trading-topic"
+      ],
+      "stars_today": 0
+    }
+  ],
+  "algorithmic": [
+    {
+      "owner": "freqtrade",
+      "name": "freqtrade",
+      "full_name": "freqtrade/freqtrade",
+      "html_url": "https://github.com/freqtrade/freqtrade",
+      "description": "Free, open source crypto trading bot",
+      "language": "Python",
+      "stargazers_count": 52016,
+      "forks_count": 10831,
+      "open_issues_count": 40,
+      "pushed_at": "2026-07-02T06:10:09Z",
+      "updated_at": "2026-07-03T03:05:48Z",
+      "topics": [
+        "algorithmic-trading",
+        "bitcoin",
+        "cryptocurrencies",
+        "cryptocurrency",
+        "freqtrade",
+        "python",
+        "telegram-bot",
+        "trade",
+        "trading-bot"
+      ],
+      "source_lists": [
+        "algorithmic-trading-topic"
+      ]
+    },
+    {
+      "owner": "microsoft",
+      "name": "qlib",
+      "full_name": "microsoft/qlib",
+      "html_url": "https://github.com/microsoft/qlib",
+      "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
+      "language": "Python",
+      "stargazers_count": 45548,
+      "forks_count": 7246,
+      "open_issues_count": 452,
+      "pushed_at": "2026-04-22T07:08:01Z",
+      "updated_at": "2026-07-03T03:09:59Z",
+      "topics": [
+        "algorithmic-trading",
+        "auto-quant",
+        "deep-learning",
+        "finance",
+        "fintech",
+        "investment",
+        "machine-learning",
+        "paper",
+        "platform",
+        "python",
+        "quant",
+        "quant-dataset",
+        "quant-models",
+        "quantitative-finance",
+        "quantitative-trading",
+        "research",
+        "research-paper",
+        "stock-data"
+      ],
+      "source_lists": [
+        "algorithmic-trading-topic"
+      ]
+    },
+    {
+      "owner": "Fincept-Corporation",
+      "name": "FinceptTerminal",
+      "full_name": "Fincept-Corporation/FinceptTerminal",
+      "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "C++",
+      "stargazers_count": 27855,
+      "forks_count": 3891,
+      "open_issues_count": 25,
+      "pushed_at": "2026-06-24T08:41:31Z",
+      "updated_at": "2026-07-03T03:13:11Z",
+      "topics": [
+        "ai-agents",
+        "algorithmic-trading",
+        "bloomberg-terminal",
+        "cpp",
+        "finance",
+        "financial-markets",
+        "fintech",
+        "good-first-issue",
+        "investment",
+        "investment-research",
+        "machine-learning",
+        "opensource",
+        "python",
+        "qt",
+        "quantitative-finance",
+        "stock-market",
+        "trading"
+      ],
+      "source_lists": [
+        "algorithmic-trading-topic"
+      ]
+    },
+    {
+      "owner": "quantopian",
+      "name": "zipline",
+      "full_name": "quantopian/zipline",
+      "html_url": "https://github.com/quantopian/zipline",
+      "description": "Zipline, a Pythonic Algorithmic Trading Library",
+      "language": "Python",
+      "stargazers_count": 19943,
+      "forks_count": 5013,
+      "open_issues_count": 371,
+      "pushed_at": "2024-02-13T08:02:51Z",
+      "updated_at": "2026-07-02T23:40:52Z",
+      "topics": [
+        "algorithmic-trading",
+        "python",
+        "quant",
+        "zipline"
+      ],
+      "source_lists": [
+        "algorithmic-trading-topic"
+      ]
+    },
+    {
+      "owner": "stefan-jansen",
+      "name": "machine-learning-for-trading",
+      "full_name": "stefan-jansen/machine-learning-for-trading",
+      "html_url": "https://github.com/stefan-jansen/machine-learning-for-trading",
+      "description": "Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution.",
+      "language": "Jupyter Notebook",
+      "stargazers_count": 19489,
+      "forks_count": 5356,
+      "open_issues_count": 1,
+      "pushed_at": "2026-07-01T18:41:07Z",
+      "updated_at": "2026-07-03T02:23:01Z",
+      "topics": [
+        "algorithmic-trading",
+        "artificial-intelligence",
+        "backtesting",
+        "data-science",
+        "deep-learning",
+        "finance",
+        "investment",
+        "investment-strategies",
+        "large-language-models",
+        "machine-learning",
+        "ml4t-workflow",
+        "polars",
+        "quantitative-finance",
+        "reinforcement-learning",
+        "synthetic-data",
+        "trading",
+        "trading-agent",
+        "trading-strategies"
+      ],
+      "source_lists": [
+        "algorithmic-trading-topic"
+      ]
+    },
+    {
+      "owner": "bbfamily",
+      "name": "abu",
+      "full_name": "bbfamily/abu",
+      "html_url": "https://github.com/bbfamily/abu",
+      "description": "阿布量化交易系统(股票，期权，期货，比特币，机器学习) 基于python的开源量化交易，量化投资架构",
+      "language": "Python",
+      "stargazers_count": 17690,
+      "forks_count": 4616,
+      "open_issues_count": 5,
+      "pushed_at": "2026-01-24T09:00:29Z",
+      "updated_at": "2026-07-03T02:23:47Z",
+      "topics": [
+        "algorithmic-trading",
+        "bitcoin",
+        "machine-learning",
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "quant",
+        "quantitative-trading",
+        "stock",
+        "trade",
+        "trading"
+      ],
+      "source_lists": [
+        "algorithmic-trading-topic"
+      ]
+    },
+    {
+      "owner": "HKUDS",
+      "name": "Vibe-Trading",
+      "full_name": "HKUDS/Vibe-Trading",
+      "html_url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "stargazers_count": 17407,
+      "forks_count": 2892,
+      "open_issues_count": 18,
+      "pushed_at": "2026-07-02T08:48:33Z",
+      "updated_at": "2026-07-03T03:13:50Z",
+      "topics": [
+        "ai-agent",
+        "algorithmic-trading",
+        "backtesting",
+        "fintech",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "python",
+        "quantitative-finance",
+        "trading"
+      ],
+      "source_lists": [
+        "algorithmic-trading-topic"
+      ]
+    },
+    {
+      "owner": "AI4Finance-Foundation",
+      "name": "FinRL",
+      "full_name": "AI4Finance-Foundation/FinRL",
+      "html_url": "https://github.com/AI4Finance-Foundation/FinRL",
+      "description": "FinRL®:  Financial Reinforcement Learning. 🔥",
+      "language": "Jupyter Notebook",
+      "stargazers_count": 15593,
+      "forks_count": 3405,
+      "open_issues_count": 305,
+      "pushed_at": "2026-05-25T22:29:44Z",
+      "updated_at": "2026-07-03T02:56:44Z",
+      "topics": [
+        "algorithmic-trading",
+        "deep-reinforcement-learning",
+        "drl-algorithms",
+        "drl-framework",
+        "drl-trading-agents",
+        "finance",
+        "fintech",
+        "multi-agent-learning",
+        "openai-gym",
+        "pythorch",
+        "stock-markets",
+        "stock-trading",
+        "tensorflow2",
+        "trading-tasks"
+      ],
+      "source_lists": [
+        "algorithmic-trading-topic"
+      ]
+    }
+  ],
+  "deduped": [
+    {
+      "rank": 3,
+      "owner": "msitarzewski",
+      "name": "agency-agents",
+      "full_name": "msitarzewski/agency-agents",
+      "html_url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stargazers_count": 125648,
+      "forks_count": 20386,
+      "stars_today": 3032,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 1,
+      "owner": "usestrix",
+      "name": "strix",
+      "full_name": "usestrix/strix",
+      "html_url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "stargazers_count": 32472,
+      "forks_count": 3393,
+      "stars_today": 2137,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 11,
+      "owner": "HKUDS",
+      "name": "Vibe-Trading",
+      "full_name": "HKUDS/Vibe-Trading",
+      "html_url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "stargazers_count": 17407,
+      "forks_count": 2892,
+      "stars_today": 939,
+      "source_lists": [
+        "trending-today",
+        "algorithmic-trading-topic"
+      ],
+      "open_issues_count": 18,
+      "pushed_at": "2026-07-02T08:48:33Z",
+      "updated_at": "2026-07-03T03:13:50Z",
+      "topics": [
+        "ai-agent",
+        "algorithmic-trading",
+        "backtesting",
+        "fintech",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "python",
+        "quantitative-finance",
+        "trading"
+      ]
+    },
+    {
+      "rank": 4,
+      "owner": "hasaneyldrm",
+      "name": "exercises-dataset",
+      "full_name": "hasaneyldrm/exercises-dataset",
+      "html_url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "language": "HTML",
+      "stargazers_count": 9345,
+      "forks_count": 1044,
+      "stars_today": 938,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 2,
+      "owner": "JuliusBrussee",
+      "name": "caveman",
+      "full_name": "JuliusBrussee/caveman",
+      "html_url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "JavaScript",
+      "stargazers_count": 81233,
+      "forks_count": 4537,
+      "stars_today": 926,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 6,
+      "owner": "obra",
+      "name": "superpowers",
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stargazers_count": 244570,
+      "forks_count": 21692,
+      "stars_today": 897,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 8,
+      "owner": "browser-use",
+      "name": "video-use",
+      "full_name": "browser-use/video-use",
+      "html_url": "https://github.com/browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "language": "Python",
+      "stargazers_count": 13878,
+      "forks_count": 1696,
+      "stars_today": 554,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 10,
+      "owner": "affaan-m",
+      "name": "ECC",
+      "full_name": "affaan-m/ECC",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stargazers_count": 225256,
+      "forks_count": 34464,
+      "stars_today": 486,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 5,
+      "owner": "santifer",
+      "name": "career-ops",
+      "full_name": "santifer/career-ops",
+      "html_url": "https://github.com/santifer/career-ops",
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "language": "JavaScript",
+      "stargazers_count": 57945,
+      "forks_count": 11398,
+      "stars_today": 372,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 13,
+      "owner": "openai",
+      "name": "codex-plugin-cc",
+      "full_name": "openai/codex-plugin-cc",
+      "html_url": "https://github.com/openai/codex-plugin-cc",
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "language": "JavaScript",
+      "stargazers_count": 22703,
+      "forks_count": 1380,
+      "stars_today": 352,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 14,
+      "owner": "langflow-ai",
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "html_url": "https://github.com/langflow-ai/langflow",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "language": "Python",
+      "stargazers_count": 150800,
+      "forks_count": 9401,
+      "stars_today": 117,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 7,
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stargazers_count": 45133,
+      "forks_count": 2936,
+      "stars_today": 104,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 12,
+      "owner": "agentskills",
+      "name": "agentskills",
+      "full_name": "agentskills/agentskills",
+      "html_url": "https://github.com/agentskills/agentskills",
+      "description": "Specification and documentation for Agent Skills",
+      "language": "Python",
+      "stargazers_count": 21660,
+      "forks_count": 1377,
+      "stars_today": 86,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 16,
+      "owner": "harvard-edge",
+      "name": "cs249r_book",
+      "full_name": "harvard-edge/cs249r_book",
+      "html_url": "https://github.com/harvard-edge/cs249r_book",
+      "description": "Machine Learning Systems",
+      "language": "Python",
+      "stargazers_count": 25656,
+      "forks_count": 3072,
+      "stars_today": 68,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 15,
+      "owner": "pytorch",
+      "name": "pytorch",
+      "full_name": "pytorch/pytorch",
+      "html_url": "https://github.com/pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "language": "Python",
+      "stargazers_count": 101257,
+      "forks_count": 28229,
+      "stars_today": 65,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 9,
+      "owner": "actions",
+      "name": "checkout",
+      "full_name": "actions/checkout",
+      "html_url": "https://github.com/actions/checkout",
+      "description": "Action for checking out a repo",
+      "language": "TypeScript",
+      "stargazers_count": 8179,
+      "forks_count": 2527,
+      "stars_today": 26,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "owner": "codecrafters-io",
+      "name": "build-your-own-x",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "html_url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stargazers_count": 521904,
+      "forks_count": 49377,
+      "open_issues_count": 516,
+      "pushed_at": "2026-06-25T14:41:09Z",
+      "updated_at": "2026-07-03T03:11:31Z",
+      "topics": [
+        "awesome-list",
+        "free",
+        "programming",
+        "tutorial-code",
+        "tutorial-exercises",
+        "tutorials"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "sindresorhus",
+      "name": "awesome",
+      "full_name": "sindresorhus/awesome",
+      "html_url": "https://github.com/sindresorhus/awesome",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "language": "",
+      "stargazers_count": 480937,
+      "forks_count": 35649,
+      "open_issues_count": 88,
+      "pushed_at": "2026-06-30T18:21:16Z",
+      "updated_at": "2026-07-03T03:14:46Z",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "lists",
+        "resources",
+        "unicorns"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "freeCodeCamp",
+      "name": "freeCodeCamp",
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "stargazers_count": 450939,
+      "forks_count": 45342,
+      "open_issues_count": 204,
+      "pushed_at": "2026-07-02T21:49:23Z",
+      "updated_at": "2026-07-03T03:14:23Z",
+      "topics": [
+        "careers",
+        "certification",
+        "community",
+        "curriculum",
+        "d3",
+        "education",
+        "freecodecamp",
+        "javascript",
+        "learn-to-code",
+        "math",
+        "nodejs",
+        "nonprofits",
+        "programming",
+        "react",
+        "teachers"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "public-apis",
+      "name": "public-apis",
+      "full_name": "public-apis/public-apis",
+      "html_url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stargazers_count": 446121,
+      "forks_count": 48969,
+      "open_issues_count": 1483,
+      "pushed_at": "2026-06-30T20:55:54Z",
+      "updated_at": "2026-07-03T03:12:01Z",
+      "topics": [
+        "api",
+        "apis",
+        "dataset",
+        "development",
+        "free",
+        "list",
+        "lists",
+        "open-source",
+        "public",
+        "public-api",
+        "public-apis",
+        "resources",
+        "software"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "EbookFoundation",
+      "name": "free-programming-books",
+      "full_name": "EbookFoundation/free-programming-books",
+      "html_url": "https://github.com/EbookFoundation/free-programming-books",
+      "description": ":books: Freely available programming books",
+      "language": "Python",
+      "stargazers_count": 391162,
+      "forks_count": 66466,
+      "open_issues_count": 76,
+      "pushed_at": "2026-06-30T19:47:56Z",
+      "updated_at": "2026-07-03T03:15:03Z",
+      "topics": [
+        "books",
+        "education",
+        "hacktoberfest",
+        "list",
+        "resource"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "openclaw",
+      "name": "openclaw",
+      "full_name": "openclaw/openclaw",
+      "html_url": "https://github.com/openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "language": "TypeScript",
+      "stargazers_count": 381507,
+      "forks_count": 79965,
+      "open_issues_count": 6927,
+      "pushed_at": "2026-07-03T03:13:57Z",
+      "updated_at": "2026-07-03T03:14:33Z",
+      "topics": [
+        "ai",
+        "assistant",
+        "crustacean",
+        "molty",
+        "openclaw",
+        "own-your-data",
+        "personal"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "nilbuild",
+      "name": "developer-roadmap",
+      "full_name": "nilbuild/developer-roadmap",
+      "html_url": "https://github.com/nilbuild/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "language": "TypeScript",
+      "stargazers_count": 359026,
+      "forks_count": 44336,
+      "open_issues_count": 25,
+      "pushed_at": "2026-06-30T15:53:32Z",
+      "updated_at": "2026-07-03T03:09:31Z",
+      "topics": [
+        "angular-roadmap",
+        "backend-roadmap",
+        "blockchain-roadmap",
+        "computer-science",
+        "dba-roadmap",
+        "developer-roadmap",
+        "devops-roadmap",
+        "frontend-roadmap",
+        "go-roadmap",
+        "java-roadmap",
+        "javascript-roadmap",
+        "nodejs-roadmap",
+        "python-roadmap",
+        "qa-roadmap",
+        "react-roadmap",
+        "roadmap",
+        "software-architect-roadmap",
+        "vue-roadmap"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "donnemartin",
+      "name": "system-design-primer",
+      "full_name": "donnemartin/system-design-primer",
+      "html_url": "https://github.com/donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "language": "Python",
+      "stargazers_count": 355867,
+      "forks_count": 57006,
+      "open_issues_count": 567,
+      "pushed_at": "2026-03-20T01:52:19Z",
+      "updated_at": "2026-07-03T03:13:31Z",
+      "topics": [
+        "design",
+        "design-patterns",
+        "design-system",
+        "development",
+        "interview",
+        "interview-practice",
+        "interview-questions",
+        "programming",
+        "python",
+        "system",
+        "web",
+        "web-application",
+        "webapp"
+      ],
+      "source_lists": [
+        "overall-stars"
+      ]
+    },
+    {
+      "owner": "Significant-Gravitas",
+      "name": "AutoGPT",
+      "full_name": "Significant-Gravitas/AutoGPT",
+      "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "language": "Python",
+      "stargazers_count": 185292,
+      "forks_count": 46118,
+      "open_issues_count": 461,
+      "pushed_at": "2026-07-03T03:09:38Z",
+      "updated_at": "2026-07-03T02:59:13Z",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "artificial-intelligence",
+        "autonomous-agents",
+        "claude",
+        "gpt",
+        "llama-api",
+        "llm",
+        "openai",
+        "python"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "f",
+      "name": "prompts.chat",
+      "full_name": "f/prompts.chat",
+      "html_url": "https://github.com/f/prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "language": "HTML",
+      "stargazers_count": 164651,
+      "forks_count": 21306,
+      "open_issues_count": 58,
+      "pushed_at": "2026-07-02T04:28:23Z",
+      "updated_at": "2026-07-03T03:14:29Z",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt",
+        "chatgpt-prompts",
+        "claude",
+        "gemini",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "machine-learning",
+        "nextjs",
+        "open-source",
+        "openai",
+        "prompt-engineering",
+        "prompts",
+        "prompts-chat",
+        "typescript"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "rasbt",
+      "name": "LLMs-from-scratch",
+      "full_name": "rasbt/LLMs-from-scratch",
+      "html_url": "https://github.com/rasbt/LLMs-from-scratch",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "language": "Jupyter Notebook",
+      "stargazers_count": 98413,
+      "forks_count": 15089,
+      "open_issues_count": 3,
+      "pushed_at": "2026-06-02T14:14:19Z",
+      "updated_at": "2026-07-03T02:59:59Z",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "attention-mechanism",
+        "deep-learning",
+        "finetuning",
+        "from-scratch",
+        "generative-ai",
+        "gpt",
+        "instruction-tuning",
+        "language-model",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "natural-language-processing",
+        "pretraining",
+        "python",
+        "pytorch",
+        "tokenizer",
+        "transformers"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "hacksider",
+      "name": "Deep-Live-Cam",
+      "full_name": "hacksider/Deep-Live-Cam",
+      "html_url": "https://github.com/hacksider/Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "language": "Python",
+      "stargazers_count": 94526,
+      "forks_count": 13793,
+      "open_issues_count": 59,
+      "pushed_at": "2026-06-24T10:15:41Z",
+      "updated_at": "2026-07-03T00:06:44Z",
+      "topics": [
+        "ai",
+        "ai-deep-fake",
+        "ai-face",
+        "ai-webcam",
+        "artificial-intelligence",
+        "deep-fake",
+        "deepfake",
+        "deepfake-webcam",
+        "faceswap",
+        "fake-webcam",
+        "gan",
+        "real-time-deepfake",
+        "realtime",
+        "realtime-deepfake",
+        "realtime-face-changer",
+        "video-deepfake",
+        "webcam",
+        "webcamera"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "TauricResearch",
+      "name": "TradingAgents",
+      "full_name": "TauricResearch/TradingAgents",
+      "html_url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stargazers_count": 90442,
+      "forks_count": 17466,
+      "open_issues_count": 289,
+      "pushed_at": "2026-06-22T02:05:09Z",
+      "updated_at": "2026-07-03T03:11:42Z",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ],
+      "source_lists": [
+        "trading-topic"
+      ]
+    },
+    {
+      "owner": "thedotmack",
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "html_url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "JavaScript",
+      "stargazers_count": 85558,
+      "forks_count": 7397,
+      "open_issues_count": 244,
+      "pushed_at": "2026-07-02T20:09:34Z",
+      "updated_at": "2026-07-03T03:14:53Z",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence",
+        "chromadb",
+        "claude",
+        "claude-agent-sdk",
+        "claude-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "embeddings",
+        "long-term-memory",
+        "mem0",
+        "memory-engine",
+        "openmemory",
+        "rag",
+        "sqlite",
+        "supermemory"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "OpenHands",
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "html_url": "https://github.com/OpenHands/OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "language": "Python",
+      "stargazers_count": 79197,
+      "forks_count": 10077,
+      "open_issues_count": 337,
+      "pushed_at": "2026-07-03T02:57:19Z",
+      "updated_at": "2026-07-03T03:03:53Z",
+      "topics": [
+        "agent",
+        "artificial-intelligence",
+        "chatgpt",
+        "claude-ai",
+        "cli",
+        "developer-tools",
+        "gpt",
+        "llm",
+        "openai"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "FlowiseAI",
+      "name": "Flowise",
+      "full_name": "FlowiseAI/Flowise",
+      "html_url": "https://github.com/FlowiseAI/Flowise",
+      "description": "Build AI Agents, Visually",
+      "language": "TypeScript",
+      "stargazers_count": 54216,
+      "forks_count": 24632,
+      "open_issues_count": 971,
+      "pushed_at": "2026-07-01T09:28:31Z",
+      "updated_at": "2026-07-03T03:13:12Z",
+      "topics": [
+        "agentic-ai",
+        "agentic-workflow",
+        "agents",
+        "artificial-intelligence",
+        "chatbot",
+        "chatgpt",
+        "javascript",
+        "langchain",
+        "large-language-models",
+        "low-code",
+        "multiagent-systems",
+        "no-code",
+        "openai",
+        "rag",
+        "react",
+        "typescript",
+        "workflow-automation"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "jingyaogong",
+      "name": "minimind",
+      "full_name": "jingyaogong/minimind",
+      "html_url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!",
+      "language": "Python",
+      "stargazers_count": 52484,
+      "forks_count": 6768,
+      "open_issues_count": 45,
+      "pushed_at": "2026-06-28T10:03:46Z",
+      "updated_at": "2026-07-03T02:54:26Z",
+      "topics": [
+        "artificial-intelligence",
+        "large-language-model"
+      ],
+      "source_lists": [
+        "ai-topic"
+      ]
+    },
+    {
+      "owner": "freqtrade",
+      "name": "freqtrade",
+      "full_name": "freqtrade/freqtrade",
+      "html_url": "https://github.com/freqtrade/freqtrade",
+      "description": "Free, open source crypto trading bot",
+      "language": "Python",
+      "stargazers_count": 52016,
+      "forks_count": 10831,
+      "open_issues_count": 40,
+      "pushed_at": "2026-07-02T06:10:09Z",
+      "updated_at": "2026-07-03T03:05:48Z",
+      "topics": [
+        "algorithmic-trading",
+        "bitcoin",
+        "cryptocurrencies",
+        "cryptocurrency",
+        "freqtrade",
+        "python",
+        "telegram-bot",
+        "trade",
+        "trading-bot"
+      ],
+      "source_lists": [
+        "algorithmic-trading-topic"
+      ]
+    },
+    {
+      "owner": "microsoft",
+      "name": "qlib",
+      "full_name": "microsoft/qlib",
+      "html_url": "https://github.com/microsoft/qlib",
+      "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
+      "language": "Python",
+      "stargazers_count": 45548,
+      "forks_count": 7246,
+      "open_issues_count": 452,
+      "pushed_at": "2026-04-22T07:08:01Z",
+      "updated_at": "2026-07-03T03:09:59Z",
+      "topics": [
+        "algorithmic-trading",
+        "auto-quant",
+        "deep-learning",
+        "finance",
+        "fintech",
+        "investment",
+        "machine-learning",
+        "paper",
+        "platform",
+        "python",
+        "quant",
+        "quant-dataset",
+        "quant-models",
+        "quantitative-finance",
+        "quantitative-trading",
+        "research",
+        "research-paper",
+        "stock-data"
+      ],
+      "source_lists": [
+        "algorithmic-trading-topic"
+      ]
+    },
+    {
+      "owner": "ccxt",
+      "name": "ccxt",
+      "full_name": "ccxt/ccxt",
+      "html_url": "https://github.com/ccxt/ccxt",
+      "description": "A cryptocurrency trading API with more than 100 exchanges in JavaScript / TypeScript / Python / C# / PHP / Go / Java ",
+      "language": "Python",
+      "stargazers_count": 43161,
+      "forks_count": 8722,
+      "open_issues_count": 1326,
+      "pushed_at": "2026-07-02T21:20:12Z",
+      "updated_at": "2026-07-03T03:14:08Z",
+      "topics": [
+        "altcoin",
+        "api",
+        "arbitrage",
+        "bitcoin",
+        "bot",
+        "btc",
+        "crypto",
+        "cryptocurrencies",
+        "cryptocurrency",
+        "eth",
+        "ethereum",
+        "exchange",
+        "invest",
+        "library",
+        "market-data",
+        "memecoin",
+        "merchant",
+        "strategy",
+        "trade",
+        "trading"
+      ],
+      "source_lists": [
+        "trading-topic"
+      ]
+    },
+    {
+      "owner": "vnpy",
+      "name": "vnpy",
+      "full_name": "vnpy/vnpy",
+      "html_url": "https://github.com/vnpy/vnpy",
+      "description": "基于Python的开源量化交易平台开发框架",
+      "language": "Python",
+      "stargazers_count": 42579,
+      "forks_count": 12053,
+      "open_issues_count": 19,
+      "pushed_at": "2026-05-17T08:05:41Z",
+      "updated_at": "2026-07-03T02:27:49Z",
+      "topics": [
+        "algotrading",
+        "finance",
+        "fintech",
+        "investment",
+        "python",
+        "quant",
+        "trading",
+        "vnpy"
+      ],
+      "source_lists": [
+        "trading-topic"
+      ]
+    },
+    {
+      "owner": "Fincept-Corporation",
+      "name": "FinceptTerminal",
+      "full_name": "Fincept-Corporation/FinceptTerminal",
+      "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "C++",
+      "stargazers_count": 27855,
+      "forks_count": 3891,
+      "open_issues_count": 25,
+      "pushed_at": "2026-06-24T08:41:31Z",
+      "updated_at": "2026-07-03T03:13:11Z",
+      "topics": [
+        "ai-agents",
+        "algorithmic-trading",
+        "bloomberg-terminal",
+        "cpp",
+        "finance",
+        "financial-markets",
+        "fintech",
+        "good-first-issue",
+        "investment",
+        "investment-research",
+        "machine-learning",
+        "opensource",
+        "python",
+        "qt",
+        "quantitative-finance",
+        "stock-market",
+        "trading"
+      ],
+      "source_lists": [
+        "trading-topic",
+        "algorithmic-trading-topic"
+      ],
+      "stars_today": 0
+    },
+    {
+      "owner": "nautechsystems",
+      "name": "nautilus_trader",
+      "full_name": "nautechsystems/nautilus_trader",
+      "html_url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "stargazers_count": 24384,
+      "forks_count": 3098,
+      "open_issues_count": 77,
+      "pushed_at": "2026-07-03T01:36:15Z",
+      "updated_at": "2026-07-03T02:41:51Z",
+      "topics": [
+        "algorithmic-trading-engine",
+        "artificial-intelligence",
+        "crypto-trading",
+        "equity-trading",
+        "forex",
+        "futures-trading",
+        "machine-learning",
+        "options-trading",
+        "python",
+        "rust",
+        "sports-betting",
+        "trading",
+        "trading-platform"
+      ],
+      "source_lists": [
+        "trading-topic"
+      ]
+    },
+    {
+      "owner": "mementum",
+      "name": "backtrader",
+      "full_name": "mementum/backtrader",
+      "html_url": "https://github.com/mementum/backtrader",
+      "description": "Python Backtesting library for trading strategies",
+      "language": "Python",
+      "stargazers_count": 22282,
+      "forks_count": 5176,
+      "open_issues_count": 63,
+      "pushed_at": "2024-08-19T17:47:36Z",
+      "updated_at": "2026-07-03T03:03:35Z",
+      "topics": [
+        "backtesting",
+        "metaclass",
+        "python",
+        "trading"
+      ],
+      "source_lists": [
+        "trading-topic"
+      ]
+    },
+    {
+      "owner": "QuantConnect",
+      "name": "Lean",
+      "full_name": "QuantConnect/Lean",
+      "html_url": "https://github.com/QuantConnect/Lean",
+      "description": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#)",
+      "language": "C#",
+      "stargazers_count": 20318,
+      "forks_count": 4993,
+      "open_issues_count": 249,
+      "pushed_at": "2026-07-02T18:42:15Z",
+      "updated_at": "2026-07-03T03:10:34Z",
+      "topics": [
+        "algorithm",
+        "algorithmic-trading-engine",
+        "c-sharp",
+        "finance",
+        "forex",
+        "lean-engine",
+        "options",
+        "python",
+        "quantconnect",
+        "stock-indicators",
+        "trading",
+        "trading-algorithms",
+        "trading-bot",
+        "trading-platform",
+        "trading-strategies"
+      ],
+      "source_lists": [
+        "trading-topic"
+      ]
+    },
+    {
+      "owner": "quantopian",
+      "name": "zipline",
+      "full_name": "quantopian/zipline",
+      "html_url": "https://github.com/quantopian/zipline",
+      "description": "Zipline, a Pythonic Algorithmic Trading Library",
+      "language": "Python",
+      "stargazers_count": 19943,
+      "forks_count": 5013,
+      "open_issues_count": 371,
+      "pushed_at": "2024-02-13T08:02:51Z",
+      "updated_at": "2026-07-02T23:40:52Z",
+      "topics": [
+        "algorithmic-trading",
+        "python",
+        "quant",
+        "zipline"
+      ],
+      "source_lists": [
+        "algorithmic-trading-topic"
+      ]
+    },
+    {
+      "owner": "stefan-jansen",
+      "name": "machine-learning-for-trading",
+      "full_name": "stefan-jansen/machine-learning-for-trading",
+      "html_url": "https://github.com/stefan-jansen/machine-learning-for-trading",
+      "description": "Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution.",
+      "language": "Jupyter Notebook",
+      "stargazers_count": 19489,
+      "forks_count": 5356,
+      "open_issues_count": 1,
+      "pushed_at": "2026-07-01T18:41:07Z",
+      "updated_at": "2026-07-03T02:23:01Z",
+      "topics": [
+        "algorithmic-trading",
+        "artificial-intelligence",
+        "backtesting",
+        "data-science",
+        "deep-learning",
+        "finance",
+        "investment",
+        "investment-strategies",
+        "large-language-models",
+        "machine-learning",
+        "ml4t-workflow",
+        "polars",
+        "quantitative-finance",
+        "reinforcement-learning",
+        "synthetic-data",
+        "trading",
+        "trading-agent",
+        "trading-strategies"
+      ],
+      "source_lists": [
+        "trading-topic",
+        "algorithmic-trading-topic"
+      ],
+      "stars_today": 0
+    },
+    {
+      "owner": "bbfamily",
+      "name": "abu",
+      "full_name": "bbfamily/abu",
+      "html_url": "https://github.com/bbfamily/abu",
+      "description": "阿布量化交易系统(股票，期权，期货，比特币，机器学习) 基于python的开源量化交易，量化投资架构",
+      "language": "Python",
+      "stargazers_count": 17690,
+      "forks_count": 4616,
+      "open_issues_count": 5,
+      "pushed_at": "2026-01-24T09:00:29Z",
+      "updated_at": "2026-07-03T02:23:47Z",
+      "topics": [
+        "algorithmic-trading",
+        "bitcoin",
+        "machine-learning",
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "quant",
+        "quantitative-trading",
+        "stock",
+        "trade",
+        "trading"
+      ],
+      "source_lists": [
+        "algorithmic-trading-topic"
+      ]
+    },
+    {
+      "owner": "AI4Finance-Foundation",
+      "name": "FinRL",
+      "full_name": "AI4Finance-Foundation/FinRL",
+      "html_url": "https://github.com/AI4Finance-Foundation/FinRL",
+      "description": "FinRL®:  Financial Reinforcement Learning. 🔥",
+      "language": "Jupyter Notebook",
+      "stargazers_count": 15593,
+      "forks_count": 3405,
+      "open_issues_count": 305,
+      "pushed_at": "2026-05-25T22:29:44Z",
+      "updated_at": "2026-07-03T02:56:44Z",
+      "topics": [
+        "algorithmic-trading",
+        "deep-reinforcement-learning",
+        "drl-algorithms",
+        "drl-framework",
+        "drl-trading-agents",
+        "finance",
+        "fintech",
+        "multi-agent-learning",
+        "openai-gym",
+        "pythorch",
+        "stock-markets",
+        "stock-trading",
+        "tensorflow2",
+        "trading-tasks"
+      ],
+      "source_lists": [
+        "algorithmic-trading-topic"
+      ]
+    }
+  ]
+}
