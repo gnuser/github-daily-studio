@@ -1,5 +1,21 @@
 const reports = [
   {
+    id: "github-2026-07-13",
+    type: "github",
+    date: "2026-07-13",
+    issue: "036",
+    title: "GitHub Daily",
+    dataUrl: "./data/github-briefing-2026-07-13.json",
+  },
+  {
+    id: "jobs-2026-07-13",
+    type: "jobs",
+    date: "2026-07-13",
+    issue: "J036",
+    title: "Remote Job Daily",
+    dataUrl: "./data/remote-jobs-briefing-2026-07-13.json",
+  },
+  {
     id: "github-2026-07-12",
     type: "github",
     date: "2026-07-12",
