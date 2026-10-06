@@ -914,3 +914,5 @@ body.capture-mode .newspaper {
     font-size: 27px;
   }
 }
+
+[hidden]{display:none!important}#loadStatus{font-size:13px;color:#716655;margin:0 0 12px}

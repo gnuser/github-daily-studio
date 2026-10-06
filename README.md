@@ -109,3 +109,7 @@ npm run deploy
 ```
 
 日历会自动出现可点击日期。
+
+## GitHub-only 版本
+
+页面仅展示 GitHub Trending 日榜，沿用官方顺序，不混排累计星标榜或特定主题榜。历史职位文件保留于源码但不进入发布包。最新数据通过 `/api/github-briefing` 获取；失败时明确标记最新存档日期。静态预览不含 API，会展示历史存档；`worker:dev` 可联调真实榜单。历史索引为 `data/github-index.json`，新增日榜需同步添加日期与文件路径。

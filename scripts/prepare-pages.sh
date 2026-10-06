@@ -15,7 +15,19 @@ rm -rf "$OUT_DIR"
 mkdir -p "$OUT_DIR"
 
 cp index.html app.js styles.css _headers "$OUT_DIR/"
-cp -R assets data public "$OUT_DIR/"
+python3 - "$OUT_DIR" <<'PYBUILD'
+from pathlib import Path
+import hashlib,sys
+p=Path(sys.argv[1]);html=(p/'index.html').read_text()
+for name in ['app.js','styles.css']:
+ data=(p/name).read_bytes(); stem,ext=name.rsplit('.',1)
+ versioned=f'{stem}-{hashlib.sha256(data).hexdigest()[:12]}.{ext}'
+ (p/versioned).write_bytes(data)
+ html=html.replace('./'+name,'./'+versioned)
+(p/'index.html').write_text(html)
+PYBUILD
+mkdir -p "$OUT_DIR/data"
+cp data/github-*.json "$OUT_DIR/data/"
 
 find "$OUT_DIR" -name ".DS_Store" -delete
 

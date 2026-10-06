@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GitHub Daily</title>
-  <meta name="description" content="按日历浏览 GitHub 热榜日报与远程兼职职位日报：开源趋势、AI、Trading、Go 后端兼职和全国远程岗位。">
+  <meta name="description" content="按日历浏览 GitHub Trending 热门项目日榜。">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23201d19'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='28' fill='%23efe5d6' font-family='serif'%3EG%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="./styles.css">
 </head>
@@ -15,14 +15,12 @@
         <span class="brand-mark">G</span>
         <span>
           <strong>GitHub Daily</strong>
-          <small>开源与远程职位日报</small>
+          <small>GitHub 热门项目日报</small>
         </span>
       </a>
       <nav class="header-nav" aria-label="页面导航">
         <a href="#calendar">日历</a>
         <a href="#daily">日报</a>
-        <a id="introVideoLink" href="./assets/github-daily-intro-2026-06-03.mp4">视频介绍</a>
-        <a id="downloadImageLink" href="./assets/github-tech-daily-2026-06-03.png" download="github-tech-daily-2026-06-03.png">下载图片</a>
       </nav>
     </header>
 
@@ -31,12 +29,12 @@
         <div class="calendar-head">
           <span class="eyebrow">Archive</span>
           <h1>日报日历</h1>
-          <p>切换日报类型，再点击有标记的日期查看当天日报。</p>
+          <p>点击有标记的日期查看当天热榜。</p>
         </div>
 
         <div class="type-switcher" id="typeSwitcher" aria-label="日报类型">
           <button class="active" type="button" data-type="github">开源热榜</button>
-          <button type="button" data-type="jobs">远程兼职</button>
+          
         </div>
 
         <div class="month-switcher">
@@ -53,7 +51,7 @@
         <section class="issue-card" aria-live="polite">
           <span id="issueLabel">第 001 期</span>
           <h2 id="issueTitle">GitHub Daily</h2>
-          <p id="issueSummary">合并 GitHub Trending、AI、Trading、Algorithmic Trading 与整体星标榜，按 full_name 去重。</p>
+          <p id="issueSummary">GitHub Trending 日榜。</p>
           <div class="issue-stats">
             <div><b id="statTrending">0</b><small>Trending</small></div>
             <div><b id="statDeduped">0</b><small>去重仓库</small></div>
@@ -63,11 +61,11 @@
       </aside>
 
       <section class="reader" id="daily" aria-label="日报正文">
-        <article class="newspaper" id="newspaper">
+        <p id="loadStatus" role="status" aria-live="polite">正在读取榜单…</p><article class="newspaper" id="newspaper">
           <header class="masthead">
             <div class="mast-note">
               <span>「开源趋势，一页读完」</span>
-              <span>Trending · Stars · AI · Trading</span>
+              <span>GitHub Trending · Daily</span>
               <span id="captureTime">数据抓取：--:-- CST</span>
             </div>
             <div class="mast-brand">
@@ -83,7 +81,7 @@
 
           <section class="section-title">
             <h3>开源热榜</h3>
-            <span>Trending · Overall Stars · AI · Trading · Deduped</span>
+            <span>按 GitHub 官方日榜顺序</span>
           </section>
 
           <section class="lead-grid">
@@ -93,7 +91,7 @@
               <span id="leadMeta" class="repo-meta"></span>
 
               <article class="secondary-story">
-                <h2 id="secondaryHeadline">AI 与交易赛道观察</h2>
+                <h2 id="secondaryHeadline">日榜项目</h2>
                 <p id="secondaryCopy">读取中。</p>
               </article>
             </div>
@@ -111,9 +109,8 @@
               <div class="rank-list" id="trendingList"></div>
             </div>
             <aside class="insight-box">
-              <h3>今日趋势洞察</h3>
-              <p><strong>AI 工作流仍是主线。</strong>文档入库、长期记忆、Agent UI、网页抓取和编码代理工具密集出现，说明开发者正在把大模型能力接到真实资料和真实操作流里。</p>
-              <p><strong>交易方向出现 LLM 化。</strong>多智能体金融交易框架与 AI 量化平台同榜出现，研究、因子和决策正在被 Agent 与强化学习重写。</p>
+              <h3>榜单说明</h3>
+              <p>按 GitHub Trending 日榜顺序展示。</p>
               <div class="dark-metrics">
                 <div><b id="darkTrending">0</b><span>Trending</span></div>
                 <div><b id="darkDeduped">0</b><span>Deduped</span></div>
@@ -122,18 +119,8 @@
             </aside>
           </section>
 
-          <section class="section-title section-title-mid">
-            <h3>AI / Trading Watch</h3>
-            <span>Top stars · Topic watch · Repo links</span>
-          </section>
-
-          <section class="watch-grid">
-            <div id="aiStories"></div>
-            <aside id="tradingWatch"></aside>
-          </section>
-
           <footer class="paper-footer">
-            ◆ GitHub Daily · 数据源 GitHub Trending / Topics / Search API · full_name 去重 ◆
+            ◆ GitHub Daily · 数据源 GitHub Trending 日榜 ◆
           </footer>
         </article>
       </section>
