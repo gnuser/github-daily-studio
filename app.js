@@ -517,7 +517,8 @@ function renderRoblox(report,data){
  $('#robloxWeekday').textContent=formatWeekday(report.date);
  $('#robloxCapture').textContent='采集：'+collectedTime(data.generated_at);
  const genres={'Simulation':'模拟','Roleplay & Avatar Sim':'角色扮演','Survival':'生存','RPG':'角色扮演','Action':'动作','Shooter':'射击','Adventure':'冒险','Obby & Platformer':'跑酷'};
- $('#robloxList').innerHTML=data.games.map(g=>`<article class="roblox-row"><span class="rank-num">${g.rank}</span><div><h2><a href="${escapeHtml(safeUrl(g.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(g.name)} ↗</a></h2><p>${escapeHtml(genres[g.genre]||g.genre)} · 好评率 ${g.approval===null?'暂无':g.approval+'%'}</p></div><div class="roblox-playing"><strong>${Number(g.playing).toLocaleString('zh-CN')}</strong><small>人在线</small></div></article>`).join('');
+ $('#robloxList').innerHTML=data.games.map(g=>`<article class="roblox-row"><span class="rank-num">${g.rank}</span><a class="roblox-preview" href="${escapeHtml(safeUrl(g.url))}" target="_blank" rel="noopener noreferrer">${g.thumbnail?`<img src="${escapeHtml(safeUrl(g.thumbnail))}" alt="${escapeHtml(g.name)} 官方预览图" width="768" height="432" loading="lazy" decoding="async">`:'<span>暂无预览图</span>'}</a><div class="roblox-info"><h2><a href="${escapeHtml(safeUrl(g.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(g.name)} ↗</a></h2><p>${escapeHtml(genres[g.genre]||g.genre)} · 好评率 ${g.approval===null?'暂无':g.approval+'%'}</p></div><div class="roblox-playing"><strong>${Number(g.playing).toLocaleString('zh-CN')}</strong><small>人在线</small></div></article>`).join('');
+ $('#robloxList').querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{const message=document.createElement('span');message.textContent='预览图暂不可用';img.replaceWith(message);},{once:true}));
 }
 function renderAiReport(report,data) {
  document.title=`Daily Report · AI 日报 · ${formatDate(report.date)}`;
@@ -562,12 +563,19 @@ function renderNewspaper(report, data) {
  $('.insight-box').innerHTML='<h3>榜单说明</h3><p>按 GitHub Trending 日榜顺序展示，不混入累计星标榜和主题榜。</p><p>▲ 为今日新增 Star，★ 为累计 Star。历史日期展示当天存档。</p><p><a href="https://github.com/trending?since=daily" target="_blank" rel="noreferrer">查看 GitHub 原榜 ↗</a></p>';
 }
 function renderTypeSwitcher() {
-  $("#typeSwitcher").querySelectorAll("[data-type]").forEach((button) => {
+  const roblox=activeType==='roblox'||activeType==='roblox-new';
+  $('#robloxSubtypes').hidden=!roblox;
+  $('#robloxCategory').classList.toggle('active',roblox);
+  $('#robloxCategory').setAttribute('aria-pressed',String(roblox));
+  $('#robloxCategory').setAttribute('aria-expanded',String(roblox));
+  document.querySelectorAll("[data-type]").forEach((button) => {
     const isActive = button.dataset.type === activeType;
     button.classList.toggle("active", isActive);
     button.setAttribute("aria-pressed", String(isActive));
   });
 }
+
+$('#robloxCategory').addEventListener('click',()=>{if(!activeType.startsWith('roblox'))selectType('roblox');});
 
 function selectType(type) {
   if (!reportTypes[type] || type === activeType) return;
@@ -580,7 +588,7 @@ function selectType(type) {
   if(type==='github' && !reports.some(r=>r.live)) refreshGithub();
 }
 
-$("#typeSwitcher").querySelectorAll("[data-type]").forEach((button) => {
+document.querySelectorAll("[data-type]").forEach((button) => {
   button.addEventListener("click", () => selectType(button.dataset.type));
 });
 

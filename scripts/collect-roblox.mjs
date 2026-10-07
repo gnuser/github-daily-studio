@@ -10,12 +10,28 @@ export function normalize(chart, capturedAt, sort='top-playing-now') {
  const date=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(capturedAt));
  return {schema_version:1,date,generated_at:capturedAt,source:'https://www.roblox.com/charts',sort,scope:'所有地区 · 所有设备',games:games.map((g,i)=>({rank:i+1,universe_id:g.universeId,place_id:g.rootPlaceId,name:g.name,playing:g.playerCount,genre:g.genreL1||'未分类',approval:Number.isSafeInteger(g.totalUpVotes)&&g.totalUpVotes>=0&&Number.isSafeInteger(g.totalDownVotes)&&g.totalDownVotes>=0&&g.totalUpVotes+g.totalDownVotes>0?Math.round(100*g.totalUpVotes/(g.totalUpVotes+g.totalDownVotes)):null,url:`https://www.roblox.com/games/${g.rootPlaceId}`}))};
 }
+export async function addThumbnails(data){
+ const url=new URL('https://thumbnails.roblox.com/v1/games/multiget/thumbnails');
+ url.search=new URLSearchParams({universeIds:data.games.map(g=>g.universe_id).join(','),countPerUniverse:'1',defaults:'true',size:'768x432',format:'Png',isCircular:'false'});
+ try {
+  const res=await fetch(url,{signal:AbortSignal.timeout(20000)});
+  if(!res.ok)throw Error(`Thumbnail HTTP ${res.status}`);
+  const result=await res.json();
+  for(const g of data.games){
+   const t=result.data?.find(x=>x.universeId===g.universe_id)?.thumbnails?.find(t=>t.state==='Completed');
+   if(t?.imageUrl){const u=new URL(t.imageUrl);if(u.protocol==='https:'&&u.hostname.endsWith('.rbxcdn.com'))g.thumbnail=u.href;}
+  }
+ }catch(e){console.warn('Game previews unavailable:',e.message);}
+ return data;
+}
 export async function collect(sort='top-playing-now'){
  const url=new URL('https://apis.roblox.com/explore-api/v1/get-sort-content');
  url.search=new URLSearchParams({sortId:sort,sessionId:crypto.randomUUID(),device:'all',country:'all'});
  const res=await fetch(url,{signal:AbortSignal.timeout(20000)});
  if(!res.ok)throw Error(`Roblox HTTP ${res.status}`);
- return normalize(await res.json(),new Date().toISOString(),sort);
+ const data=normalize(await res.json(),new Date().toISOString(),sort);
+ await addThumbnails(data);
+ return data;
 }
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
  for(const [type,sort,title] of [['roblox','top-playing-now','Roblox 热门'],['roblox-new','up-and-coming','新游上榜']]) {

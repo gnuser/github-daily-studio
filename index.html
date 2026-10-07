@@ -35,11 +35,14 @@
         <div class="type-switcher" id="typeSwitcher" aria-label="日报类型">
           <button class="active" type="button" data-type="github">GitHub 热榜</button>
           <button type="button" data-type="ai">AI 日历</button>
-          <button type="button" data-type="roblox">Roblox 热门</button>
-          <button type="button" data-type="roblox-new">新游上榜</button>
+          <button type="button" id="robloxCategory" aria-controls="robloxSubtypes" aria-expanded="false">Roblox</button>
           
         </div>
 
+        <div id="robloxSubtypes" class="roblox-subtypes" aria-label="Roblox 子类别" hidden>
+          <button type="button" data-type="roblox">热门前 10</button>
+          <button type="button" data-type="roblox-new">新游上榜</button>
+        </div>
         <div class="month-switcher">
           <button id="prevMonth" type="button" aria-label="上个月">‹</button>
           <strong id="monthLabel">2026年6月</strong>
