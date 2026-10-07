@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "type": "steam-online",
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T14:49:24.819978+00:00",
+  "source": "https://store.steampowered.com/charts/mostplayed",
+  "window_start": "2026-10-01",
+  "games": [
+    {
+      "rank": 1,
+      "name": "Counter-Strike 2",
+      "url": "https://store.steampowered.com/app/730/CounterStrike_2?snr=1_7001_7005_",
+      "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/942c04efaa5bc87afb6f2a97dbf17ac614c8a84d/capsule_231x87.jpg?t=1789251637",
+      "playing": 1260284
+    },
+    {
+      "rank": 2,
+      "name": "Dota 2",
+      "url": "https://store.steampowered.com/app/570/Dota_2?snr=1_7001_7005_",
+      "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/570/capsule_231x87.jpg?t=1769535998",
+      "playing": 861563
+    },
+    {
+      "rank": 3,
+      "name": "PUBG: BATTLEGROUNDS",
+      "url": "https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS?snr=1_7001_7005_",
+      "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578080/14f42ab797699a9c9f137fda66582d8776da4330/capsule_231x87.jpg?t=1786493086",
+      "playing": 619617
+    },
+    {
+      "rank": 4,
+      "name": "AION 2",
+      "url": "https://store.steampowered.com/app/3393110/AION_2?snr=1_7001_7005_",
+      "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/a5a6447c5d72174e8e9eb7dfc68d37a9597bf619/capsule_231x87.jpg?t=1791205225",
+      "playing": 340600
+    },
+    {
+      "rank": 5,
+      "name": "Apex Legends™",
+      "url": "https://store.steampowered.com/app/1172470/Apex_Legends?snr=1_7001_7005_",
+      "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172470/0132a533f4429b907ba767a30215723170baa7c9/capsule_231x87_alt_assets_5.jpg?t=1790164440",
+      "playing": 187689
+    }
+  ]
+}

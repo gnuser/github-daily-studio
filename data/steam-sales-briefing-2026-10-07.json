@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "type": "steam-sales",
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T14:49:24.819955+00:00",
+  "source": "https://store.steampowered.com/charts/topselling/global",
+  "window_start": "2026-10-01",
+  "games": [
+    {
+      "rank": 1,
+      "name": "Dota 2",
+      "url": "https://store.steampowered.com/app/570/Dota_2?snr=1_7001_topselling_",
+      "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/570/capsule_231x87.jpg?t=1769535998"
+    },
+    {
+      "rank": 2,
+      "name": "AION 2",
+      "url": "https://store.steampowered.com/app/3393110/AION_2?snr=1_7001_topselling_",
+      "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/a5a6447c5d72174e8e9eb7dfc68d37a9597bf619/capsule_231x87.jpg?t=1791205225"
+    },
+    {
+      "rank": 3,
+      "name": "Overwatch®",
+      "url": "https://store.steampowered.com/app/2357570/Overwatch?snr=1_7001_topselling_",
+      "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2357570/7a96583919542b66a209172b945fb4e1e68137e4/capsule_231x87_alt_assets_23.jpg?t=1791311522"
+    },
+    {
+      "rank": 4,
+      "name": "Counter-Strike 2",
+      "url": "https://store.steampowered.com/app/730/CounterStrike_2?snr=1_7001_topselling_",
+      "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/942c04efaa5bc87afb6f2a97dbf17ac614c8a84d/capsule_231x87.jpg?t=1789251637"
+    },
+    {
+      "rank": 5,
+      "name": "Gears of War: E-Day",
+      "url": "https://store.steampowered.com/app/3010850/Gears_of_War_EDay?snr=1_7001_topselling_",
+      "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3010850/d0917fcdbf27faffb3380f6f67e71e90f84b7ed5/capsule_231x87.jpg?t=1791309192"
+    }
+  ]
+}

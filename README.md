@@ -40,3 +40,11 @@ npm run deploy
 `?type=roblox-new` 使用官方 Up-and-Coming 前十：最近 28 天发布、按用户增长排序。展示在线人数而不把它当作增长率。`node scripts/collect-roblox.mjs` 现同时更新热门与新游两榜，沿用每日 11 点任务。新游历史文件使用 `roblox-new-briefing-YYYY-MM-DD.json` 与 `roblox-new-index.json`。
 
 Roblox 一级分类下分热门前 10、新游上榜。每日采集同时读取官方游戏预览图（开发者上传的宣传/游戏画面，不宣称全为实机截图）；图片缺失或加载失败显示占位文字，不影响排名。图片使用 Roblox CDN 原地址。
+
+## Steam 日报
+
+一级 Steam 分类下含新游精选（`?type=steam`）、全球热销榜（`?type=steam-sales`）、在线人数榜（`?type=steam-online`），沿用日期与历史 JSON 归档。
+
+运行 `python3 scripts/collect-steam.py` 采集官方 Steam 页面。新游窗口为北京时间当天及前六天，从热门新品排除 DLC、未发售和无评价条目，按全部语言评价数选取前三，展示官方中文玩法介绍、封面、发售日、评价与商店链接。全球热销榜按官方全球收入榜取前五；在线榜按 Current Players 取前五，不使用 Peak Today。所有栏目展示官方来源与采集时间。
+
+采集失败或数据不足时不覆盖旧档案；同日覆盖、保留历史。采集完成后执行 `npm run pages:prepare` 和 `npm run deploy`。
