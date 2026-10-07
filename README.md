@@ -34,3 +34,7 @@ npm run deploy
 `?type=roblox` 展示最新归档。运行 `node scripts/collect-roblox.mjs` 从 Roblox 官方 Top Playing Now 获取所有地区、所有设备的前十，按官方顺序展示同时在线人数。保存采集时间、赞踩好评率、类型和游戏链接。它是采集时快照，不是全天累计或实时榜。
 
 数据位于 `data/roblox-briefing-YYYY-MM-DD.json`，日历索引为 `data/roblox-index.json`。同日重复采集覆盖同日文件而不重复索引；采集失败或不足十项则报错并保留原档案，不伪造榜单。每日 11:00 随现有日报任务采集、检查和发布。无需 Roblox 登录或付费 API。
+
+## 新游上榜
+
+`?type=roblox-new` 使用官方 Up-and-Coming 前十：最近 28 天发布、按用户增长排序。展示在线人数而不把它当作增长率。`node scripts/collect-roblox.mjs` 现同时更新热门与新游两榜，沿用每日 11 点任务。新游历史文件使用 `roblox-new-briefing-YYYY-MM-DD.json` 与 `roblox-new-index.json`。

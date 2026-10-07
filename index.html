@@ -36,6 +36,7 @@
           <button class="active" type="button" data-type="github">GitHub 热榜</button>
           <button type="button" data-type="ai">AI 日历</button>
           <button type="button" data-type="roblox">Roblox 热门</button>
+          <button type="button" data-type="roblox-new">新游上榜</button>
           
         </div>
 
@@ -69,10 +70,10 @@
 <p id="aiIntro" class="ai-intro"></p><section id="aiStories" class="ai-stories"></section>
 <p id="aiCoverage" class="ai-note"></p><footer class="paper-footer">Daily Report · 来源与采集时间见各条正文</footer></article>
 <article class="newspaper" id="robloxPaper" hidden>
-<header class="masthead"><div class="mast-note"><span>Roblox · Top Playing Now</span><span>所有地区 · 所有设备</span><span id="robloxCapture"></span></div><div class="mast-brand"><h2>Daily<br>Report</h2><p>Roblox 热门游戏</p></div><div class="mast-date"><strong>TOP 10</strong><span id="robloxDate"></span><span id="robloxWeekday"></span></div></header>
-<section class="section-title"><h3>大家在玩什么</h3><span>在线人数榜</span></section>
+<header class="masthead"><div class="mast-note"><span id="robloxSort">Roblox · Top Playing Now</span><span>所有地区 · 所有设备</span><span id="robloxCapture"></span></div><div class="mast-brand"><h2>Daily<br>Report</h2><p id="robloxSubtitle">Roblox 热门游戏</p></div><div class="mast-date"><strong>TOP 10</strong><span id="robloxDate"></span><span id="robloxWeekday"></span></div></header>
+<section class="section-title"><h3 id="robloxHeadline">大家在玩什么</h3><span id="robloxMetric">在线人数榜</span></section>
 <section id="robloxList"></section>
-<p class="ai-note">按 Roblox 官方 Top Playing Now 顺序取前 10，展示采集时的同时在线人数，并非全天累计或实时刷新。好评率来自玩家赞踩投票。</p>
+<p id="robloxNote" class="ai-note">按 Roblox 官方 Top Playing Now 顺序取前 10，展示采集时的同时在线人数，并非全天累计或实时刷新。好评率来自玩家赞踩投票。</p>
 <footer class="paper-footer"><a href="https://www.roblox.com/charts" target="_blank" rel="noopener noreferrer">查看 Roblox 官方榜单 ↗</a></footer></article>
 <article class="newspaper" id="newspaper">
           <header class="masthead">

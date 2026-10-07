@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T05:49:04.282Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10764627709,
+      "place_id": 107535308163741,
+      "name": "Huss Valley",
+      "playing": 49350,
+      "genre": "Action",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/107535308163741"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10767634248,
+      "place_id": 102476635575386,
+      "name": "Firefighting Sim 🚒",
+      "playing": 12511,
+      "genre": "Simulation",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/102476635575386"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10766056678,
+      "place_id": 99679692310083,
+      "name": "Steal Animal Egg",
+      "playing": 19989,
+      "genre": "Simulation",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/99679692310083"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10765637643,
+      "place_id": 85862346280552,
+      "name": "💀 Steal An EXE Egg! 💀",
+      "playing": 6697,
+      "genre": "Simulation",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/85862346280552"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10765288803,
+      "place_id": 114326934417838,
+      "name": "Break and Steal an Egg",
+      "playing": 69699,
+      "genre": "Simulation",
+      "approval": 98,
+      "url": "https://www.roblox.com/games/114326934417838"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10767825538,
+      "place_id": 86537831042007,
+      "name": "Sarab",
+      "playing": 4812,
+      "genre": "Survival",
+      "approval": 95,
+      "url": "https://www.roblox.com/games/86537831042007"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10765298801,
+      "place_id": 111543903102439,
+      "name": "+1 Stone Skipping",
+      "playing": 26702,
+      "genre": "Simulation",
+      "approval": 97,
+      "url": "https://www.roblox.com/games/111543903102439"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10768565603,
+      "place_id": 104416416393862,
+      "name": "Get Your Driver's License!",
+      "playing": 6978,
+      "genre": "Simulation",
+      "approval": 63,
+      "url": "https://www.roblox.com/games/104416416393862"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10765686447,
+      "place_id": 82081400078378,
+      "name": "Steal ASMR!",
+      "playing": 12133,
+      "genre": "Simulation",
+      "approval": 95,
+      "url": "https://www.roblox.com/games/82081400078378"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10597001332,
+      "place_id": 102764584124249,
+      "name": "I Can Read Your Mind",
+      "playing": 1252,
+      "genre": "Puzzle",
+      "approval": 65,
+      "url": "https://www.roblox.com/games/102764584124249"
+    }
+  ]
+}

@@ -305,15 +305,18 @@ try {
  if (!Array.isArray(index) || !index.length || index.some(r=>r.type!=='ai' || !/^\d{4}-\d{2}-\d{2}$/.test(r.date))) throw Error('AI index');
  reports.push(...index.sort((a,b)=>b.date.localeCompare(a.date)));
 } catch { aiIndexError = true; }
-let robloxIndexError=false;
-try {
- const response=await fetch('./data/roblox-index.json',{cache:'no-store',signal:AbortSignal.timeout(10000)});
- if(!response.ok)throw Error('Roblox index');
- const index=await response.json();
- if(!Array.isArray(index)||!index.length||index.some(r=>r.type!=='roblox'||!/^\d{4}-\d{2}-\d{2}$/.test(r.date)))throw Error('Roblox index');
- reports.push(...index.sort((a,b)=>b.date.localeCompare(a.date)));
-}catch{robloxIndexError=true;}
+const robloxIndexErrors=new Set();
+for(const type of ['roblox','roblox-new']){
+ try {
+  const response=await fetch(`./data/${type}-index.json`,{cache:'no-store',signal:AbortSignal.timeout(10000)});
+  if(!response.ok)throw Error('Roblox index');
+  const index=await response.json();
+  if(!Array.isArray(index)||!index.length||index.some(r=>r.type!==type||!/^\d{4}-\d{2}-\d{2}$/.test(r.date)))throw Error('Roblox index');
+  reports.push(...index.sort((a,b)=>b.date.localeCompare(a.date)));
+ }catch{robloxIndexErrors.add(type);}
+}
 const reportTypes = {
+  'roblox-new':{label:'新游上榜',title:'新游上榜'},
   roblox:{label:'Roblox 热门',title:'Roblox 热门'},
   ai: {label:"AI 日历",title:"AI 日历"},
   github: {
@@ -476,14 +479,14 @@ async function selectReport(date) {
  window.history.replaceState(null,'',`?type=${activeType}&date=${date}`+window.location.hash);
  $('#loadStatus').textContent='正在读取日报…';
  if(ai && aiIndexError){$('#loadStatus').textContent='AI 日历暂时无法读取，请刷新重试。';return;}
- if(activeType==='roblox' && robloxIndexError){$('#loadStatus').textContent='Roblox 日历暂时无法读取，请刷新重试。';return;}
+ if(robloxIndexErrors.has(activeType)){$('#loadStatus').textContent='Roblox 日历暂时无法读取，请刷新重试。';return;}
  try {
   const entry=reportForDate(date);
   if(ai && entry.legacy){renderAiReport(entry,null);return;}
   const {report,data}=await loadReport(date);
   if(id!==selection)return;
-  if(activeType==='roblox'){
-   if(data.schema_version!==1||data.date!==report.date||data.games?.length!==10)throw Error('Invalid Roblox report');
+  if(activeType==='roblox'||activeType==='roblox-new'){
+   if(data.schema_version!==1||data.date!==report.date||data.games?.length!==10||data.sort!==(activeType==='roblox-new'?'up-and-coming':'top-playing-now'))throw Error('Invalid Roblox report');
    renderRoblox(report,data);return;
   }
   if(ai){
@@ -498,10 +501,17 @@ async function selectReport(date) {
  }catch {if(id===selection)$('#loadStatus').textContent='该日期暂时无法读取，请刷新或选择其他日期。';}
 }
 function renderRoblox(report,data){
- document.title=`Daily Report · Roblox 热门 · ${formatDate(report.date)}`;
+ const fresh=report.type==='roblox-new';
+ const label=fresh?'新游上榜':'Roblox 热门';
+ document.title=`Daily Report · ${label} · ${formatDate(report.date)}`;
+ $('#robloxSort').textContent=fresh?'Roblox · Up-and-Coming':'Roblox · Top Playing Now';
+ $('#robloxSubtitle').textContent=label;
+ $('#robloxHeadline').textContent=fresh?'新游上榜':'大家在玩什么';
+ $('#robloxMetric').textContent=fresh?'新游增长榜':'在线人数榜';
+ $('#robloxNote').textContent=fresh?'Roblox 官方新晋榜前 10：最近 28 天发布，按用户增长排序。右侧在线人数仅为采集时快照，不是排序依据；官方未提供增长率。':'按 Roblox 官方 Top Playing Now 顺序取前 10，展示采集时的同时在线人数，并非全天累计或实时刷新。好评率来自玩家赞踩投票。';
  $('#robloxPaper').hidden=false;$('#loadStatus').textContent='';
- $('#issueLabel').textContent='官方在线人数榜 · 每日快照';
- $('#issueTitle').textContent='Roblox 热门';
+ $('#issueLabel').textContent=fresh?'最近 28 天发布 · 按用户增长排序':'官方在线人数榜 · 每日快照';
+ $('#issueTitle').textContent=label;
  $('#issueSummary').textContent=`${formatDate(report.date)} · 前 10 名`;
  $('#robloxDate').textContent=formatDate(report.date);
  $('#robloxWeekday').textContent=formatWeekday(report.date);
