@@ -305,7 +305,16 @@ try {
  if (!Array.isArray(index) || !index.length || index.some(r=>r.type!=='ai' || !/^\d{4}-\d{2}-\d{2}$/.test(r.date))) throw Error('AI index');
  reports.push(...index.sort((a,b)=>b.date.localeCompare(a.date)));
 } catch { aiIndexError = true; }
+let robloxIndexError=false;
+try {
+ const response=await fetch('./data/roblox-index.json',{cache:'no-store',signal:AbortSignal.timeout(10000)});
+ if(!response.ok)throw Error('Roblox index');
+ const index=await response.json();
+ if(!Array.isArray(index)||!index.length||index.some(r=>r.type!=='roblox'||!/^\d{4}-\d{2}-\d{2}$/.test(r.date)))throw Error('Roblox index');
+ reports.push(...index.sort((a,b)=>b.date.localeCompare(a.date)));
+}catch{robloxIndexError=true;}
 const reportTypes = {
+  roblox:{label:'Roblox 热门',title:'Roblox 热门'},
   ai: {label:"AI 日历",title:"AI 日历"},
   github: {
     label: "开源热榜",
@@ -460,18 +469,23 @@ async function selectReport(date) {
  const id=++selection;
  activeDate=date; renderCalendar(); renderTypeSwitcher();
  const ai=activeType==='ai';
- $('#newspaper').hidden=true; $('#aiPaper').hidden=true;
+ $('#newspaper').hidden=true; $('#aiPaper').hidden=true; $('#robloxPaper').hidden=true;
  document.querySelector('.issue-stats').hidden=true;
- $('#issueTitle').textContent=ai?'AI 日报':'GitHub 热榜';
+ $('#issueTitle').textContent=reportTypes[activeType].title;
  $('#issueSummary').textContent='';
  window.history.replaceState(null,'',`?type=${activeType}&date=${date}`+window.location.hash);
  $('#loadStatus').textContent='正在读取日报…';
  if(ai && aiIndexError){$('#loadStatus').textContent='AI 日历暂时无法读取，请刷新重试。';return;}
+ if(activeType==='roblox' && robloxIndexError){$('#loadStatus').textContent='Roblox 日历暂时无法读取，请刷新重试。';return;}
  try {
   const entry=reportForDate(date);
   if(ai && entry.legacy){renderAiReport(entry,null);return;}
   const {report,data}=await loadReport(date);
   if(id!==selection)return;
+  if(activeType==='roblox'){
+   if(data.schema_version!==1||data.date!==report.date||data.games?.length!==10)throw Error('Invalid Roblox report');
+   renderRoblox(report,data);return;
+  }
   if(ai){
    if(data.schema_version!==1 || data.date!==report.date || !Array.isArray(data.items))throw Error('Invalid report');
    renderAiReport(report,data);return;
@@ -482,6 +496,18 @@ async function selectReport(date) {
   renderIssueCard(report,data);renderNewspaper(report,data);
   $('#loadStatus').textContent=report.live?'':`历史存档：${formatDate(report.date)}`;
  }catch {if(id===selection)$('#loadStatus').textContent='该日期暂时无法读取，请刷新或选择其他日期。';}
+}
+function renderRoblox(report,data){
+ document.title=`Daily Report · Roblox 热门 · ${formatDate(report.date)}`;
+ $('#robloxPaper').hidden=false;$('#loadStatus').textContent='';
+ $('#issueLabel').textContent='官方在线人数榜 · 每日快照';
+ $('#issueTitle').textContent='Roblox 热门';
+ $('#issueSummary').textContent=`${formatDate(report.date)} · 前 10 名`;
+ $('#robloxDate').textContent=formatDate(report.date);
+ $('#robloxWeekday').textContent=formatWeekday(report.date);
+ $('#robloxCapture').textContent='采集：'+collectedTime(data.generated_at);
+ const genres={'Simulation':'模拟','Roleplay & Avatar Sim':'角色扮演','Survival':'生存','RPG':'角色扮演','Action':'动作','Shooter':'射击','Adventure':'冒险','Obby & Platformer':'跑酷'};
+ $('#robloxList').innerHTML=data.games.map(g=>`<article class="roblox-row"><span class="rank-num">${g.rank}</span><div><h2><a href="${escapeHtml(safeUrl(g.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(g.name)} ↗</a></h2><p>${escapeHtml(genres[g.genre]||g.genre)} · 好评率 ${g.approval===null?'暂无':g.approval+'%'}</p></div><div class="roblox-playing"><strong>${Number(g.playing).toLocaleString('zh-CN')}</strong><small>人在线</small></div></article>`).join('');
 }
 function renderAiReport(report,data) {
  document.title=`Daily Report · AI 日报 · ${formatDate(report.date)}`;

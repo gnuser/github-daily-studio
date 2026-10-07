@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T03:36:01.730Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "top-playing-now",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10563114921,
+      "place_id": 107778070777162,
+      "name": "Steal An Egg",
+      "playing": 1026575,
+      "genre": "Simulation",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/107778070777162"
+    },
+    {
+      "rank": 2,
+      "universe_id": 1686885941,
+      "place_id": 4924922222,
+      "name": "Brookhaven 🏡RP",
+      "playing": 215530,
+      "genre": "Roleplay & Avatar Sim",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/4924922222"
+    },
+    {
+      "rank": 3,
+      "universe_id": 383310974,
+      "place_id": 920587237,
+      "name": "[🎃] Adopt Me!",
+      "playing": 138693,
+      "genre": "Roleplay & Avatar Sim",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/920587237"
+    },
+    {
+      "rank": 4,
+      "universe_id": 66654135,
+      "place_id": 142823291,
+      "name": "Murder Mystery 2",
+      "playing": 129030,
+      "genre": "Survival",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/142823291"
+    },
+    {
+      "rank": 5,
+      "universe_id": 7326934954,
+      "place_id": 79546208627805,
+      "name": "99 Nights in the Forest 🔦",
+      "playing": 114832,
+      "genre": "Survival",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/79546208627805"
+    },
+    {
+      "rank": 6,
+      "universe_id": 994732206,
+      "place_id": 2753915549,
+      "name": "Blox Fruits",
+      "playing": 111227,
+      "genre": "RPG",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/2753915549"
+    },
+    {
+      "rank": 7,
+      "universe_id": 5569032992,
+      "place_id": 16116270224,
+      "name": "🎃 Dandy's World [ALPHA]",
+      "playing": 91096,
+      "genre": "Survival",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/16116270224"
+    },
+    {
+      "rank": 8,
+      "universe_id": 7709344486,
+      "place_id": 109983668079237,
+      "name": "[🌗] Steal a Brainrot",
+      "playing": 84659,
+      "genre": "Simulation",
+      "approval": 85,
+      "url": "https://www.roblox.com/games/109983668079237"
+    },
+    {
+      "rank": 9,
+      "universe_id": 3508322461,
+      "place_id": 9391468976,
+      "name": "[SKY ASSASSIN] Jujutsu Shenanigans",
+      "playing": 73890,
+      "genre": "Action",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/9391468976"
+    },
+    {
+      "rank": 10,
+      "universe_id": 6035872082,
+      "place_id": 17625359962,
+      "name": "RIVALS",
+      "playing": 72083,
+      "genre": "Shooter",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/17625359962"
+    }
+  ]
+}

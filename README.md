@@ -28,3 +28,9 @@ npm run deploy
 保留 `/api/github-briefing` 最新官方日榜及已有静态历史；历史索引为 `data/github-index.json`，app.js 中保留相同的 GitHub 历史日期。AI 类别不依赖 GitHub API 成功。构建为 JS/CSS 添加内容哈希避免旧缓存。
 
 检查：`node --check app.js`、`npm run pages:prepare`。发布使用现有 Worker 配置，不改 DNS、账号权限或其他项目。
+
+## Roblox 热门前 10
+
+`?type=roblox` 展示最新归档。运行 `node scripts/collect-roblox.mjs` 从 Roblox 官方 Top Playing Now 获取所有地区、所有设备的前十，按官方顺序展示同时在线人数。保存采集时间、赞踩好评率、类型和游戏链接。它是采集时快照，不是全天累计或实时榜。
+
+数据位于 `data/roblox-briefing-YYYY-MM-DD.json`，日历索引为 `data/roblox-index.json`。同日重复采集覆盖同日文件而不重复索引；采集失败或不足十项则报错并保留原档案，不伪造榜单。每日 11:00 随现有日报任务采集、检查和发布。无需 Roblox 登录或付费 API。
