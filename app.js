@@ -1,33 +1,318 @@
-const reports = [{"id": "github-2026-07-15", "type": "github", "date": "2026-07-15", "issue": "037", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-07-15.json"}, {"id": "github-2026-07-13", "type": "github", "date": "2026-07-13", "issue": "036", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-07-13.json"}, {"id": "github-2026-07-12", "type": "github", "date": "2026-07-12", "issue": "035", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-07-12.json"}, {"id": "github-2026-07-11", "type": "github", "date": "2026-07-11", "issue": "034", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-07-11.json"}, {"id": "github-2026-07-08", "type": "github", "date": "2026-07-08", "issue": "033", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-07-08.json"}, {"id": "github-2026-07-07", "type": "github", "date": "2026-07-07", "issue": "032", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-07-07.json"}, {"id": "github-2026-07-06", "type": "github", "date": "2026-07-06", "issue": "031", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-07-06.json"}, {"id": "github-2026-07-05", "type": "github", "date": "2026-07-05", "issue": "030", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-07-05.json"}, {"id": "github-2026-07-04", "type": "github", "date": "2026-07-04", "issue": "029", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-07-04.json"}, {"id": "github-2026-07-03", "type": "github", "date": "2026-07-03", "issue": "028", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-07-03.json"}, {"id": "github-2026-07-02", "type": "github", "date": "2026-07-02", "issue": "027", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-07-02.json"}, {"id": "github-2026-07-01", "type": "github", "date": "2026-07-01", "issue": "026", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-07-01.json"}, {"id": "github-2026-06-30", "type": "github", "date": "2026-06-30", "issue": "025", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-30.json"}, {"id": "github-2026-06-29", "type": "github", "date": "2026-06-29", "issue": "024", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-29.json"}, {"id": "github-2026-06-28", "type": "github", "date": "2026-06-28", "issue": "023", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-28.json"}, {"id": "github-2026-06-27", "type": "github", "date": "2026-06-27", "issue": "022", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-27.json"}, {"id": "github-2026-06-26", "type": "github", "date": "2026-06-26", "issue": "021", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-26.json"}, {"id": "github-2026-06-25", "type": "github", "date": "2026-06-25", "issue": "020", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-25.json"}, {"id": "github-2026-06-24", "type": "github", "date": "2026-06-24", "issue": "019", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-24.json"}, {"id": "github-2026-06-23", "type": "github", "date": "2026-06-23", "issue": "018", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-23.json"}, {"id": "github-2026-06-22", "type": "github", "date": "2026-06-22", "issue": "017", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-22.json"}, {"id": "github-2026-06-21", "type": "github", "date": "2026-06-21", "issue": "016", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-21.json"}, {"id": "github-2026-06-20", "type": "github", "date": "2026-06-20", "issue": "015", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-20.json"}, {"id": "github-2026-06-19", "type": "github", "date": "2026-06-19", "issue": "014", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-19.json"}, {"id": "github-2026-06-18", "type": "github", "date": "2026-06-18", "issue": "013", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-18.json"}, {"id": "github-2026-06-17", "type": "github", "date": "2026-06-17", "issue": "012", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-17.json"}, {"id": "github-2026-06-16", "type": "github", "date": "2026-06-16", "issue": "011", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-16.json"}, {"id": "github-2026-06-14", "type": "github", "date": "2026-06-14", "issue": "010", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-14.json"}, {"id": "github-2026-06-10", "type": "github", "date": "2026-06-10", "issue": "009", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-10.json"}, {"id": "github-2026-06-09", "type": "github", "date": "2026-06-09", "issue": "008", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-09.json"}, {"id": "github-2026-06-08", "type": "github", "date": "2026-06-08", "issue": "007", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-08.json"}, {"id": "github-2026-06-07", "type": "github", "date": "2026-06-07", "issue": "006", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-07.json"}, {"id": "github-2026-06-06", "type": "github", "date": "2026-06-06", "issue": "005", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-06.json"}, {"id": "github-2026-06-05", "type": "github", "date": "2026-06-05", "issue": "004", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-05.json"}, {"id": "github-2026-06-04", "type": "github", "date": "2026-06-04", "issue": "003", "title": "GitHub Daily", "dataUrl": "./data/github-briefing-2026-06-04.json"}, {"id": "github-2026-06-03", "type": "github", "date": "2026-06-03", "issue": "002", "title": "GitHub Daily", "dataUrl": "./data/remote-jobs-briefing-2026-06-03.json"}, {"id": "github-2026-06-02", "type": "github", "date": "2026-06-02", "issue": "001", "title": "GitHub Daily", "dataUrl": "./data/remote-jobs-briefing-2026-06-02.json"}];
+const reports = [
+  {
+    "id": "github-2026-07-15",
+    "type": "github",
+    "date": "2026-07-15",
+    "issue": "037",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-07-15.json"
+  },
+  {
+    "id": "github-2026-07-13",
+    "type": "github",
+    "date": "2026-07-13",
+    "issue": "036",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-07-13.json"
+  },
+  {
+    "id": "github-2026-07-12",
+    "type": "github",
+    "date": "2026-07-12",
+    "issue": "035",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-07-12.json"
+  },
+  {
+    "id": "github-2026-07-11",
+    "type": "github",
+    "date": "2026-07-11",
+    "issue": "034",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-07-11.json"
+  },
+  {
+    "id": "github-2026-07-08",
+    "type": "github",
+    "date": "2026-07-08",
+    "issue": "033",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-07-08.json"
+  },
+  {
+    "id": "github-2026-07-07",
+    "type": "github",
+    "date": "2026-07-07",
+    "issue": "032",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-07-07.json"
+  },
+  {
+    "id": "github-2026-07-06",
+    "type": "github",
+    "date": "2026-07-06",
+    "issue": "031",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-07-06.json"
+  },
+  {
+    "id": "github-2026-07-05",
+    "type": "github",
+    "date": "2026-07-05",
+    "issue": "030",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-07-05.json"
+  },
+  {
+    "id": "github-2026-07-04",
+    "type": "github",
+    "date": "2026-07-04",
+    "issue": "029",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-07-04.json"
+  },
+  {
+    "id": "github-2026-07-03",
+    "type": "github",
+    "date": "2026-07-03",
+    "issue": "028",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-07-03.json"
+  },
+  {
+    "id": "github-2026-07-02",
+    "type": "github",
+    "date": "2026-07-02",
+    "issue": "027",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-07-02.json"
+  },
+  {
+    "id": "github-2026-07-01",
+    "type": "github",
+    "date": "2026-07-01",
+    "issue": "026",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-07-01.json"
+  },
+  {
+    "id": "github-2026-06-30",
+    "type": "github",
+    "date": "2026-06-30",
+    "issue": "025",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-30.json"
+  },
+  {
+    "id": "github-2026-06-29",
+    "type": "github",
+    "date": "2026-06-29",
+    "issue": "024",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-29.json"
+  },
+  {
+    "id": "github-2026-06-28",
+    "type": "github",
+    "date": "2026-06-28",
+    "issue": "023",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-28.json"
+  },
+  {
+    "id": "github-2026-06-27",
+    "type": "github",
+    "date": "2026-06-27",
+    "issue": "022",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-27.json"
+  },
+  {
+    "id": "github-2026-06-26",
+    "type": "github",
+    "date": "2026-06-26",
+    "issue": "021",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-26.json"
+  },
+  {
+    "id": "github-2026-06-25",
+    "type": "github",
+    "date": "2026-06-25",
+    "issue": "020",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-25.json"
+  },
+  {
+    "id": "github-2026-06-24",
+    "type": "github",
+    "date": "2026-06-24",
+    "issue": "019",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-24.json"
+  },
+  {
+    "id": "github-2026-06-23",
+    "type": "github",
+    "date": "2026-06-23",
+    "issue": "018",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-23.json"
+  },
+  {
+    "id": "github-2026-06-22",
+    "type": "github",
+    "date": "2026-06-22",
+    "issue": "017",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-22.json"
+  },
+  {
+    "id": "github-2026-06-21",
+    "type": "github",
+    "date": "2026-06-21",
+    "issue": "016",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-21.json"
+  },
+  {
+    "id": "github-2026-06-20",
+    "type": "github",
+    "date": "2026-06-20",
+    "issue": "015",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-20.json"
+  },
+  {
+    "id": "github-2026-06-19",
+    "type": "github",
+    "date": "2026-06-19",
+    "issue": "014",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-19.json"
+  },
+  {
+    "id": "github-2026-06-18",
+    "type": "github",
+    "date": "2026-06-18",
+    "issue": "013",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-18.json"
+  },
+  {
+    "id": "github-2026-06-17",
+    "type": "github",
+    "date": "2026-06-17",
+    "issue": "012",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-17.json"
+  },
+  {
+    "id": "github-2026-06-16",
+    "type": "github",
+    "date": "2026-06-16",
+    "issue": "011",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-16.json"
+  },
+  {
+    "id": "github-2026-06-14",
+    "type": "github",
+    "date": "2026-06-14",
+    "issue": "010",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-14.json"
+  },
+  {
+    "id": "github-2026-06-10",
+    "type": "github",
+    "date": "2026-06-10",
+    "issue": "009",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-10.json"
+  },
+  {
+    "id": "github-2026-06-09",
+    "type": "github",
+    "date": "2026-06-09",
+    "issue": "008",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-09.json"
+  },
+  {
+    "id": "github-2026-06-08",
+    "type": "github",
+    "date": "2026-06-08",
+    "issue": "007",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-08.json"
+  },
+  {
+    "id": "github-2026-06-07",
+    "type": "github",
+    "date": "2026-06-07",
+    "issue": "006",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-07.json"
+  },
+  {
+    "id": "github-2026-06-06",
+    "type": "github",
+    "date": "2026-06-06",
+    "issue": "005",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-06.json"
+  },
+  {
+    "id": "github-2026-06-05",
+    "type": "github",
+    "date": "2026-06-05",
+    "issue": "004",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-05.json"
+  },
+  {
+    "id": "github-2026-06-04",
+    "type": "github",
+    "date": "2026-06-04",
+    "issue": "003",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-04.json"
+  },
+  {
+    "id": "github-2026-06-03",
+    "type": "github",
+    "date": "2026-06-03",
+    "issue": "002",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-03.json"
+  },
+  {
+    "id": "github-2026-06-02",
+    "type": "github",
+    "date": "2026-06-02",
+    "issue": "001",
+    "title": "GitHub Daily",
+    "dataUrl": "./data/github-briefing-2026-06-02.json"
+  },
+
+];
+let aiIndexError = false;
+try {
+ const response = await fetch('./data/ai-index.json', {cache:'no-store',signal:AbortSignal.timeout(10000)});
+ if (!response.ok) throw Error('AI index');
+ const index = await response.json();
+ if (!Array.isArray(index) || !index.length || index.some(r=>r.type!=='ai' || !/^\d{4}-\d{2}-\d{2}$/.test(r.date))) throw Error('AI index');
+ reports.push(...index.sort((a,b)=>b.date.localeCompare(a.date)));
+} catch { aiIndexError = true; }
 const reportTypes = {
+  ai: {label:"AI 日历",title:"AI 日历"},
   github: {
     label: "开源热榜",
     title: "GitHub Daily",
     subtitle: "开源趋势早报",
     footer: "◆ GitHub Daily · 数据源 GitHub Trending 日榜 · 按官方顺序排列 ◆",
   },
-};
-
-const cnBriefs = {
-  "microsoft/markitdown": "微软的文件转 Markdown 工具。适合把 PDF、Office、图片和网页内容清洗成 RAG、Agent、知识库可直接吃的文本入口。",
-  "harry0703/moneyprinterturbo": "用 AI 大模型一键生成高清短视频，从脚本、配音到素材拼接全流程自动化，单日增星在今日榜单里格外醒目。",
-  "nesquena/hermes-webui": "Hermes Agent 的 Web 和手机入口，说明开源 Agent 正从命令行走向更易触达的多端操作界面。",
-  "supermemoryai/supermemory": "面向 AI 时代的高速记忆引擎和 Memory API，主打可扩展、低延迟和跨应用上下文沉淀。",
-  "d4vinci/scrapling": "自适应网页抓取框架，从单请求到大规模爬取都能覆盖，适合数据采集和自动化任务。",
-  "pbakaus/impeccable": "面向 AI 设计执行的设计语言，把视觉约束转译成 AI 工具更容易遵守的规则。",
-  "tauricresearch/tradingagents": "多智能体 LLM 金融交易框架，把分析师、研究员和交易决策拆成可协作的 Agent 角色。",
-  "significant-gravitas/autogpt": "自治 Agent 早期标杆项目，AI topic 星标榜首，定位是让更多人使用和构建可执行任务的 AI 工具。",
-  "f/prompts.chat": "开源提示词收集与自托管平台，体现提示工程仍是团队沉淀 AI 使用经验的入口。",
-  "rasbt/llms-from-scratch": "用 PyTorch 从零实现类 ChatGPT 的学习仓库，适合理解 Transformer 和训练管线。",
-  "hacksider/deep-live-cam": "实时换脸与一键视频生成项目，在 AI 多媒体工具链中保持很高关注。",
-  "codecrafters-io/build-your-own-x": "长期星标榜第一梯队，通过复刻数据库、Docker、Git 等经典技术帮助开发者反向学习系统设计。",
-  "freqtrade/freqtrade": "开源加密货币交易机器人，覆盖策略回测、部署和自动交易。",
-  "microsoft/qlib": "微软 AI 量化研究平台，把监督学习、市场动态建模和强化学习引入投资研究流程。",
-  "ccxt/ccxt": "覆盖 100 多家交易所的加密交易 API，横跨多语言生态，是交易工具链里的基础设施。",
-  "vnpy/vnpy": "Python 开源量化交易平台开发框架，在中文量化社区有长期积累。",
-  "nautechsystems/nautilus_trader": "Rust 原生交易引擎，强调确定性事件驱动架构和生产级稳定性。",
-  "mementum/backtrader": "Python 交易策略回测库，老牌策略验证工具。",
-  "quantconnect/lean": "QuantConnect 的算法交易引擎，支持 Python 与 C# 策略开发。",
 };
 
 const reportData = new Map();
@@ -96,9 +381,6 @@ function byFullName(data, fullName) {
   return data.deduped.find((repo) => repo.full_name.toLowerCase() === fullName.toLowerCase());
 }
 
-function brief(repo) {
-  return cnBriefs[repo.full_name.toLowerCase()] || repo.description || "热门开源项目，正在 GitHub 榜单中获得开发者集中关注。";
-}
 
 function statLine(repo, showToday = true) {
   const pieces = [];
@@ -160,40 +442,6 @@ function reportForDate(date) {
   return reportsForType().find((report) => report.date === date) || reportsForType()[0] || reports[0];
 }
 
-function githubReportForDate(date = activeDate) {
-  return reports.find((report) => report.type === "github" && report.date === date)
-    || reports.find((report) => report.type === "github")
-    || null;
-}
-
-function updateMediaLinks(report) {
-  const mediaReport = report.type === "github" ? report : githubReportForDate(report.date);
-  const videoLink = $("#introVideoLink");
-  const imageLink = $("#downloadImageLink");
-
-  if (!mediaReport) {
-    videoLink.hidden = true;
-    imageLink.hidden = true;
-    return;
-  }
-
-  if (mediaReport.videoUrl) {
-    videoLink.hidden = false;
-    videoLink.href = mediaReport.videoUrl;
-  } else {
-    videoLink.hidden = true;
-  }
-
-  if (mediaReport.imageUrl) {
-    const filename = mediaReport.imageUrl.split("/").pop();
-    imageLink.hidden = false;
-    imageLink.href = mediaReport.imageUrl;
-    imageLink.download = filename;
-  } else {
-    imageLink.hidden = true;
-  }
-}
-
 async function loadReport(date) {
   const report = reportForDate(date);
   const key = reportKey(report);
@@ -206,18 +454,49 @@ async function loadReport(date) {
 }
 
 let selection = 0;
+function safeUrl(value) { try { const url=new URL(value); return url.protocol==='https:' ? url.href : '#'; } catch { return '#'; } }
+function collectedTime(value) { return new Date(value).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})+' 北京时间'; }
 async function selectReport(date) {
  const id=++selection;
  activeDate=date; renderCalendar(); renderTypeSwitcher();
- $('#loadStatus').textContent='正在读取榜单…';
+ const ai=activeType==='ai';
+ $('#newspaper').hidden=true; $('#aiPaper').hidden=true;
+ document.querySelector('.issue-stats').hidden=true;
+ $('#issueTitle').textContent=ai?'AI 日报':'GitHub 热榜';
+ $('#issueSummary').textContent='';
+ window.history.replaceState(null,'',`?type=${activeType}&date=${date}`+window.location.hash);
+ $('#loadStatus').textContent='正在读取日报…';
+ if(ai && aiIndexError){$('#loadStatus').textContent='AI 日历暂时无法读取，请刷新重试。';return;}
  try {
+  const entry=reportForDate(date);
+  if(ai && entry.legacy){renderAiReport(entry,null);return;}
   const {report,data}=await loadReport(date);
   if(id!==selection)return;
+  if(ai){
+   if(data.schema_version!==1 || data.date!==report.date || !Array.isArray(data.items))throw Error('Invalid report');
+   renderAiReport(report,data);return;
+  }
   if(!data.trending?.length)throw Error('empty');
-  document.title=`GitHub Daily · ${formatDate(report.date)}`;
+  $('#newspaper').hidden=false; document.querySelector('.issue-stats').hidden=false;
+  document.title=`Daily Report · GitHub 热榜 · ${formatDate(report.date)}`;
   renderIssueCard(report,data);renderNewspaper(report,data);
   $('#loadStatus').textContent=report.live?'':`历史存档：${formatDate(report.date)}`;
- }catch {if(id===selection)$('#loadStatus').textContent='该日期暂时无法读取，请选择其他日期。';}
+ }catch {if(id===selection)$('#loadStatus').textContent='该日期暂时无法读取，请刷新或选择其他日期。';}
+}
+function renderAiReport(report,data) {
+ document.title=`Daily Report · AI 日报 · ${formatDate(report.date)}`;
+ $('#aiPaper').hidden=false;
+ $('#loadStatus').textContent='';
+ $('#issueLabel').textContent=data?'每日 11:00 更新':'旧版外链存档';
+ $('#issueTitle').textContent='AI 日报';
+ $('#issueSummary').textContent=formatDate(report.date)+(data?` · ${data.items.length} 条动态`:' · 外链存档');
+ $('#aiDate').textContent=formatDate(report.date);
+ $('#aiWeekday').textContent=formatWeekday(report.date);
+ $('#aiCapture').textContent=data?'采集：'+collectedTime(data.generated_at):'旧版日历记录';
+ $('#aiCount').textContent=data?`${data.items.length} 条动态`:'外链存档';
+ $('#aiIntro').textContent=data?data.summary:'此日期仅保留原有外链记录，没有站内原创日报。';
+ $('#aiCoverage').textContent=data?data.coverage_note:'';
+ $('#aiStories').innerHTML=data?(data.items.length?data.items.map((item,i)=>`<article class="ai-story"><div class="ai-meta">${String(i+1).padStart(2,'0')} · ${escapeHtml(item.category)}</div><h2>${escapeHtml(item.title)}</h2><p>${escapeHtml(item.summary)}</p><p class="ai-source"><a href="${escapeHtml(safeUrl(item.source.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.source.title)} ↗</a><br>事件日期：${escapeHtml(item.event_date)}（来源标注） · 采集：${escapeHtml(collectedTime(item.collected_at))}</p></article>`).join(''):'<p>本期未核验到可靠新增。</p>'):`<a class="ai-read" href="${escapeHtml(safeUrl(report.url))}" target="_blank" rel="noopener noreferrer">阅读原站历史日报 ↗</a>`;
 }
 function renderIssueCard(report, data) {
  const repos = data.trending;
@@ -258,10 +537,11 @@ function selectType(type) {
   if (!reportTypes[type] || type === activeType) return;
   activeType = type;
   const firstReport = reportsForType(type)[0];
-  activeDate = firstReport.date;
-  visibleMonth = parseDate(firstReport.date);
+  activeDate = firstReport?.date || new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai'}).format(new Date());
+  visibleMonth = parseDate(activeDate);
   window.history.replaceState(null, "", type === reports[0].type ? window.location.pathname : `?type=${type}`);
   selectReport(activeDate);
+  if(type==='github' && !reports.some(r=>r.live)) refreshGithub();
 }
 
 $("#typeSwitcher").querySelectorAll("[data-type]").forEach((button) => {
@@ -278,17 +558,22 @@ $("#nextMonth").addEventListener("click", () => {
   renderCalendar();
 });
 
-async function boot() {
- if(initialDateParam){await selectReport(activeDate);return;}
- try {
+let githubRequest;
+async function refreshGithub() {
+ if(githubRequest)return githubRequest;
+ const atSelection=selection;
+ githubRequest=(async()=>{try {
   const response=await fetch('/api/github-briefing',{signal:AbortSignal.timeout(15000)});
   if(!response.ok)throw Error('fetch');
   const data=await response.json(); if(!data.trending?.length)throw Error('empty');
   const date=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(data.generated_at));
   const report={id:'github-'+date,type:'github',date,issue:'最新',title:'GitHub Daily',live:true};
-  const existing=reports.findIndex(r=>r.date===date);if(existing>=0)reports.splice(existing,1);
-  reports.unshift(report);reportData.set(reportKey(report),data);visibleMonth=parseDate(date);await selectReport(date);
- }catch {await selectReport(activeDate);$('#loadStatus').textContent='最新榜单暂不可用，当前显示历史存档。';}
+  const existing=reports.findIndex(r=>r.type==='github' && r.date===date);if(existing>=0)reports.splice(existing,1);
+  reports.unshift(report);reportData.set(reportKey(report),data);
+  if(activeType==='github' && selection===atSelection){visibleMonth=parseDate(date);await selectReport(date);}
+ }catch {if(activeType==='github' && selection===atSelection)$('#loadStatus').textContent='最新榜单暂不可用，当前显示历史存档。';}})();
+ return githubRequest;
 }
 renderCalendar();
-boot();
+await selectReport(activeDate);
+if(activeType==='github' && (!initialDateParam || initialDateParam>reportsForType('github')[0].date)) refreshGithub();

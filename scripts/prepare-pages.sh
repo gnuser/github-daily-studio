@@ -27,7 +27,7 @@ for name in ['app.js','styles.css']:
 (p/'index.html').write_text(html)
 PYBUILD
 mkdir -p "$OUT_DIR/data"
-cp data/github-*.json "$OUT_DIR/data/"
+cp data/ai-*.json data/github-*.json "$OUT_DIR/data/"
 
 find "$OUT_DIR" -name ".DS_Store" -delete
 

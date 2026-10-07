@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-07",
+  "title": "AI 日报",
+  "generated_at": "2026-10-07T03:02:32+00:00",
+  "window": {
+    "start": "2026-10-06T11:00:00+08:00",
+    "end": "2026-10-07T11:00:00+08:00"
+  },
+  "summary": "今天关注结构化 API、音频上传，以及 AI 安全评测和专业任务研究。",
+  "coverage_note": "检索范围：北京时间 10 月 6 日 11:00 至 10 月 7 日 11:00。下列官方来源只标注 10 月 6 日，未注明具体时刻或时区，因此不能逐条确认是否严格落在这 24 小时内；按来源日期收录，不补造时间。",
+  "items": [
+    {
+      "id": "decisions",
+      "category": "开发",
+      "title": "Decisions API 开放测试，面向结构化判断",
+      "summary": "OpenAI 发布 Decisions API 测试版，使用 gpt-6-luna，把文本和图片转换成指定类型的答案。适合需要明确输出结构的分类或判断任务；官方给出的速度对比是相对 Responses API 的宣传指标，本日报未做独立性能测试。",
+      "event_date": "2026-10-06",
+      "date_precision": "day",
+      "collected_at": "2026-10-07T03:02:32+00:00",
+      "source": {
+        "title": "OpenAI API 更新日志",
+        "url": "https://developers.openai.com/api/docs/changelog"
+      }
+    },
+    {
+      "id": "audio",
+      "category": "产品",
+      "title": "ChatGPT 支持上传音频文件",
+      "summary": "付费订阅和工作区可以上传录音，用于转写、摘要或追问内容。会议、采访与课程录音可直接整理成笔记。具体开放情况受地区、工作区设置、客户端和模型影响，转写仍可能有误。",
+      "event_date": "2026-10-06",
+      "date_precision": "day",
+      "collected_at": "2026-10-07T03:02:32+00:00",
+      "source": {
+        "title": "ChatGPT 发布说明",
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      }
+    },
+    {
+      "id": "cvp",
+      "category": "安全",
+      "title": "Anthropic 扩大安全研究人员的模型访问计划",
+      "summary": "Cyber Verification Program 调整为三个访问层级，合资格的安全团队可按工作需要申请。计划提供高级网络安全能力及较少的拦截限制，现有 Glasswing 成员将转入 Specialized Access 层级。它面向经过资格审核的专业人员。",
+      "event_date": "2026-10-06",
+      "date_precision": "day",
+      "collected_at": "2026-10-07T03:02:32+00:00",
+      "source": {
+        "title": "Anthropic · Project Glasswing",
+        "url": "https://www.anthropic.com/glasswing"
+      }
+    },
+    {
+      "id": "laser",
+      "category": "研究",
+      "title": "LASER 用递归采样寻找安全评测中的难例",
+      "summary": "OpenAI 介绍 LASER：先用轻量分类器挑选样本，再用推理模型标注，反复迭代以寻找少见且判断模糊的对话。研究重点是提高评测数据筛选效率；流程只处理合成和去标识化对话，不访问原始用户数据。",
+      "event_date": "2026-10-06",
+      "date_precision": "day",
+      "collected_at": "2026-10-07T03:02:32+00:00",
+      "source": {
+        "title": "OpenAI Alignment · LASER",
+        "url": "https://alignment.openai.com/laser/"
+      }
+    },
+    {
+      "id": "ironclad",
+      "category": "研究",
+      "title": "用合同工作流检验 AI 的电脑操作能力",
+      "summary": "OpenAI 与 Ironclad 将合同、采购等工作拆成 11 项研究任务。Astra 的平均评分为 55.0%，对照模型 GPT-5.6 Sol 为 41.6%。这些结果只覆盖该组任务；文章中的耗时是模拟估算，不能当作客户实际节省的时间。",
+      "event_date": "2026-10-06",
+      "date_precision": "day",
+      "collected_at": "2026-10-07T03:02:32+00:00",
+      "source": {
+        "title": "OpenAI · Ironclad 研究合作",
+        "url": "https://openai.com/index/advancing-computer-use-with-ironclad/"
+      }
+    }
+  ]
+}

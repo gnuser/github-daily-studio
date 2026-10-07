@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GitHub Daily</title>
-  <meta name="description" content="按日历浏览 GitHub Trending 热门项目日榜。">
+  <title>Daily Report · 我的日报</title>
+  <meta name="description" content="我的日报：GitHub 热门项目与 AI 日历。">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23201d19'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='28' fill='%23efe5d6' font-family='serif'%3EG%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <main class="site-shell">
     <header class="site-header">
-      <a class="brand" href="./" aria-label="GitHub Daily">
-        <span class="brand-mark">G</span>
+      <a class="brand" href="./" aria-label="Daily Report">
+        <span class="brand-mark">D</span>
         <span>
-          <strong>GitHub Daily</strong>
-          <small>GitHub 热门项目日报</small>
+          <strong>Daily Report</strong>
+          <small>我的日报</small>
         </span>
       </a>
       <nav class="header-nav" aria-label="页面导航">
@@ -29,11 +29,12 @@
         <div class="calendar-head">
           <span class="eyebrow">Archive</span>
           <h1>日报日历</h1>
-          <p>点击有标记的日期查看当天热榜。</p>
+          <p>选择分类和日期。</p>
         </div>
 
         <div class="type-switcher" id="typeSwitcher" aria-label="日报类型">
-          <button class="active" type="button" data-type="github">开源热榜</button>
+          <button class="active" type="button" data-type="github">GitHub 热榜</button>
+          <button type="button" data-type="ai">AI 日历</button>
           
         </div>
 
@@ -61,7 +62,12 @@
       </aside>
 
       <section class="reader" id="daily" aria-label="日报正文">
-        <p id="loadStatus" role="status" aria-live="polite">正在读取榜单…</p><article class="newspaper" id="newspaper">
+        <p id="loadStatus" role="status" aria-live="polite">正在读取榜单…</p><article class="newspaper" id="aiPaper" hidden>
+<header class="masthead"><div class="mast-note"><span>AI 日报</span><span>独立整理 · 原始来源</span><span id="aiCapture"></span></div><div class="mast-brand"><h2>Daily<br>Report</h2><p>AI 日报</p></div><div class="mast-date"><strong>每日 11:00</strong><span id="aiDate"></span><span id="aiWeekday"></span></div></header>
+<section class="section-title"><h3>AI 动态</h3><span id="aiCount"></span></section>
+<p id="aiIntro" class="ai-intro"></p><section id="aiStories" class="ai-stories"></section>
+<p id="aiCoverage" class="ai-note"></p><footer class="paper-footer">Daily Report · 来源与采集时间见各条正文</footer></article>
+<article class="newspaper" id="newspaper">
           <header class="masthead">
             <div class="mast-note">
               <span>「开源趋势，一页读完」</span>
@@ -69,7 +75,7 @@
               <span id="captureTime">数据抓取：--:-- CST</span>
             </div>
             <div class="mast-brand">
-              <h2>GitHub<br>Daily</h2>
+              <h2>Daily<br>Report</h2>
               <p>开源趋势早报</p>
             </div>
             <div class="mast-date">

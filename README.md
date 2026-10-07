@@ -1,115 +1,30 @@
-# GitHub Daily
+# Daily Report
 
-按日历浏览 GitHub 热榜日报的静态站点。默认首页就是日报档案：左侧是日历，点击有标记的日期查看当天日报；右侧是纸质报纸样式的最终展示版，日报里的仓库名都可点击进入对应 GitHub repo。
+个人日报：GitHub 热榜与 AI 日报，保留米色报纸和分类日历。
 
-## 当前内容
+## 预览与发布
 
-- 已归档：`2026-06-02`
-- 数据源：GitHub Trending、GitHub Search API、AI / Trading / Algorithmic Trading Topics
-- 去重字段：`full_name`
-- 静态日报数据：`data/github-briefing-data.json`
-- 远程兼职职位日报：`data/remote-jobs-briefing-2026-06-02.json`
-- 静态导出图：`assets/github-tech-daily.png`
-- Remotion 竖屏介绍视频：`assets/github-daily-intro.mp4`
-- Remotion 视频封面：`assets/github-daily-intro-poster.png`
-- Remotion 转场音效与播音风格中文旁白：`public/audio/`
-
-## 本地预览
-
-```bash
-npm run dev
-```
-
-访问：
-
-```text
-http://127.0.0.1:8787
-```
-
-普通静态服务器即可打开。若要测试 Cloudflare Worker + Static Assets：
-
-```bash
-npm install
-npm run worker:dev
-```
-
-首页支持日报类型切换：
-
-```text
-http://127.0.0.1:8787/
-http://127.0.0.1:8787/?type=jobs
-```
-
-`?type=jobs` 会直接打开远程兼职职位日报。当前筛选条件为 Go / Golang 后端 / 后端工程师、兼职或项目制、全国/全球远程、接受居家办公。职位源覆盖 RemoteJobsCN、RemoteCN、V2EX 和 BOSS 直聘；多数招聘来源未公开截止时间，BOSS 详情页还可能触发登录/安全校验，页面会标注为“需投递前确认”或“需登录核验”，不伪造截止日期。
-
-## Remotion 每日热榜介绍
-
-项目包含一个 1080 × 1920、18 秒的 Remotion 竖屏短片，用来介绍每日 GitHub 热榜、Top 3 项目、AI / Trading 观察和最终日报页。视频已移除背景音乐，保留轻量转场音效，并使用播音风格中文旁白作为主声道。
-
-```bash
-npm run remotion:preview
-npm run remotion:still
-npm run remotion:render
-```
-
-渲染结果默认写入：
-
-```text
-out/github-daily-intro.png
-out/github-daily-intro.mp4
-```
-
-当前可发布版本已复制到：
-
-```text
-assets/github-daily-intro-poster.png
-assets/github-daily-intro.mp4
-```
-
-## 发布到 Cloudflare Worker
-
-项目使用和 `dandantang-duel` 类似的 Wrangler Worker 配置：`wrangler.jsonc` 里设置 `assets.directory`、`run_worker_first` 和 `custom_domain` route。目标域名是：
-
-```text
-daily-studio.xiajuan.app
-```
-
-先生成干净的静态资源目录，只包含线上需要的静态文件、`_headers`、`assets/`、`data/` 和 `public/`：
-
-```bash
+```sh
 npm run pages:prepare
-```
-
-发布目录会生成在：
-
-```text
-.deploy/cloudflare-pages
-```
-
-如果要用 Wrangler 上传：
-
-```bash
+npm run worker:dev
 npm run deploy
 ```
 
-`npm run deploy` 会执行 `wrangler deploy --config wrangler.jsonc`，创建/更新名为 `daily-studio` 的 Worker，并通过 `routes` 绑定到 `daily-studio.xiajuan.app`。若 Wrangler 未登录，可先运行 `npx wrangler login`，或设置 `CLOUDFLARE_API_TOKEN` 后再执行发布脚本。API token 需要 Workers Scripts Edit、Workers Routes Edit、Zone Read、User Details Read 等部署和路由权限。
+正式站：https://daily-studio.xiajuan.app/ 。纯静态预览可用 `npm run dev`，API 不可用时显示 GitHub 历史存档。构建仅打包页面和日报 JSON，不包含旧职位数据、私密配置或 Remotion 素材。仓库中的旧素材保留。
 
-## 新增一期日报
+## AI 日报
 
-把新的日报 JSON 放到 `data/`，然后在 `app.js` 顶部的 `reports` 数组追加：
+`?type=ai&date=2026-10-07` 可直接阅读指定日期，选择日历后刷新保留分类与日期。每日北京时间 11:00 由既有 Codex 自动任务核验来源、更新文件并发布，站点本身不调付费模型。
 
-```js
-{
-  date: "2026-06-03",
-  issue: "002",
-  title: "GitHub Daily",
-  dataUrl: "./data/github-briefing-2026-06-03.json",
-  imageUrl: "./assets/github-tech-daily-2026-06-03.png"
-}
-```
+- `data/ai-index.json`：按日期倒序的日历索引。
+- `data/ai-briefing-YYYY-MM-DD.json`：schema_version、北京时间归档日期、采集时间、检索窗口、摘要、范围说明和 items。
+- 每条含稳定 id、分类、标题、独立摘要、事件日期、日期精度、采集时间和原始来源链接。
+- 同日替换同名文件与索引条目，不重复追加；历史日期不删除。无可靠新增保存空 items 并说明检索结果。
+- 只使用原始公告、论文或产品博客。日期精度不足时明确披露，不能伪造精确时间或声称严格落入 24 小时窗口。
+- 2026-10-06 是旧版 AIHOT 外链存档，不冒充本站原创；从 2026-10-07 起正文站内阅读。
 
-日历会自动出现可点击日期。
+## GitHub 热榜
 
-## GitHub-only 版本
+保留 `/api/github-briefing` 最新官方日榜及已有静态历史；历史索引为 `data/github-index.json`，app.js 中保留相同的 GitHub 历史日期。AI 类别不依赖 GitHub API 成功。构建为 JS/CSS 添加内容哈希避免旧缓存。
 
-页面仅展示 GitHub Trending 日榜，沿用官方顺序，不混排累计星标榜或特定主题榜。历史职位文件保留于源码但不进入发布包。最新数据通过 `/api/github-briefing` 获取；失败时明确标记最新存档日期。静态预览不含 API，会展示历史存档；`worker:dev` 可联调真实榜单。历史索引为 `data/github-index.json`，新增日榜需同步添加日期与文件路径。
+检查：`node --check app.js`、`npm run pages:prepare`。发布使用现有 Worker 配置，不改 DNS、账号权限或其他项目。

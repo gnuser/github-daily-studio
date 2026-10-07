@@ -916,3 +916,7 @@ body.capture-mode .newspaper {
 }
 
 [hidden]{display:none!important}#loadStatus{font-size:13px;color:#716655;margin:0 0 12px}
+
+.ai-entry{padding:32px 0 64px}.ai-entry h1{font-family:var(--serif,Georgia,serif);font-size:clamp(24px,3vw,40px);color:#943c32}.ai-entry p{line-height:1.8}.ai-read{display:inline-block;margin:20px 0;color:#943c32;font-weight:bold;border-bottom:1px solid currentColor;text-decoration:none}.ai-note{font-size:13px;opacity:.7}
+
+.ai-intro{font-size:17px;line-height:1.8;margin:22px 0}.ai-story{padding:24px 0;border-top:1px solid #b4a58e}.ai-story h2{font-family:Georgia,"Songti SC",serif;font-size:26px;line-height:1.4;margin:10px 0;color:#71382e}.ai-story p{line-height:1.9}.ai-meta,.ai-source{font-size:12px;color:#746653}.ai-source a{color:#71382e}.ai-note{line-height:1.8}
