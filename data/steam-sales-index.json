@@ -1,0 +1,9 @@
+[
+  {
+    "id": "steam-sales-2026-10-07",
+    "type": "steam-sales",
+    "date": "2026-10-07",
+    "title": "Steam",
+    "dataUrl": "./data/steam-sales-briefing-2026-10-07.json"
+  }
+]

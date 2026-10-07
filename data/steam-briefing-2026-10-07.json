@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "type": "steam",
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T14:49:24.819838+00:00",
+  "source": "https://store.steampowered.com/search/?filter=popularnew&sort_by=Released_DESC&cc=us&l=english",
+  "window_start": "2026-10-01",
+  "games": [
+    {
+      "appid": 3393110,
+      "name": "AION 2",
+      "url": "https://store.steampowered.com/app/3393110/",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1791205225",
+      "gameplay": "《AION 2》！唯一一款以天空为战场的 MMORPG。选择阵营，张开羽翼化身为守护者， 在比初代辽阔 36 倍的宏大世界中展开阵营激战！由虚幻引擎5全力打造，只有PC平台才能享受的游戏体验！",
+      "release_date": "2026-10-05",
+      "review": {
+        "total": 15289,
+        "positive_percent": 66,
+        "label": "Mixed"
+      },
+      "selection_reason": "最近 7 天发售；按全部语言玩家评价数筛选，优先关注讨论较多的新作。"
+    },
+    {
+      "appid": 2288340,
+      "name": "空战奇兵8 希孚之翼 (ACE COMBAT 8: WINGS OF THEVE)",
+      "url": "https://store.steampowered.com/app/2288340/",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg?t=1791286652",
+      "gameplay": "享受在空中自由自在翱翔的爽快感，依据自身判断将敌人接二连三击坠破的快感，打破艰难局面化成为英雄成就感的戏剧性飞行射击游戏。最高峰的天空‧大自然‧都市画面以及强大带入感的剧场表现，让玩家体验真正的王牌驾驶员故事。",
+      "release_date": "2026-10-01",
+      "review": {
+        "total": 15000,
+        "positive_percent": 80,
+        "label": "Very Positive"
+      },
+      "selection_reason": "最近 7 天发售；按全部语言玩家评价数筛选，优先关注讨论较多的新作。"
+    },
+    {
+      "appid": 3010850,
+      "name": "Gears of War: E-Day",
+      "url": "https://store.steampowered.com/app/3010850/",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/1abb0c5ef76c14f463dd6e3964adb64f984237d2/header.jpg?t=1791309192",
+      "gameplay": "沉浸式重温事变日——游戏史上最受赞誉的第三人称射击系列之一，其残酷的起源故事就此展开。",
+      "release_date": "2026-10-06",
+      "review": {
+        "total": 4986,
+        "positive_percent": 76,
+        "label": "Mostly Positive"
+      },
+      "selection_reason": "最近 7 天发售；按全部语言玩家评价数筛选，优先关注讨论较多的新作。"
+    }
+  ]
+}

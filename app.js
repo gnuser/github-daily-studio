@@ -306,7 +306,7 @@ try {
  reports.push(...index.sort((a,b)=>b.date.localeCompare(a.date)));
 } catch { aiIndexError = true; }
 const robloxIndexErrors=new Set();
-for(const type of ['roblox','roblox-new']){
+for(const type of ['roblox','roblox-new','steam','steam-sales','steam-online']){
  try {
   const response=await fetch(`./data/${type}-index.json`,{cache:'no-store',signal:AbortSignal.timeout(10000)});
   if(!response.ok)throw Error('Roblox index');
@@ -316,6 +316,9 @@ for(const type of ['roblox','roblox-new']){
  }catch{robloxIndexErrors.add(type);}
 }
 const reportTypes = {
+  steam:{label:'新游精选',title:'Steam · 新游精选'},
+  'steam-sales':{label:'全球热销榜',title:'Steam · 全球热销榜'},
+  'steam-online':{label:'在线人数榜',title:'Steam · 在线人数榜'},
   'roblox-new':{label:'新游上榜',title:'新游上榜'},
   roblox:{label:'Roblox 热门',title:'Roblox 热门'},
   ai: {label:"AI 日历",title:"AI 日历"},
@@ -472,19 +475,23 @@ async function selectReport(date) {
  const id=++selection;
  activeDate=date; renderCalendar(); renderTypeSwitcher();
  const ai=activeType==='ai';
- $('#newspaper').hidden=true; $('#aiPaper').hidden=true; $('#robloxPaper').hidden=true;
+ $('#steamPaper').hidden=true; $('#newspaper').hidden=true; $('#aiPaper').hidden=true; $('#robloxPaper').hidden=true;
  document.querySelector('.issue-stats').hidden=true;
  $('#issueTitle').textContent=reportTypes[activeType].title;
  $('#issueSummary').textContent='';
  window.history.replaceState(null,'',`?type=${activeType}&date=${date}`+window.location.hash);
  $('#loadStatus').textContent='正在读取日报…';
  if(ai && aiIndexError){$('#loadStatus').textContent='AI 日历暂时无法读取，请刷新重试。';return;}
- if(robloxIndexErrors.has(activeType)){$('#loadStatus').textContent='Roblox 日历暂时无法读取，请刷新重试。';return;}
+ if(robloxIndexErrors.has(activeType)){$('#loadStatus').textContent=(activeType.startsWith('steam')?'Steam':'Roblox')+' 日历暂时无法读取，请刷新重试。';return;}
  try {
   const entry=reportForDate(date);
   if(ai && entry.legacy){renderAiReport(entry,null);return;}
   const {report,data}=await loadReport(date);
   if(id!==selection)return;
+  if(activeType.startsWith('steam')){
+   if(data.schema_version!==1||data.date!==report.date||data.type!==activeType||data.games?.length!==(activeType==='steam'?3:5)||!Number.isFinite(Date.parse(data.generated_at)))throw Error('Invalid Steam report');
+   renderSteam(report,data);return;
+  }
   if(activeType==='roblox'||activeType==='roblox-new'){
    if(data.schema_version!==1||data.date!==report.date||data.games?.length!==10||data.sort!==(activeType==='roblox-new'?'up-and-coming':'top-playing-now'))throw Error('Invalid Roblox report');
    renderRoblox(report,data);return;
@@ -499,6 +506,21 @@ async function selectReport(date) {
   renderIssueCard(report,data);renderNewspaper(report,data);
   $('#loadStatus').textContent=report.live?'':`历史存档：${formatDate(report.date)}`;
  }catch {if(id===selection)$('#loadStatus').textContent='该日期暂时无法读取，请刷新或选择其他日期。';}
+}
+function renderSteam(report,data){
+ const fresh=report.type==='steam',online=report.type==='steam-online';
+ const label=reportTypes[report.type].label;
+ document.title=`Daily Report · Steam · ${label} · ${formatDate(report.date)}`;
+ $('#steamPaper').hidden=false;$('#loadStatus').textContent='';
+ $('#issueLabel').textContent='Steam · 历史快照';$('#issueTitle').textContent=label;
+ $('#issueSummary').textContent=`${formatDate(report.date)} · ${data.games.length} 款`;
+ $('#steamSubtitle').textContent=label;$('#steamDate').textContent=formatDate(report.date);
+ $('#steamCapture').textContent='采集：'+collectedTime(data.generated_at);
+ $('#steamHeadline').textContent=label;
+ $('#steamNote').textContent=fresh?`发售窗口：${data.window_start} 至 ${data.date}（最近 7 个自然日）。从 Steam 热门新品中排除 DLC 与未发售条目，按全部语言评价数选取讨论较多的 3 款。玩法来自官方商店介绍；评价为采集时快照。`:online?'按 Steam 官方 Current Players 排序；展示采集时的同时在线人数，不使用今日峰值或累计玩家数。':'按 Steam 官方全球热销榜顺序取前 5；榜单以收入排序，包含免费游戏的收入，并非销量或在线人数榜。';
+ $('#steamSource').href=safeUrl(data.source);$('#steamSource').textContent=fresh?'来源：Steam 热门新品 ↗':online?'榜单来源：Steam Most Played · Current Players ↗':'榜单来源：Steam Top Sellers · Global ↗';
+ $('#steamList').innerHTML=data.games.map((g,i)=>`<article class="steam-row"><span class="rank-num">${fresh?String(i+1).padStart(2,'0'):g.rank}</span><div><a href="${escapeHtml(safeUrl(g.url))}" target="_blank" rel="noopener noreferrer"><img class="steam-cover" src="${escapeHtml(safeUrl(g.thumbnail))}" alt="${escapeHtml(g.name)} 商店封面" loading="lazy"><h3>${escapeHtml(g.name)} ↗</h3></a>${fresh?`<p>${escapeHtml(g.gameplay)}</p><p class="repo-meta">发售：${escapeHtml(g.release_date)} · 好评 ${g.review.positive_percent}% · ${Number(g.review.total).toLocaleString('zh-CN')} 条评价（全部语言）</p>`:''}</div>${online?`<div class="roblox-playing"><strong>${Number(g.playing).toLocaleString('zh-CN')}</strong><small>人同时在线</small></div>`:''}</article>`).join('');
+ $('#steamList').querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{const fallback=document.createElement('span');fallback.textContent='封面暂不可用';img.replaceWith(fallback);},{once:true}));
 }
 function renderRoblox(report,data){
  const fresh=report.type==='roblox-new';
@@ -563,6 +585,11 @@ function renderNewspaper(report, data) {
  $('.insight-box').innerHTML='<h3>榜单说明</h3><p>按 GitHub Trending 日榜顺序展示，不混入累计星标榜和主题榜。</p><p>▲ 为今日新增 Star，★ 为累计 Star。历史日期展示当天存档。</p><p><a href="https://github.com/trending?since=daily" target="_blank" rel="noreferrer">查看 GitHub 原榜 ↗</a></p>';
 }
 function renderTypeSwitcher() {
+  const steam=activeType.startsWith('steam');
+  $('#steamSubtypes').hidden=!steam;
+  $('#steamCategory').classList.toggle('active',steam);
+  $('#steamCategory').setAttribute('aria-pressed',String(steam));
+  $('#steamCategory').setAttribute('aria-expanded',String(steam));
   const roblox=activeType==='roblox'||activeType==='roblox-new';
   $('#robloxSubtypes').hidden=!roblox;
   $('#robloxCategory').classList.toggle('active',roblox);
@@ -575,6 +602,7 @@ function renderTypeSwitcher() {
   });
 }
 
+$('#steamCategory').addEventListener('click',()=>{if(!activeType.startsWith('steam'))selectType('steam');});
 $('#robloxCategory').addEventListener('click',()=>{if(!activeType.startsWith('roblox'))selectType('roblox');});
 
 function selectType(type) {

@@ -35,6 +35,7 @@
         <div class="type-switcher" id="typeSwitcher" aria-label="日报类型">
           <button class="active" type="button" data-type="github">GitHub 热榜</button>
           <button type="button" data-type="ai">AI 日历</button>
+          <button type="button" id="steamCategory" aria-controls="steamSubtypes" aria-expanded="false">Steam</button>
           <button type="button" id="robloxCategory" aria-controls="robloxSubtypes" aria-expanded="false">Roblox</button>
           
         </div>
@@ -43,6 +44,7 @@
           <button type="button" data-type="roblox">热门前 10</button>
           <button type="button" data-type="roblox-new">新游上榜</button>
         </div>
+        <div id="steamSubtypes" class="roblox-subtypes" aria-label="Steam 子栏目" hidden><button type="button" data-type="steam">新游精选</button><button type="button" data-type="steam-sales">全球热销榜</button><button type="button" data-type="steam-online">在线人数榜</button></div>
         <div class="month-switcher">
           <button id="prevMonth" type="button" aria-label="上个月">‹</button>
           <strong id="monthLabel">2026年6月</strong>
@@ -72,6 +74,7 @@
 <section class="section-title"><h3>AI 动态</h3><span id="aiCount"></span></section>
 <p id="aiIntro" class="ai-intro"></p><section id="aiStories" class="ai-stories"></section>
 <p id="aiCoverage" class="ai-note"></p><footer class="paper-footer">Daily Report · 来源与采集时间见各条正文</footer></article>
+<article class="newspaper" id="steamPaper" hidden><header class="masthead"><div class="mast-note"><span>Steam · 官方商店数据</span><span id="steamCapture"></span></div><div class="mast-brand"><h2>Daily<br>Report</h2><p id="steamSubtitle"></p></div><div class="mast-date"><strong>STEAM</strong><span id="steamDate"></span></div></header><section class="section-title"><h3 id="steamHeadline"></h3></section><section id="steamList"></section><p id="steamNote" class="ai-note"></p><footer class="paper-footer"><a id="steamSource" target="_blank" rel="noopener noreferrer"></a></footer></article>
 <article class="newspaper" id="robloxPaper" hidden>
 <header class="masthead"><div class="mast-note"><span id="robloxSort">Roblox · Top Playing Now</span><span>所有地区 · 所有设备</span><span id="robloxCapture"></span></div><div class="mast-brand"><h2>Daily<br>Report</h2><p id="robloxSubtitle">Roblox 热门游戏</p></div><div class="mast-date"><strong>TOP 10</strong><span id="robloxDate"></span><span id="robloxWeekday"></span></div></header>
 <section class="section-title"><h3 id="robloxHeadline">大家在玩什么</h3><span id="robloxMetric">在线人数榜</span></section>
