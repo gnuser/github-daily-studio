@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T02:59:34.085Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10768565603,
+      "place_id": 104416416393862,
+      "name": "Get Your Driver's License!",
+      "playing": 7632,
+      "genre": "Simulation",
+      "approval": 47,
+      "url": "https://www.roblox.com/games/104416416393862",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-292b9310361cd23209c4272964fcff4a/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10764627709,
+      "place_id": 107535308163741,
+      "name": "Huss Valley",
+      "playing": 86726,
+      "genre": "Action",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/107535308163741",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-72d8a4976409a7fdb6e1f8dbcea8f3d6/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10767634248,
+      "place_id": 102476635575386,
+      "name": "Firefighting Sim 🚒",
+      "playing": 11891,
+      "genre": "Simulation",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/102476635575386",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-b9d2c4dec04835ab091cceb9f303e10a/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10765637643,
+      "place_id": 85862346280552,
+      "name": "💀 Steal An EXE Egg! 💀",
+      "playing": 5685,
+      "genre": "Simulation",
+      "approval": 93,
+      "url": "https://www.roblox.com/games/85862346280552",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-e2c576d840975c4f5a79379a4efd0cb9/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10765288803,
+      "place_id": 114326934417838,
+      "name": "Break and Steal an Egg",
+      "playing": 53964,
+      "genre": "Simulation",
+      "approval": 98,
+      "url": "https://www.roblox.com/games/114326934417838",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-4286dd8385df9534c4a15c1e3807d656/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10767825538,
+      "place_id": 86537831042007,
+      "name": "Sarab",
+      "playing": 4808,
+      "genre": "Survival",
+      "approval": 95,
+      "url": "https://www.roblox.com/games/86537831042007",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-4ca84e0a2f98f113074d004fb5b071b1/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10765298801,
+      "place_id": 111543903102439,
+      "name": "+1 Stone Skipping",
+      "playing": 22443,
+      "genre": "Simulation",
+      "approval": 97,
+      "url": "https://www.roblox.com/games/111543903102439",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-1bfe67fa37477baa3cb4030366987390/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10767922762,
+      "place_id": 138929956115729,
+      "name": "Dress Designer",
+      "playing": 6033,
+      "genre": "Roleplay & Avatar Sim",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/138929956115729",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-9b79c96a8d8c71af1bb86515beb40556/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10766056678,
+      "place_id": 99679692310083,
+      "name": "Steal Animal Egg",
+      "playing": 16721,
+      "genre": "Simulation",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/99679692310083",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-54d32c21bf1f1c3e0d31f8d5a96e1a90/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10768316438,
+      "place_id": 76731343328034,
+      "name": "Lift Rock For Eggs",
+      "playing": 7510,
+      "genre": "Simulation",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/76731343328034",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-ae0fec3d87e311189536658bf9751b7f/768/432/Image/Png/noFilter"
+    }
+  ]
+}
