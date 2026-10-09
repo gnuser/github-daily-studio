@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T03:05:02.213Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10765785152,
+      "place_id": 117777190166485,
+      "name": "Guess My Game",
+      "playing": 1647,
+      "genre": "Party & Casual",
+      "approval": 83,
+      "url": "https://www.roblox.com/games/117777190166485",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-b1d35816cd9e90b793eac9796f139323/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10767408330,
+      "place_id": 116701845804918,
+      "name": "Peel THE Potato",
+      "playing": 13869,
+      "genre": "Simulation",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/116701845804918",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-17ec9b8f227e9c176731ec123c709eb7/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10764627709,
+      "place_id": 107535308163741,
+      "name": "Huss Valley",
+      "playing": 91147,
+      "genre": "Action",
+      "approval": 89,
+      "url": "https://www.roblox.com/games/107535308163741",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-72d8a4976409a7fdb6e1f8dbcea8f3d6/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10767825538,
+      "place_id": 86537831042007,
+      "name": "Sarab",
+      "playing": 6845,
+      "genre": "Survival",
+      "approval": 95,
+      "url": "https://www.roblox.com/games/86537831042007",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-4ca84e0a2f98f113074d004fb5b071b1/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10765541201,
+      "place_id": 119156763806075,
+      "name": "2 Player Pizza Tycoon 🍕",
+      "playing": 2938,
+      "genre": "Simulation",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/119156763806075",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-83f4b62cf05b511e98f865cdf1ae6e21/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10767634248,
+      "place_id": 102476635575386,
+      "name": "Firefighting Sim 🚒",
+      "playing": 16001,
+      "genre": "Simulation",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/102476635575386",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-b9d2c4dec04835ab091cceb9f303e10a/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10768565603,
+      "place_id": 104416416393862,
+      "name": "Get Your Driver's License!",
+      "playing": 18507,
+      "genre": "Simulation",
+      "approval": 39,
+      "url": "https://www.roblox.com/games/104416416393862",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-292b9310361cd23209c4272964fcff4a/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10765288803,
+      "place_id": 114326934417838,
+      "name": "Break and Steal an Egg",
+      "playing": 76518,
+      "genre": "Simulation",
+      "approval": 98,
+      "url": "https://www.roblox.com/games/114326934417838",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-4286dd8385df9534c4a15c1e3807d656/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10768425253,
+      "place_id": 81411170544011,
+      "name": "[🥥] COCARDO: LA HELADERIA",
+      "playing": 13855,
+      "genre": "Survival",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/81411170544011",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-546a10acc06def97d05cb61ea7de67ef/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10282097014,
+      "place_id": 118845698633260,
+      "name": "Pet Store Tycoon",
+      "playing": 15098,
+      "genre": "Simulation",
+      "approval": 95,
+      "url": "https://www.roblox.com/games/118845698633260",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-135b3610f8bba6245a3302413b69157a/768/432/Image/Png/noFilter"
+    }
+  ]
+}

@@ -1,5 +1,12 @@
 [
   {
+    "id": "roblox-2026-10-09",
+    "type": "roblox",
+    "date": "2026-10-09",
+    "title": "Roblox 热门",
+    "dataUrl": "./data/roblox-briefing-2026-10-09.json"
+  },
+  {
     "id": "roblox-2026-10-08",
     "type": "roblox",
     "date": "2026-10-08",

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "title": "AI 日报",
+  "generated_at": "2026-10-09T03:05:46+00:00",
+  "window": {
+    "start": "2026-10-08T11:00:00+08:00",
+    "end": "2026-10-09T11:00:00+08:00"
+  },
+  "summary": "开源安全扫描、科研支持与 AI 使用边界。",
+  "coverage_note": "核验窗口：北京时间 10 月 8 日 11:00 至 10 月 9 日 11:00。来源公告均标注 10 月 8 日，但未提供精确发布时刻；按来源日期收录，无法逐条确认严格位于这 24 小时内。",
+  "items": [
+    {
+      "id": "oss-scanner",
+      "category": "安全",
+      "title": "Anthropic 推出免费开源安全扫描",
+      "summary": "Anthropic 启动 Cyber Mission，覆盖关键基础设施与开源软件。新服务 OSS Scanner 向主动加入的开源项目提供定期扫描和修复建议；报告由模型生成、未经人工复核，维护者仍需核实问题。",
+      "event_date": "2026-10-08",
+      "date_precision": "day",
+      "collected_at": "2026-10-09T03:05:46+00:00",
+      "source": {
+        "title": "Anthropic · Cyber Mission",
+        "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+      }
+    },
+    {
+      "id": "genesis",
+      "category": "科研",
+      "title": "Anthropic 承诺三年投入 1.5 亿美元支持科研",
+      "summary": "Anthropic 宣布向 Genesis Mission 投入三年共 1.5 亿美元，支持 NASA、NIH、NSF 等十五家以上机构使用 Claude。计划包括研究项目的产品与 API 额度、科学家培训，以及聚变和量子计算等方向的合作。",
+      "event_date": "2026-10-08",
+      "date_precision": "day",
+      "collected_at": "2026-10-09T03:05:46+00:00",
+      "source": {
+        "title": "Anthropic · Genesis Mission",
+        "url": "https://www.anthropic.com/news/genesis-mission-commitment"
+      }
+    },
+    {
+      "id": "usage-policy",
+      "category": "政策",
+      "title": "Claude 使用政策更新，11 月 12 日生效",
+      "summary": "新版政策集中列明虚假账号和操纵传播的限制，并补充自主操控硬件的要求：合格人员应能观察和停止设备，模型断连后设备也应维持安全状态。针对模型的持续、无目的虐待行为新增限制，普通抱怨、测试与研究不在此列。",
+      "event_date": "2026-10-08",
+      "date_precision": "day",
+      "collected_at": "2026-10-09T03:05:46+00:00",
+      "source": {
+        "title": "Anthropic · 2026 Usage Policy update",
+        "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+      }
+    },
+    {
+      "id": "false-front",
+      "category": "安全",
+      "title": "OpenAI 披露两起利用 AI 的伪装传播行动",
+      "summary": "OpenAI 报告称已封禁两起分别来自俄罗斯和伊朗的隐蔽影响行动，涉及伪造记者身份、机构与文件。报告指出，AI 被用于写作和内部汇报，而传播仍依赖传统渠道；这些案例说明生成内容与实际传播影响需要分开评估。",
+      "event_date": "2026-10-08",
+      "date_precision": "day",
+      "collected_at": "2026-10-09T03:05:46+00:00",
+      "source": {
+        "title": "OpenAI · Disrupting false front operations",
+        "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/"
+      }
+    }
+  ]
+}
