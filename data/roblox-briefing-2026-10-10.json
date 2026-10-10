@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T02:58:54.549Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "top-playing-now",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10563114921,
+      "place_id": 107778070777162,
+      "name": "Steal An Egg",
+      "playing": 1625070,
+      "genre": "Simulation",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/107778070777162",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-875b2a6dc156ce6dd64eb637e73238ce/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 1686885941,
+      "place_id": 4924922222,
+      "name": "Brookhaven 🏡RP",
+      "playing": 455626,
+      "genre": "Roleplay & Avatar Sim",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/4924922222",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-6a624ff9c64051a23e06dbcfff888b32/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 383310974,
+      "place_id": 920587237,
+      "name": "[🎃] Adopt Me!",
+      "playing": 255937,
+      "genre": "Roleplay & Avatar Sim",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/920587237",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-fd435f1dec8ae69be3c7eaff6a72e006/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 7326934954,
+      "place_id": 79546208627805,
+      "name": "99 Nights in the Forest 🔦",
+      "playing": 240997,
+      "genre": "Survival",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/79546208627805",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-ee923b1e9ac5564624ee9c484006166c/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 5569032992,
+      "place_id": 16116270224,
+      "name": "🎃 Dandy's World [ALPHA]",
+      "playing": 220701,
+      "genre": "Survival",
+      "approval": 88,
+      "url": "https://www.roblox.com/games/16116270224",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-9bdf605a2b2179c957984a94d2fb8c14/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 66654135,
+      "place_id": 142823291,
+      "name": "Murder Mystery 2",
+      "playing": 208109,
+      "genre": "Survival",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/142823291",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-fe7335c3ad752e84323cd81ae38de69a/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 994732206,
+      "place_id": 2753915549,
+      "name": "Blox Fruits",
+      "playing": 202243,
+      "genre": "RPG",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/2753915549",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-09e621f1df2e404a391adf389d2bea47/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 6035872082,
+      "place_id": 17625359962,
+      "name": "RIVALS",
+      "playing": 188670,
+      "genre": "Shooter",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/17625359962",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-fb02f48458ff689309df8d52bf516d04/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 3508322461,
+      "place_id": 9391468976,
+      "name": "[SKY ASSASSIN] Jujutsu Shenanigans",
+      "playing": 174101,
+      "genre": "Action",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/9391468976",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-decec85a41b80e4ac0beca8bc2952a7f/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10764627709,
+      "place_id": 107535308163741,
+      "name": "Huss Valley",
+      "playing": 127884,
+      "genre": "Action",
+      "approval": 89,
+      "url": "https://www.roblox.com/games/107535308163741",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-72d8a4976409a7fdb6e1f8dbcea8f3d6/768/432/Image/Png/noFilter"
+    }
+  ]
+}
