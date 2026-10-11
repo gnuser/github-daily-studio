@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-11",
+  "title": "AI 日报",
+  "generated_at": "2026-10-11T03:02:04+00:00",
+  "window": {
+    "start": "2026-10-10T11:00:00+08:00",
+    "end": "2026-10-11T11:00:00+08:00"
+  },
+  "summary": "今日未核实到可收录的重要新增动态。",
+  "coverage_note": "已检查 OpenAI、Anthropic 与 Google 官方资讯，并检索 10 月 10 日发布记录。检索到的主要讨论仍指向此前已收录的公告；本次没有确认落入窗口的重要新增，不重复旧闻。这不表示 AI 行业当天没有任何更新。",
+  "checked_sources": [
+    "https://openai.com/news/",
+    "https://www.anthropic.com/news",
+    "https://blog.google/innovation-and-ai/"
+  ],
+  "items": []
+}
