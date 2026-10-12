@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "title": "AI 日报",
+  "generated_at": "2026-10-12T03:02:41+00:00",
+  "window": {
+    "start": "2026-10-11T11:00:00+08:00",
+    "end": "2026-10-12T11:00:00+08:00"
+  },
+  "summary": "今日未核实到可收录的重要新增动态。",
+  "coverage_note": "检索了 OpenAI、Anthropic 和 Google 官方来源。部分聚合页将 EmbeddingGemma 2 标为 10 月 11 日更新，但官方开发者博客的发布记录早于本次窗口，未将其作为今日新发布收录。本次无可靠新增，不代表行业当天没有任何更新。",
+  "checked_sources": [
+    "https://openai.com/news/",
+    "https://www.anthropic.com/news",
+    "https://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2/"
+  ],
+  "items": []
+}
