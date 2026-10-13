@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T03:03:05.546Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10767380385,
+      "place_id": 94891079210424,
+      "name": "Sell Fries! [Anomaly] 🍟",
+      "playing": 15723,
+      "genre": "Survival",
+      "approval": 81,
+      "url": "https://www.roblox.com/games/94891079210424",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-1b4250c40a63fa862a56fbf37ada5e60/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10768026334,
+      "place_id": 97572766830918,
+      "name": "[🎨] Hide In Pixels",
+      "playing": 16433,
+      "genre": "Party & Casual",
+      "approval": 59,
+      "url": "https://www.roblox.com/games/97572766830918",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-61275f98855adbf0ce8da4c01a12c705/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10767774668,
+      "place_id": 97606215092194,
+      "name": "[🥞] Paint a Pancake",
+      "playing": 7714,
+      "genre": "Party & Casual",
+      "approval": 77,
+      "url": "https://www.roblox.com/games/97606215092194",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-25af6021435d6829c2c222e9c02e53c0/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10764627709,
+      "place_id": 107535308163741,
+      "name": "Huss Valley",
+      "playing": 83932,
+      "genre": "Action",
+      "approval": 88,
+      "url": "https://www.roblox.com/games/107535308163741",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-72d8a4976409a7fdb6e1f8dbcea8f3d6/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10769396182,
+      "place_id": 121479292450778,
+      "name": "[UPD] Makeup Frenzy! 💄",
+      "playing": 6052,
+      "genre": "Entertainment",
+      "approval": 88,
+      "url": "https://www.roblox.com/games/121479292450778",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-a4d827e2b761b24740105b5eb414785e/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10766506199,
+      "place_id": 116802325837172,
+      "name": "7 Days Cat-Sitting",
+      "playing": 17023,
+      "genre": "Survival",
+      "approval": 74,
+      "url": "https://www.roblox.com/games/116802325837172",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-79c6ba67e53387721db86d5600debb97/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10767138232,
+      "place_id": 122840796290491,
+      "name": "Kukirin Life [Testing]",
+      "playing": 5539,
+      "genre": "Simulation",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/122840796290491",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-d04559325a120e0871014d20039e4dcb/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10767814721,
+      "place_id": 137626413669175,
+      "name": "[⛩️W3]  +1 Karate Evolution",
+      "playing": 4806,
+      "genre": "Simulation",
+      "approval": 99,
+      "url": "https://www.roblox.com/games/137626413669175",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-52fd9b8f18a89b26d63f23e8d436a1a3/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10766588474,
+      "place_id": 121600338636415,
+      "name": "[🎃] PORTALS",
+      "playing": 6042,
+      "genre": "Shooter",
+      "approval": 82,
+      "url": "https://www.roblox.com/games/121600338636415",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-f057fbb2d691ba445e99b12dc32e0244/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10770000716,
+      "place_id": 133281140264583,
+      "name": "Apple iPad Original",
+      "playing": 7780,
+      "genre": "Roleplay & Avatar Sim",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/133281140264583",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-e7310324643bce4ed5d7b83719801f25/768/432/Image/Png/noFilter"
+    }
+  ]
+}

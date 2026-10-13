@@ -1,5 +1,12 @@
 [
   {
+    "id": "ai-2026-10-13",
+    "type": "ai",
+    "date": "2026-10-13",
+    "title": "AI 日报",
+    "dataUrl": "./data/ai-briefing-2026-10-13.json"
+  },
+  {
     "id": "ai-2026-10-12",
     "type": "ai",
     "date": "2026-10-12",

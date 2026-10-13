@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-13",
+  "title": "AI 日报",
+  "generated_at": "2026-10-13T03:03:41+00:00",
+  "window": {
+    "start": "2026-10-12T11:00:00+08:00",
+    "end": "2026-10-13T11:00:00+08:00"
+  },
+  "summary": "反蒸馏防护与 AI 疾病研究进展。",
+  "coverage_note": "两篇官方文章均标注 10 月 12 日，未提供精确发布时间。按来源日期收录，无法逐条确认严格位于北京时间过去 24 小时窗口内。",
+  "items": [
+    {
+      "id": "distillation-defenses",
+      "category": "研究",
+      "title": "Anthropic 公布反蒸馏防护进展",
+      "summary": "Anthropic 称，新防护措施使其观察到的蒸馏数据采集量下降约 90% 至 99%，重点是限制完整推理过程被提取。公司同时披露代价：部分开发者需要修改接入方式，分类器可能误拦正常请求。数字来自公司早期观察，尚不能说明长期防护效果。",
+      "event_date": "2026-10-12",
+      "date_precision": "day",
+      "collected_at": "2026-10-13T03:03:41+00:00",
+      "source": {
+        "title": "Anthropic · Distillation defenses",
+        "url": "https://www.anthropic.com/research/distillation-defenses"
+      }
+    },
+    {
+      "id": "google-health-research",
+      "category": "科研",
+      "title": "Google 汇总 AI 疾病研究进展",
+      "summary": "Google 发布疾病研究综述，介绍 AlphaFold 用于药物筛选、AlphaGenome Atlas 用于分析遗传变异等案例。文章汇总的是与科研机构合作的研究进展，不是宣布一种已获临床验证的新疗法；相关模型主要帮助科学家提出和筛选研究方向。",
+      "event_date": "2026-10-12",
+      "date_precision": "day",
+      "collected_at": "2026-10-13T03:03:41+00:00",
+      "source": {
+        "title": "Google · Applying technology to understand and treat disease",
+        "url": "https://blog.google/innovation-and-ai/technology/health/ai-health-research/"
+      }
+    }
+  ]
+}
