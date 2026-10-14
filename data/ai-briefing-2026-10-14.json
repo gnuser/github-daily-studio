@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-14",
+  "title": "AI 日报",
+  "generated_at": "2026-10-14T02:59:38+00:00",
+  "window": {
+    "start": "2026-10-13T11:00:00+08:00",
+    "end": "2026-10-14T11:00:00+08:00"
+  },
+  "summary": "Gemini 4 Argon 向订阅用户与开发者开放。",
+  "coverage_note": "官方公告标注 10 月 13 日，未提供精确发布时间；按来源日期收录，无法确认严格位于北京时间过去 24 小时窗口内。同一模型的应用和 API 公告合并计为一条。",
+  "items": [
+    {
+      "id": "gemini4-argon",
+      "category": "模型",
+      "title": "Gemini 4 Argon 开放应用与 API 访问",
+      "summary": "Google AI Pro 和 Ultra 用户可在 Gemini 应用使用 Argon；macOS 应用加入 Antigravity 编程界面，并可切换到任务模式。开发者可通过付费 Gemini API 接入，Google 将其定位于代码迁移等多步骤工作流。能力提升属于官方描述，本期未做独立测评。",
+      "event_date": "2026-10-13",
+      "date_precision": "day",
+      "collected_at": "2026-10-14T02:59:38+00:00",
+      "source": {
+        "title": "Google · Gemini 4 Argon availability",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"
+      },
+      "additional_sources": [
+        {
+          "title": "Google · Build with Gemini 4 Argon",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
+        }
+      ]
+    }
+  ]
+}
