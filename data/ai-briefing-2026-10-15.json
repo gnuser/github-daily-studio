@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "title": "AI 日报",
+  "generated_at": "2026-10-15T03:00:17+00:00",
+  "window": {
+    "start": "2026-10-14T11:00:00+08:00",
+    "end": "2026-10-15T11:00:00+08:00"
+  },
+  "summary": "研究工具扩大开放，新加坡推进 AI 安全合作。",
+  "coverage_note": "原始公告均标注 10 月 14 日，未提供精确发布时间；按来源日期收录，无法确认全部严格位于北京时间过去 24 小时内。只记录已核验公告，不把计划或实验能力写成全面上线。",
+  "items": [
+    {
+      "id": "google-research-tools-2026",
+      "category": "研究工具",
+      "title": "Deep Review 向公众开放，Earth AI 扩大早期访问",
+      "summary": "Google 在 Research@ 活动宣布，Deep Review 向公众开放，用于检查技术文档的逻辑一致性与事实依据。Earth AI 同时扩大早期访问，提供地理空间分析、风险预测及实验性智能体接口。前者辅助审阅，后者仍属实验能力，不能把输出当作已验证结论。",
+      "source": {
+        "title": "Google Research · Research@ 2026",
+        "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/"
+      },
+      "event_date": "2026-10-14",
+      "date_precision": "day",
+      "collected_at": "2026-10-15T03:00:17+00:00"
+    },
+    {
+      "id": "anthropic-singapore-mou",
+      "category": "行业",
+      "title": "Anthropic 在新加坡设办公室，与政府签署合作备忘录",
+      "summary": "Anthropic 宣布开设其亚太地区第五个办公室，并与新加坡数码发展及新闻部签署合作备忘录。合作范围包括模型评估、安全测试、事件响应及 AI 应用影响研究；后续计划开展技术交流和技能培训。备忘录确立合作方向，不代表相关计划已全部落地。",
+      "source": {
+        "title": "Anthropic · Singapore office and government MOU",
+        "url": "https://www.anthropic.com/news/singapore-office-opening"
+      },
+      "event_date": "2026-10-14",
+      "date_precision": "day",
+      "collected_at": "2026-10-15T03:00:17+00:00"
+    }
+  ]
+}
