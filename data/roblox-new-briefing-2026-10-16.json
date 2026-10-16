@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T03:12:36.446Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10767386157,
+      "place_id": 103363457515322,
+      "name": "Chop A Forest",
+      "playing": 21561,
+      "genre": "Simulation",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/103363457515322",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-24c623bc2cff8ab2a9f309d08ed8d743/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10767380385,
+      "place_id": 94891079210424,
+      "name": "Sell Fries! [Anomaly] 🍟",
+      "playing": 30172,
+      "genre": "Survival",
+      "approval": 81,
+      "url": "https://www.roblox.com/games/94891079210424",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-1b4250c40a63fa862a56fbf37ada5e60/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10767825538,
+      "place_id": 86537831042007,
+      "name": "Sarab",
+      "playing": 6262,
+      "genre": "Survival",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/86537831042007",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-4ca84e0a2f98f113074d004fb5b071b1/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10767774668,
+      "place_id": 97606215092194,
+      "name": "[🥞] Paint a Pancake",
+      "playing": 8140,
+      "genre": "Party & Casual",
+      "approval": 77,
+      "url": "https://www.roblox.com/games/97606215092194",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-25af6021435d6829c2c222e9c02e53c0/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10765490774,
+      "place_id": 85738654635245,
+      "name": "Climb For Animals Eggs🥚",
+      "playing": 23583,
+      "genre": "Simulation",
+      "approval": 99,
+      "url": "https://www.roblox.com/games/85738654635245",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-0c4f574bafb0c250abf8db6c2cc1cf9d/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10767814721,
+      "place_id": 137626413669175,
+      "name": "[⛩️W3]  +1 Karate Evolution",
+      "playing": 11413,
+      "genre": "Simulation",
+      "approval": 99,
+      "url": "https://www.roblox.com/games/137626413669175",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-52fd9b8f18a89b26d63f23e8d436a1a3/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10768861430,
+      "place_id": 98442746787754,
+      "name": "DIVINE HATCHERS 0.0001% [NEW!]",
+      "playing": 9538,
+      "genre": "Simulation",
+      "approval": 85,
+      "url": "https://www.roblox.com/games/98442746787754",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-0de7dd1ba8721e4293054084047de7b1/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10768866246,
+      "place_id": 121671165541545,
+      "name": "[4 PLAYER RALLY] WRONG WAY! ",
+      "playing": 8253,
+      "genre": "Sports & Racing",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/121671165541545",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-3e056495a8053b4aae4a1fef084de055/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10725799494,
+      "place_id": 70733580049633,
+      "name": "Wash the Car 🧽",
+      "playing": 6227,
+      "genre": "Simulation",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/70733580049633",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-23cb3ecda57c87bc13e2aa784a22c1ca/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10769516701,
+      "place_id": 72293101527469,
+      "name": "Facecard: Makeup Showdown [💄HEAD BASES]",
+      "playing": 8614,
+      "genre": "Roleplay & Avatar Sim",
+      "approval": 99,
+      "url": "https://www.roblox.com/games/72293101527469",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-b4ab74bf9241f649f7fbb65d0f1167f9/768/432/Image/Png/noFilter"
+    }
+  ]
+}

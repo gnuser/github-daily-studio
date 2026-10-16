@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "title": "AI 日报",
+  "generated_at": "2026-10-16T03:13:21+00:00",
+  "window": {
+    "start": "2026-10-15T11:00:00+08:00",
+    "end": "2026-10-16T11:00:00+08:00"
+  },
+  "summary": "AI 搜索增加来源入口，独立评估与数学研究获得新支持。",
+  "coverage_note": "原始公告或更新均标注 10 月 15 日，未提供精确时刻；按来源日期收录，无法确认全部严格落在北京时间过去 24 小时内。OpenAI 条目仅报道当日新增资助，不重复计算原文 10 月 6 日的研究发布。",
+  "items": [
+    {
+      "id": "google-search-links",
+      "category": "产品",
+      "title": "Google AI 搜索增加原始链接与新闻入口",
+      "summary": "Google 宣布提高 AI 回答中靠前位置的内嵌链接出现频率，并向更多地区和语言推广新闻轮播。官方网页专属展示区、可点击的创作者名称仍在测试；相关文章链接也将增加缩略图。",
+      "event_date": "2026-10-15",
+      "date_precision": "day",
+      "collected_at": "2026-10-16T03:13:21+00:00",
+      "source": {
+        "title": "Google · AI Search updates",
+        "url": "https://blog.google/products-and-platforms/products/search/updates-ai-mode-overviews-explore-web/"
+      }
+    },
+    {
+      "id": "anthropic-independent-evaluators",
+      "category": "安全",
+      "title": "Anthropic 公布 METR 驻场评估安排",
+      "summary": "六名 METR 员工已获得接近内部风险团队的工具与系统访问权限。METR 可独立发布评估，Anthropic 无权否决，但可要求删去预先限定的敏感信息；METR 可公开说明删减是否合理。其他评估合作的权限目前较有限。",
+      "event_date": "2026-10-15",
+      "date_precision": "day",
+      "collected_at": "2026-10-16T03:13:21+00:00",
+      "source": {
+        "title": "Anthropic · Independent evaluators",
+        "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+      }
+    },
+    {
+      "id": "google-news-ai-pilot",
+      "category": "行业",
+      "title": "Google 新闻 AI 授权试点扩至逾 400 家刊物",
+      "summary": "Google 表示，全球已有超过 400 家刊物参与付费内容授权试点，新伙伴包括 CNN、金融时报等。授权内容用于文章概览、可定制音频简报等 AI 功能，并附来源署名和直达链接。公告未披露各家授权金额。",
+      "event_date": "2026-10-15",
+      "date_precision": "day",
+      "collected_at": "2026-10-16T03:13:21+00:00",
+      "source": {
+        "title": "Google · News AI pilot",
+        "url": "https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-publishers/"
+      }
+    },
+    {
+      "id": "openai-simons-math-funding",
+      "category": "研究",
+      "title": "OpenAI 出资 500 万美元支持数学界研究 AI 成果",
+      "summary": "OpenAI 在 10 月 15 日更新中宣布，向西蒙斯基金会的新计划提供 500 万美元，由基金会管理和分配，用于研讨会、会议及专项活动，帮助数学家理解和拓展 AI 产出的结果；同时提供模型与算力访问。此项资助不等于相关数学结果已获确认。",
+      "event_date": "2026-10-15",
+      "date_precision": "day",
+      "collected_at": "2026-10-16T03:13:21+00:00",
+      "source": {
+        "title": "OpenAI · Mathematics progress（10 月 15 日更新）",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+      }
+    }
+  ]
+}
