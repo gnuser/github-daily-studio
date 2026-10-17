@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-17",
+  "title": "AI 日报",
+  "generated_at": "2026-10-17T03:03:04+00:00",
+  "window": {
+    "start": "2026-10-16T11:00:00+08:00",
+    "end": "2026-10-17T11:00:00+08:00"
+  },
+  "summary": "智能体如何改变工作，以及 AI 辅助追溯密码学参数来源。",
+  "coverage_note": "原始报告标注 10 月 16 日，未提供精确发布时间；按来源日期收录，无法确认全部严格落在北京时间过去 24 小时内。研究结论按作者报告表述，不将公司内部观察外推为行业因果结论。",
+  "items": [
+    {
+      "id": "anthropic-employment-study",
+      "category": "研究",
+      "title": "Anthropic 披露内部招聘与智能体工作变化",
+      "summary": "Anthropic 的内部研究显示，初级技术岗位在技术招聘中的占比从 27% 降至 9%，技术员工总人数仍在增长。员工越来越多地监控和协调智能体输出，人的注意力成为瓶颈。这是单一 AI 企业的观察性研究，不能直接推断整个劳动力市场，也不能把代码增量等同于业务价值。",
+      "event_date": "2026-10-16",
+      "date_precision": "day",
+      "collected_at": "2026-10-17T03:03:04+00:00",
+      "source": {
+        "title": "Anthropic · Employment at Anthropic",
+        "url": "https://www.anthropic.com/research/employment-at-anthropic"
+      }
+    },
+    {
+      "id": "claude-ecdsa-origins",
+      "category": "研究",
+      "title": "Claude 辅助追溯 NIST 椭圆曲线种子的来源",
+      "summary": "Anthropic 报告称，内部研究模型发现多条 NIST 曲线的公开种子可由 Unix 时间戳初始化的 lrand48 生成，并公布复现代码。这是参数来源研究，不是破解 ECDSA；部分基点来源及跳过候选曲线的原因仍未解释。本期核验了原始报告，未独立运行其复现代码。",
+      "event_date": "2026-10-16",
+      "date_precision": "day",
+      "collected_at": "2026-10-17T03:03:04+00:00",
+      "source": {
+        "title": "Anthropic · ECDSA curve origins",
+        "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+      }
+    }
+  ]
+}
