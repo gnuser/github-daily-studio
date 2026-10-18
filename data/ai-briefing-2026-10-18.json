@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-18",
+  "title": "AI 日报",
+  "generated_at": "2026-10-18T03:01:59+00:00",
+  "window": {
+    "start": "2026-10-17T11:00:00+08:00",
+    "end": "2026-10-18T11:00:00+08:00"
+  },
+  "summary": "本期未核实到值得单独收录的重要新增 AI 动态。",
+  "coverage_note": "检索了 OpenAI、Anthropic、Google、DeepMind、Meta、Mistral 及 Hugging Face 的近期发布线索。可确认的重要公告多为此前日期，未重复收录；社区讨论及未核实线索不计入新闻。此结果仅代表本次检索范围，并不表示过去 24 小时没有任何 AI 更新。",
+  "items": []
+}

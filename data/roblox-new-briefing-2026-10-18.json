@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T03:01:35.371Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10769543567,
+      "place_id": 130906410042392,
+      "name": "Cat Battles 🐾",
+      "playing": 46099,
+      "genre": "Action",
+      "approval": 74,
+      "url": "https://www.roblox.com/games/130906410042392",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-1d5621e39cfd0147ac4d32c7e12df451/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10767386157,
+      "place_id": 103363457515322,
+      "name": "🪵Chop A Forest",
+      "playing": 35676,
+      "genre": "Simulation",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/103363457515322",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-adf6bb027d2cca2ebf8c8015ff9fb44a/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10767380385,
+      "place_id": 94891079210424,
+      "name": "🎃 Sell Fries! [Anomaly] 🍟",
+      "playing": 69547,
+      "genre": "Survival",
+      "approval": 82,
+      "url": "https://www.roblox.com/games/94891079210424",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-1b4250c40a63fa862a56fbf37ada5e60/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10769516701,
+      "place_id": 72293101527469,
+      "name": "Facecard: Makeup Showdown [⭐UPD]",
+      "playing": 29598,
+      "genre": "Roleplay & Avatar Sim",
+      "approval": 99,
+      "url": "https://www.roblox.com/games/72293101527469",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-afa1f84d3827c97ff91acdcf8f9e4380/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10765490774,
+      "place_id": 85738654635245,
+      "name": "Climb For Animals Eggs🥚",
+      "playing": 71788,
+      "genre": "Simulation",
+      "approval": 99,
+      "url": "https://www.roblox.com/games/85738654635245",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-0c4f574bafb0c250abf8db6c2cc1cf9d/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10767138232,
+      "place_id": 122840796290491,
+      "name": "[🎃] Kukirin Life [Testing]",
+      "playing": 16621,
+      "genre": "Simulation",
+      "approval": 84,
+      "url": "https://www.roblox.com/games/122840796290491",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-d04559325a120e0871014d20039e4dcb/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10725799494,
+      "place_id": 70733580049633,
+      "name": "Wash the Car 🧽",
+      "playing": 13401,
+      "genre": "Simulation",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/70733580049633",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-23cb3ecda57c87bc13e2aa784a22c1ca/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10766620257,
+      "place_id": 74023858073178,
+      "name": "[NEW❗] Bike For Egg!",
+      "playing": 25007,
+      "genre": "Simulation",
+      "approval": 95,
+      "url": "https://www.roblox.com/games/74023858073178",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-b9d05b7cdbd5e6938c373093455cb5ff/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10769384180,
+      "place_id": 97289366402005,
+      "name": "Fake an Egg",
+      "playing": 13642,
+      "genre": "Simulation",
+      "approval": 88,
+      "url": "https://www.roblox.com/games/97289366402005",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-350983bd9e056ffdc2b898d486df265b/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10769955995,
+      "place_id": 133288430627630,
+      "name": "Rush To The Vet! 🐶",
+      "playing": 9587,
+      "genre": "Simulation",
+      "approval": 61,
+      "url": "https://www.roblox.com/games/133288430627630",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-9d16b195f6d36abb55c0fa2c29259751/768/432/Image/Png/noFilter"
+    }
+  ]
+}
