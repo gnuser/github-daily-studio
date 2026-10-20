@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-20",
+  "title": "AI 日报",
+  "generated_at": "2026-10-20T03:03:44+00:00",
+  "window": {
+    "start": "2026-10-19T11:00:00+08:00",
+    "end": "2026-10-20T11:00:00+08:00"
+  },
+  "summary": "企业 AI 安全的关注点延伸到内部智能体。",
+  "coverage_note": "原文标注 10 月 19 日，未提供精确发布时间；按来源日期收录，无法确认严格落在北京时间过去 24 小时内。Project Perception 此前已经公布，本期报道内部智能体治理的新说明，不将其写成首次发布。",
+  "items": [
+    {
+      "id": "microsoft-agentic-insider",
+      "category": "安全",
+      "title": "微软提出持续监控企业内部 AI 智能体",
+      "summary": "微软在新文章中介绍，将 Project Perception 用于企业内部智能体治理：汇集身份、数据、网络和运行环境信号，动态评估风险，再由监督智能体配合权限与容器控制采取措施。文章强调持续监控和可追溯性；这是厂商方案说明，本期未独立验证其防护效果。",
+      "event_date": "2026-10-19",
+      "date_precision": "day",
+      "collected_at": "2026-10-20T03:03:44+00:00",
+      "source": {
+        "title": "Microsoft · Securing the agentic insider",
+        "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
+      }
+    }
+  ]
+}
