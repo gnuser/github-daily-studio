@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "title": "AI 日报",
+  "generated_at": "2026-10-21T03:01:00+00:00",
+  "window": {
+    "start": "2026-10-20T11:00:00+08:00",
+    "end": "2026-10-21T11:00:00+08:00"
+  },
+  "summary": "药物研发协作与车载个人助手各有新进展。",
+  "coverage_note": "两篇原始公告均标注 10 月 20 日，未提供精确发布时间；按来源日期收录，无法确认全部严格落在北京时间过去 24 小时内。",
+  "items": [
+    {
+      "id": "openai-orchestra-bio",
+      "category": "行业",
+      "title": "OpenAI 收购 Orchestra Bio，整合药物研发协作工具",
+      "summary": "OpenAI 宣布已收购 Orchestra Bio，将其团队和药物研发协调平台与 Rosalind 整合。目标是让智能体跟踪研究进度、梳理任务依赖及延误影响，辅助科研人员决定下一步。公告未披露交易金额。",
+      "source": {
+        "title": "OpenAI · OpenAI acquires Orchestra Bio",
+        "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/"
+      },
+      "event_date": "2026-10-20",
+      "date_precision": "day",
+      "collected_at": "2026-10-21T03:01:00+00:00"
+    },
+    {
+      "id": "google-gemini-personal-intelligence-car",
+      "category": "产品",
+      "title": "Android Auto 开始接入 Gemini 个性化帮助",
+      "summary": "Google 开始向 Android Auto 推出 Personal Intelligence，用户可主动连接 Gmail、日历等应用，让 Gemini 在行车时提供与个人信息相关的帮助。搭载 Google built-in 的汽车将在未来几个月接入；本次开放面向符合条件的成年个人账号，部分地区暂不支持。",
+      "source": {
+        "title": "Google · Get hands-free personalized help on the road with Gemini",
+        "url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/"
+      },
+      "event_date": "2026-10-20",
+      "date_precision": "day",
+      "collected_at": "2026-10-21T03:01:00+00:00"
+    }
+  ]
+}
