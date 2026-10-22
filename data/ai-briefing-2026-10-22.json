@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "title": "AI 日报",
+  "generated_at": "2026-10-22T03:04:45+00:00",
+  "window": {
+    "start": "2026-10-21T11:00:00+08:00",
+    "end": "2026-10-22T11:00:00+08:00"
+  },
+  "summary": "今天关注 AI 辅助漏洞修复与网络防御治理。",
+  "coverage_note": "原始公告均标注 10 月 21 日，未提供精确发布时间；按来源日期收录，无法确认全部严格落在北京时间过去 24 小时内。",
+  "items": [
+    {
+      "id": "openai-php-disclosure",
+      "category": "安全",
+      "title": "AI 辅助发现 PHP 漏洞，维护者牵头修复",
+      "summary": "OpenAI 披露，Calif 在 Patch the Planet 项目中使用 GPT-5.6 Sol 发现 PHP 严重漏洞，Wiz 也独立发现并报告了相关问题。PHP 维护者负责修复和发布，研究机构与基础设施服务商协同准备防护。此次公告重点是从漏洞发现到补丁落地的协作流程。",
+      "source": {
+        "title": "OpenAI · Patch the Planet",
+        "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+      },
+      "event_date": "2026-10-21",
+      "date_precision": "day",
+      "collected_at": "2026-10-22T03:04:45+00:00"
+    },
+    {
+      "id": "openai-cyber-blueprint",
+      "category": "治理",
+      "title": "OpenAI 发布网络防御政策蓝图",
+      "summary": "OpenAI 提出三组建议：明确前沿模型和智能体的安全责任，为防御人员提供工具与培训，以及加强政府评估、事件报告和恢复机制。这是面向政府与行业的政策提案，尚不代表相关要求已经成为法规。",
+      "source": {
+        "title": "OpenAI · Empowering cyber defenders",
+        "url": "https://openai.com/index/empowering-cyber-defenders/"
+      },
+      "event_date": "2026-10-21",
+      "date_precision": "day",
+      "collected_at": "2026-10-22T03:04:45+00:00"
+    }
+  ]
+}
