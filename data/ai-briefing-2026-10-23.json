@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-23",
+  "title": "AI 日报",
+  "generated_at": "2026-10-23T03:04:34+00:00",
+  "window": {
+    "start": "2026-10-22T11:00:00+08:00",
+    "end": "2026-10-23T11:00:00+08:00"
+  },
+  "summary": "Decisions API 正式开放，面向分类、路由等高频判断。",
+  "coverage_note": "原始公告标注 10 月 22 日，未提供精确发布时间；按来源日期收录，无法确认严格落在北京时间过去 24 小时内。",
+  "items": [
+    {
+      "id": "openai-decisions-ga",
+      "category": "产品",
+      "title": "OpenAI Decisions API 正式开放",
+      "summary": "Decisions API 基于 GPT-6 Luna，让应用从预设答案中作出选择，或返回概率和评分，适合分类、请求路由等任务。正式版新增 GPT-Live 原生集成、提示缓存和美欧区域处理，单次请求最多可包含 400 个问题。官方宣称其速度优势，本期未独立测试性能。",
+      "event_date": "2026-10-22",
+      "date_precision": "day",
+      "collected_at": "2026-10-23T03:04:34+00:00",
+      "source": {
+        "title": "OpenAI · Build more responsive apps with the Decisions API",
+        "url": "https://openai.com/index/decisions-api/"
+      }
+    }
+  ]
+}

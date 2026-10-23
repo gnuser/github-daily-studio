@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T03:04:03.476Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10771421858,
+      "place_id": 119958473240233,
+      "name": "[UPD 🎃] DONT SPLASH ",
+      "playing": 28777,
+      "genre": "Obby & Platformer",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/119958473240233",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-0689ccb932043bd8b4456ed1a7eb5d53/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10768284407,
+      "place_id": 98628861455414,
+      "name": "[🎃] Bike Universe",
+      "playing": 29530,
+      "genre": "Simulation",
+      "approval": 84,
+      "url": "https://www.roblox.com/games/98628861455414",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-36d118e17e81211a151b7330b91e249b/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10770728771,
+      "place_id": 116463962153167,
+      "name": "The Hollow",
+      "playing": 58715,
+      "genre": "Entertainment",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/116463962153167",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-20ee927db499da1e884f1c9c4111d6f6/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10765618402,
+      "place_id": 74122653145285,
+      "name": "Steel Fighters",
+      "playing": 18318,
+      "genre": "Simulation",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/74122653145285",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-dc8cbbfc3fdfa19a10878b70264e897d/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10770018231,
+      "place_id": 87346021451395,
+      "name": "Clone Baby Care (Anomaly)",
+      "playing": 11844,
+      "genre": "Survival",
+      "approval": 88,
+      "url": "https://www.roblox.com/games/87346021451395",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-b8b529ff88425028ded303e88fc94d5c/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10769543742,
+      "place_id": 94278659624110,
+      "name": "Backseat Rally",
+      "playing": 19189,
+      "genre": "未分类",
+      "approval": 93,
+      "url": "https://www.roblox.com/games/94278659624110",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-9c8b4bce79f5ef8fe9ca944f47bfb964/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10769548496,
+      "place_id": 139165770588984,
+      "name": "Fix My Phone!",
+      "playing": 8494,
+      "genre": "Simulation",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/139165770588984",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-050bf8f45dfec0eef3b3290fe846b322/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10769543567,
+      "place_id": 130906410042392,
+      "name": "Cat Battles 🐾",
+      "playing": 35693,
+      "genre": "Action",
+      "approval": 73,
+      "url": "https://www.roblox.com/games/130906410042392",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-1d5621e39cfd0147ac4d32c7e12df451/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10767840473,
+      "place_id": 93756155297797,
+      "name": "Crazy Diver",
+      "playing": 5952,
+      "genre": "Simulation",
+      "approval": 55,
+      "url": "https://www.roblox.com/games/93756155297797",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-f3575cfb457944710976f202929f44bc/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10769464063,
+      "place_id": 116448925875915,
+      "name": "[🌍WORLD 2] +1 Venom Evolution",
+      "playing": 12460,
+      "genre": "Simulation",
+      "approval": 97,
+      "url": "https://www.roblox.com/games/116448925875915",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-d275cb477fc17ca18b4d067526d65840/768/432/Image/Png/noFilter"
+    }
+  ]
+}
