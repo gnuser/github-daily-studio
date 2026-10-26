@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T03:05:31.273Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "top-playing-now",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10563114921,
+      "place_id": 107778070777162,
+      "name": "Steal An Egg",
+      "playing": 762130,
+      "genre": "Simulation",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/107778070777162",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-875b2a6dc156ce6dd64eb637e73238ce/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 66654135,
+      "place_id": 142823291,
+      "name": "Murder Mystery 2",
+      "playing": 305612,
+      "genre": "Survival",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/142823291",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-f483597f5ce44b2617413c11c7425802/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 7709344486,
+      "place_id": 109983668079237,
+      "name": "[💀] Steal a Brainrot",
+      "playing": 274330,
+      "genre": "Simulation",
+      "approval": 85,
+      "url": "https://www.roblox.com/games/109983668079237",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-4ff3ebda9d5543c06a59e3dcc86bc3a8/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 1686885941,
+      "place_id": 4924922222,
+      "name": "Brookhaven 🏡RP",
+      "playing": 272039,
+      "genre": "Roleplay & Avatar Sim",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/4924922222",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-fcf8596af59c7d6ff55daec764ce8d28/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 383310974,
+      "place_id": 920587237,
+      "name": "[🎃] Adopt Me!",
+      "playing": 149941,
+      "genre": "Roleplay & Avatar Sim",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/920587237",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-5e0d32b22a6e00d39c6d60579f8ae2e8/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 7326934954,
+      "place_id": 79546208627805,
+      "name": "99 Nights in the Forest 🔦",
+      "playing": 127751,
+      "genre": "Survival",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/79546208627805",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-1c61ecf26733033252589fe4e2cf1f79/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 3508322461,
+      "place_id": 9391468976,
+      "name": "[HIRED KILLER] Jujutsu Shenanigans",
+      "playing": 125373,
+      "genre": "Action",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/9391468976",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-decec85a41b80e4ac0beca8bc2952a7f/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 994732206,
+      "place_id": 2753915549,
+      "name": "Blox Fruits",
+      "playing": 113412,
+      "genre": "RPG",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/2753915549",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-09e621f1df2e404a391adf389d2bea47/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 6035872082,
+      "place_id": 17625359962,
+      "name": "[🎃] RIVALS",
+      "playing": 111573,
+      "genre": "Shooter",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/17625359962",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-16cda8092fa0dfd10b938e549d46f97d/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10765288803,
+      "place_id": 114326934417838,
+      "name": "Break and Steal an Egg",
+      "playing": 95169,
+      "genre": "Simulation",
+      "approval": 97,
+      "url": "https://www.roblox.com/games/114326934417838",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-4286dd8385df9534c4a15c1e3807d656/768/432/Image/Png/noFilter"
+    }
+  ]
+}
