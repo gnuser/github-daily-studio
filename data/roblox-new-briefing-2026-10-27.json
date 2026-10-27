@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T02:59:16.962Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10771421858,
+      "place_id": 119958473240233,
+      "name": "[NEW STAGES]  DONT SPLASH 🎃",
+      "playing": 65928,
+      "genre": "Obby & Platformer",
+      "approval": 89,
+      "url": "https://www.roblox.com/games/119958473240233",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-0689ccb932043bd8b4456ed1a7eb5d53/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10770605947,
+      "place_id": 127932298993998,
+      "name": "Ragdoll Reality 🩸",
+      "playing": 20279,
+      "genre": "Simulation",
+      "approval": 83,
+      "url": "https://www.roblox.com/games/127932298993998",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-a226bf46f7c3fef104e045cedebdd6a4/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10770593871,
+      "place_id": 81230874545623,
+      "name": "Realistic Ragdoll Engine 🩸",
+      "playing": 12645,
+      "genre": "Simulation",
+      "approval": 88,
+      "url": "https://www.roblox.com/games/81230874545623",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-8ac4bc53dd9401a765d3edf8d771bfab/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10768785226,
+      "place_id": 129631837832236,
+      "name": "A Long Flight [SANDBOX] ",
+      "playing": 7951,
+      "genre": "Survival",
+      "approval": 74,
+      "url": "https://www.roblox.com/games/129631837832236",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-653b2b21e255b09c6f1a6045ae5544e2/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10771507608,
+      "place_id": 136468592163527,
+      "name": "🧸 My Small Business",
+      "playing": 12103,
+      "genre": "Simulation",
+      "approval": 96,
+      "url": "https://www.roblox.com/games/136468592163527",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-efd0076fc2ce0ed46ddf9846d8766eb3/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10770728771,
+      "place_id": 116463962153167,
+      "name": "The Hollow",
+      "playing": 34812,
+      "genre": "Entertainment",
+      "approval": 84,
+      "url": "https://www.roblox.com/games/116463962153167",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-20ee927db499da1e884f1c9c4111d6f6/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10768992869,
+      "place_id": 76034041521581,
+      "name": "🥟SQUISHY DUMPLING PRISON RUN! (Obby)",
+      "playing": 3801,
+      "genre": "Obby & Platformer",
+      "approval": 79,
+      "url": "https://www.roblox.com/games/76034041521581",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-637ded9d9a598ab55a1a563dd1113e90/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10770879065,
+      "place_id": 91673151576922,
+      "name": "It Hears The Water [DONT SPLASH] 🎃",
+      "playing": 6853,
+      "genre": "Survival",
+      "approval": 84,
+      "url": "https://www.roblox.com/games/91673151576922",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-6b4949861c15f1abc8329438f904a55e/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10769543742,
+      "place_id": 94278659624110,
+      "name": "Backseat Rally",
+      "playing": 14660,
+      "genre": "未分类",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/94278659624110",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-9c8b4bce79f5ef8fe9ca944f47bfb964/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10769484703,
+      "place_id": 109440485612336,
+      "name": "What If Disasters",
+      "playing": 11491,
+      "genre": "Survival",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/109440485612336",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-ec2003202cf6e98bfe14395dd48c4243/768/432/Image/Png/noFilter"
+    }
+  ]
+}

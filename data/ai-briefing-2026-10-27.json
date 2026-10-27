@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "title": "AI 日报",
+  "generated_at": "2026-10-27T02:59:45+00:00",
+  "window": {
+    "start": "2026-10-26T11:00:00+08:00",
+    "end": "2026-10-27T11:00:00+08:00"
+  },
+  "summary": "Anthropic 提交上市申请，OpenAI 公布学术协作安排。",
+  "coverage_note": "原始公告均标注 10 月 26 日，未提供精确发布时间；按来源日期收录，无法确认全部严格落在北京时间过去 24 小时内。",
+  "items": [
+    {
+      "id": "anthropic-s1",
+      "category": "行业",
+      "title": "Anthropic 提交 IPO 注册文件",
+      "summary": "Anthropic 宣布向美国 SEC 提交 S-1，计划以 ANT 为代码在纳斯达克上市。发行股数和价格区间尚未确定，注册声明也尚未生效。此次进展是提交申请，不代表已经上市。",
+      "source": {
+        "title": "Anthropic · S-1 filing",
+        "url": "https://www.anthropic.com/news/s1-sec"
+      },
+      "event_date": "2026-10-26",
+      "date_precision": "day",
+      "collected_at": "2026-10-27T02:59:45+00:00"
+    },
+    {
+      "id": "openai-academic-collaborations",
+      "category": "研究",
+      "title": "OpenAI 邀请学术团队审视 AI 生成研究结果",
+      "summary": "OpenAI 公布涉及调和分析、计算复杂性和量子场论的三项研究主张，并尝试不同的公开与协作方式。数学及计算机科学材料包含公开的自然语言稿和 Lean 形式化证明，物理材料由外部团队决定发布节奏。本期核验的是公告及其安排，未独立复核证明，不将这些主张写成学界已有定论。",
+      "source": {
+        "title": "OpenAI · Working with academic communities",
+        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+      },
+      "event_date": "2026-10-26",
+      "date_precision": "day",
+      "collected_at": "2026-10-27T02:59:45+00:00"
+    }
+  ]
+}
