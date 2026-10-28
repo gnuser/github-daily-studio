@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-28",
+  "title": "AI 日报",
+  "generated_at": "2026-10-28T03:01:19+00:00",
+  "window": {
+    "start": "2026-10-27T11:00:00+08:00",
+    "end": "2026-10-28T11:00:00+08:00"
+  },
+  "summary": "Oracle 与 OpenAI 扩大企业应用合作。",
+  "coverage_note": "原始公告标注 10 月 27 日，未提供精确发布时间；按来源日期收录，无法确认严格落在北京时间过去 24 小时内。",
+  "items": [
+    {
+      "id": "oracle-openai-workspace",
+      "category": "产品",
+      "title": "Oracle 计划将企业应用接入 ChatGPT",
+      "summary": "Oracle 正在开发 AI Workspace，计划让用户在 ChatGPT 中查询企业数据、完成获准的业务流程，沿用组织权限与审批。双方还公布了安全检测和应用开发等合作方向。美国 Oracle 客户已可通过 Oracle Marketplace 采购 OpenAI 服务；Workspace 则仍属于开发中的计划，不能视为已全面上线。",
+      "event_date": "2026-10-27",
+      "date_precision": "day",
+      "collected_at": "2026-10-28T03:01:19+00:00",
+      "source": {
+        "title": "OpenAI · Oracle apps in ChatGPT",
+        "url": "https://openai.com/index/oracle-apps-in-chatgpt/"
+      }
+    }
+  ]
+}
