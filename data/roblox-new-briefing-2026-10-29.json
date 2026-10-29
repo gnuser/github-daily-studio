@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T03:05:26.677Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10771421858,
+      "place_id": 119958473240233,
+      "name": "DONT SPLASH",
+      "playing": 75218,
+      "genre": "Obby & Platformer",
+      "approval": 88,
+      "url": "https://www.roblox.com/games/119958473240233",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-0689ccb932043bd8b4456ed1a7eb5d53/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10771507608,
+      "place_id": 136468592163527,
+      "name": "🧸 My Small Business",
+      "playing": 21738,
+      "genre": "Simulation",
+      "approval": 96,
+      "url": "https://www.roblox.com/games/136468592163527",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-efd0076fc2ce0ed46ddf9846d8766eb3/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10770593871,
+      "place_id": 81230874545623,
+      "name": "[🎃] Realistic Ragdoll Engine 🩸",
+      "playing": 24507,
+      "genre": "Simulation",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/81230874545623",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-8ac4bc53dd9401a765d3edf8d771bfab/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10770605947,
+      "place_id": 127932298993998,
+      "name": "Ragdoll Reality 🩸",
+      "playing": 26640,
+      "genre": "Simulation",
+      "approval": 83,
+      "url": "https://www.roblox.com/games/127932298993998",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-a226bf46f7c3fef104e045cedebdd6a4/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10770284142,
+      "place_id": 71335623205843,
+      "name": "Night Rider 🏍️ [TESTING]",
+      "playing": 5873,
+      "genre": "Simulation",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/71335623205843",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-8ef290ca9dcfe67a6bcea9d0edfe343f/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10768001180,
+      "place_id": 120678072723916,
+      "name": "My Bus 🚌",
+      "playing": 5852,
+      "genre": "Simulation",
+      "approval": 84,
+      "url": "https://www.roblox.com/games/120678072723916",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-2fc4c3193a4b811d2380e25534a3ffd8/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10769315427,
+      "place_id": 95168737547508,
+      "name": "[🎃] Steal A Pet And Ride It!",
+      "playing": 21316,
+      "genre": "Simulation",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/95168737547508",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-2c31c54f52a3a79ef8c069711d76e346/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10769249409,
+      "place_id": 88286531172202,
+      "name": "[🎃] Drive a Cart Downhill!",
+      "playing": 8228,
+      "genre": "Obby & Platformer",
+      "approval": 82,
+      "url": "https://www.roblox.com/games/88286531172202",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-9b990da3933cdfcf2abc27a3a6b78da5/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10770229863,
+      "place_id": 98592272079599,
+      "name": "T-Rex vs 99 Players",
+      "playing": 2556,
+      "genre": "Survival",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/98592272079599",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-1b91670e7718c891c2f49bb36caada4e/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10771051754,
+      "place_id": 131817327709359,
+      "name": "Realistic Car Destruction",
+      "playing": 7610,
+      "genre": "Simulation",
+      "approval": 78,
+      "url": "https://www.roblox.com/games/131817327709359",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-74170784d2075d2c35110c243020d55c/768/432/Image/Png/noFilter"
+    }
+  ]
+}

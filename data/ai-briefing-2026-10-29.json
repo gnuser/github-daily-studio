@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "title": "AI 日报",
+  "generated_at": "2026-10-29T03:05:53+00:00",
+  "window": {
+    "start": "2026-10-28T11:00:00+08:00",
+    "end": "2026-10-29T11:00:00+08:00"
+  },
+  "summary": "ChatGPT 的 dot 开始测试短信入口。",
+  "coverage_note": "官方更新记录标注 10 月 28 日，未提供精确发布时间；按来源日期收录，无法确认严格落在北京时间过去 24 小时内。",
+  "items": [
+    {
+      "id": "chatgpt-dot-texting",
+      "category": "产品",
+      "title": "美国 Pro 用户开始测试给 dot 发短信",
+      "summary": "OpenAI 开始向美国 Pro 用户逐步开放 dot 短信测试，可通过 iMessage 或 RCS 与自己的 dot 交流，并接收主动更新。短信沿用 ChatGPT 内的记忆和插件，由第三方 Linq 提供收发服务。官方说明，这项功能不会让 dot 读取用户的其他短信对话。",
+      "event_date": "2026-10-28",
+      "date_precision": "day",
+      "collected_at": "2026-10-29T03:05:53+00:00",
+      "source": {
+        "title": "OpenAI · ChatGPT release notes",
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      }
+    }
+  ]
+}
