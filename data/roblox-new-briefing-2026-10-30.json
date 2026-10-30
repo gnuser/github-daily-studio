@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T03:02:26.236Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10771421858,
+      "place_id": 119958473240233,
+      "name": "DONT SPLASH",
+      "playing": 73965,
+      "genre": "Obby & Platformer",
+      "approval": 88,
+      "url": "https://www.roblox.com/games/119958473240233",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-0689ccb932043bd8b4456ed1a7eb5d53/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10771507608,
+      "place_id": 136468592163527,
+      "name": "🧸 My Small Business",
+      "playing": 19667,
+      "genre": "Simulation",
+      "approval": 96,
+      "url": "https://www.roblox.com/games/136468592163527",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-efd0076fc2ce0ed46ddf9846d8766eb3/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10770699460,
+      "place_id": 89537559330901,
+      "name": "Raise The Biggest Family",
+      "playing": 12193,
+      "genre": "Roleplay & Avatar Sim",
+      "approval": 73,
+      "url": "https://www.roblox.com/games/89537559330901",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-4231c84e2564af56e5280c8e58f1185f/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10770933473,
+      "place_id": 97617452700163,
+      "name": "[🌍UPD] +1 Anime Eyes",
+      "playing": 24497,
+      "genre": "Simulation",
+      "approval": 96,
+      "url": "https://www.roblox.com/games/97617452700163",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-208272b087f4342775b93bb84a7259c7/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10771871836,
+      "place_id": 100453542816833,
+      "name": "📸 Say Cheese! [STORY]",
+      "playing": 7532,
+      "genre": "Adventure",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/100453542816833",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-84e0e383359a17358b96031cdfefdd44/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10770382905,
+      "place_id": 93799361852148,
+      "name": "[NEW CARS] Teach Your Sister How To Drive! 🎙️",
+      "playing": 6024,
+      "genre": "Simulation",
+      "approval": 58,
+      "url": "https://www.roblox.com/games/93799361852148",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-eabd0dbf8b8fbd4362898528c58a8d06/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10770593871,
+      "place_id": 81230874545623,
+      "name": "[🎃] Realistic Ragdoll Engine 🩸",
+      "playing": 26562,
+      "genre": "Simulation",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/81230874545623",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-8ac4bc53dd9401a765d3edf8d771bfab/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10771051754,
+      "place_id": 131817327709359,
+      "name": "Realistic Car Destruction",
+      "playing": 8798,
+      "genre": "Simulation",
+      "approval": 77,
+      "url": "https://www.roblox.com/games/131817327709359",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-74170784d2075d2c35110c243020d55c/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10769957062,
+      "place_id": 70650894743738,
+      "name": "Bug Evolution [🕷️]",
+      "playing": 12125,
+      "genre": "Survival",
+      "approval": 72,
+      "url": "https://www.roblox.com/games/70650894743738",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-823f8bd78ec6b7a6974e516fead6f657/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10771997908,
+      "place_id": 117734411290994,
+      "name": "+1 Spider Arm🕷️",
+      "playing": 7334,
+      "genre": "Simulation",
+      "approval": 97,
+      "url": "https://www.roblox.com/games/117734411290994",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-658e8cf1c403244551e7ca141f05aa85/768/432/Image/Png/noFilter"
+    }
+  ]
+}

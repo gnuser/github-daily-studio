@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "title": "AI 日报",
+  "generated_at": "2026-10-30T03:02:55.038878+00:00",
+  "window": {
+    "start": "2026-10-29T11:00:00+08:00",
+    "end": "2026-10-30T11:00:00+08:00"
+  },
+  "summary": "OpenAI 调整编程额度，Claude 个人套餐更换轻量模型。",
+  "coverage_note": "来源标注事件日期为 10 月 29 日，未提供精确时刻；按来源日期收录，无法确认严格落在北京时间过去 24 小时内。",
+  "items": [
+    {
+      "id": "openai-work-codex-allowance",
+      "category": "产品",
+      "title": "OpenAI 上调部分 Pro 套餐的 Work 与 Codex 额度",
+      "summary": "Pro 100 和 Pro 500 的 Work、Codex 用量额度翻倍。OpenAI 同时取消此前宣布的 Pro 200 额度下调：原本享有较高额度的用户保留额度，处于较低额度的用户从 10 月 29 日起获得双倍额度。",
+      "source": {
+        "title": "OpenAI · ChatGPT release notes",
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      },
+      "event_date": "2026-10-29",
+      "date_precision": "day",
+      "collected_at": "2026-10-30T03:02:55.038878+00:00"
+    },
+    {
+      "id": "claude-haiku-selector-change",
+      "category": "产品",
+      "title": "Claude 个人套餐模型选择器移除 Haiku 4.5",
+      "summary": "Claude 在 Free、Pro、Max 的聊天、Cowork 和 Design 中以 Haiku 5.5 替换 Haiku 4.5。原对话保留，继续对话时改由 Haiku 5.5 回复；Claude Code、Team、Enterprise 和 API 不受此次调整影响。",
+      "source": {
+        "title": "Anthropic · Haiku 4.5 model selector update",
+        "url": "https://support.claude.com/en/articles/17444146-claude-haiku-4-5-was-removed-from-the-model-selector"
+      },
+      "event_date": "2026-10-29",
+      "date_precision": "day",
+      "collected_at": "2026-10-30T03:02:55.038878+00:00"
+    }
+  ]
+}
