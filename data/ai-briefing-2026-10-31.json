@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "title": "AI 日报",
+  "generated_at": "2026-10-31T03:04:21.147549+00:00",
+  "window": {
+    "start": "2026-10-30T11:00:00+08:00",
+    "end": "2026-10-31T11:00:00+08:00"
+  },
+  "summary": "网站训练偏好有了共同信号，Google 公布在轨 AI 测试进展。",
+  "coverage_note": "两篇公告发布于 10 月 30 日，未提供精确时刻；按来源日期收录。Google 的在轨测试发生于本周，具体日期未披露。",
+  "items": [
+    {
+      "id": "openai-training-preference",
+      "category": "行业",
+      "title": "OpenAI 计划支持网站统一声明 AI 训练偏好",
+      "summary": "OpenAI 宣布将支持 robots.txt 中的共同信号，让网站向多个参与厂商表达基础生成式 AI 训练偏好。计划在未来数月实施，现有爬虫控制继续有效；这是一项自愿参与的安排，目前尚未正式启用。",
+      "source": {
+        "title": "OpenAI · AI training preferences",
+        "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
+      },
+      "event_date": "2026-10-30",
+      "date_precision": "day",
+      "collected_at": "2026-10-31T03:04:21.147549+00:00"
+    },
+    {
+      "id": "google-suncatcher-orbit",
+      "category": "研究",
+      "title": "Google 公布 Suncatcher 卫星首次 AI 回传结果",
+      "summary": "Google 称，原型卫星上的数据中心级 TPU 已运行 Gemma 4，并向地面回传生成的诗句。后续将测试轨道热应力和辐射下的运行表现，为 2027 年双星互联实验做准备；目前仍是研究验证阶段。",
+      "source": {
+        "title": "Google Research · Project Suncatcher satellite response",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/"
+      },
+      "event_date": "2026-10-30",
+      "date_precision": "day",
+      "collected_at": "2026-10-31T03:04:21.147549+00:00"
+    }
+  ]
+}
