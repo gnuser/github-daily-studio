@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "title": "AI 日报",
+  "generated_at": "2026-11-01T03:05:47.877096+00:00",
+  "window": {
+    "start": "2026-10-31T11:00:00+08:00",
+    "end": "2026-11-01T11:00:00+08:00"
+  },
+  "summary": "OpenAI Evals 平台进入只读过渡期。",
+  "coverage_note": "本条为官方此前公布的停用时间节点，非今日新公告。文档仅给出日期，未披露具体生效时区和时刻；本次未登录账户实测。",
+  "items": [
+    {
+      "id": "openai-evals-readonly",
+      "category": "开发",
+      "title": "OpenAI Evals 按官方时间表进入只读阶段",
+      "summary": "OpenAI 文档将 10 月 31 日列为现有用户的 Evals 平台转为只读的日期，平台计划于 11 月 30 日关闭。已有评测内容在过渡期仍可访问，使用该平台的团队需要留意后续迁移安排。",
+      "event_date": "2026-10-31",
+      "date_precision": "day",
+      "collected_at": "2026-11-01T03:05:47.877096+00:00",
+      "source": {
+        "title": "OpenAI · Getting started with datasets",
+        "url": "https://developers.openai.com/api/docs/guides/evaluation-getting-started"
+      }
+    }
+  ]
+}
