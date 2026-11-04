@@ -297,6 +297,19 @@ const reports = [
   },
 
 ];
+// Daily archives survive a transient live API failure.
+try {
+ const response=await fetch('./data/github-index.json',{cache:'no-store',signal:AbortSignal.timeout(10000)});
+ if(!response.ok)throw Error('GitHub index');
+ const index=await response.json();
+ if(!Array.isArray(index)||index.some(r=>!/^\d{4}-\d{2}-\d{2}$/.test(r.date)||r.url!==`./data/github-briefing-${r.date}.json`))throw Error('GitHub index');
+ for(const r of index){
+  const old=reports.findIndex(x=>x.type==='github'&&x.date===r.date);
+  if(old>=0)reports.splice(old,1);
+  reports.push({id:'github-'+r.date,type:'github',date:r.date,issue:'存档',title:'GitHub Daily',dataUrl:r.url});
+ }
+ reports.sort((a,b)=>b.date.localeCompare(a.date));
+}catch{/* Retain bundled history when the index is unavailable. */}
 let aiIndexError = false;
 try {
  const response = await fetch('./data/ai-index.json', {cache:'no-store',signal:AbortSignal.timeout(10000)});
@@ -606,14 +619,15 @@ $('#steamCategory').addEventListener('click',()=>{if(!activeType.startsWith('ste
 $('#robloxCategory').addEventListener('click',()=>{if(!activeType.startsWith('roblox'))selectType('roblox');});
 
 function selectType(type) {
-  if (!reportTypes[type] || type === activeType) return;
+  if (!reportTypes[type]) return;
+  if(type===activeType){if(type==='github')refreshGithub();return;}
   activeType = type;
   const firstReport = reportsForType(type)[0];
   activeDate = firstReport?.date || new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai'}).format(new Date());
   visibleMonth = parseDate(activeDate);
   window.history.replaceState(null, "", type === reports[0].type ? window.location.pathname : `?type=${type}`);
   selectReport(activeDate);
-  if(type==='github' && !reports.some(r=>r.live)) refreshGithub();
+  if(type==='github') refreshGithub();
 }
 
 document.querySelectorAll("[data-type]").forEach((button) => {
@@ -643,7 +657,7 @@ async function refreshGithub() {
   const existing=reports.findIndex(r=>r.type==='github' && r.date===date);if(existing>=0)reports.splice(existing,1);
   reports.unshift(report);reportData.set(reportKey(report),data);
   if(activeType==='github' && selection===atSelection){visibleMonth=parseDate(date);await selectReport(date);}
- }catch {if(activeType==='github' && selection===atSelection)$('#loadStatus').textContent='最新榜单暂不可用，当前显示历史存档。';}})();
+ }catch {if(activeType==='github' && selection===atSelection)$('#loadStatus').textContent='最新榜单暂不可用，当前显示历史存档。点击 GitHub 热榜重试。';}})().finally(()=>{githubRequest=null;});
  return githubRequest;
 }
 renderCalendar();

@@ -1,0 +1,13 @@
+import { readFile, writeFile } from 'node:fs/promises';
+import { onRequestGet } from '../functions/api/github-briefing.js';
+const response = await onRequestGet({env:{}});
+if (!response.ok) throw Error(`GitHub collection failed: ${response.status}`);
+const data = await response.json();
+const date = new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(data.generated_at));
+if (!data.trending?.length || data.trending.some(r=>!r.full_name || !r.html_url?.startsWith('https://github.com/'))) throw Error('Invalid GitHub chart');
+const root=new URL('../data/',import.meta.url);
+const index=JSON.parse(await readFile(new URL('github-index.json',root),'utf8'));
+const entries=[{date,url:`./data/github-briefing-${date}.json`},...index.filter(r=>r.date!==date)].sort((a,b)=>b.date.localeCompare(a.date));
+await writeFile(new URL(`github-briefing-${date}.json`,root),JSON.stringify(data,null,2)+'\n');
+await writeFile(new URL('github-index.json',root),JSON.stringify(entries,null,2)+'\n');
+console.log(`Saved GitHub ${date}: ${data.trending.length} projects`);
