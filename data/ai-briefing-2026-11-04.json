@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-04",
+  "title": "AI 日报",
+  "generated_at": "2026-11-04T02:59:24.624388+00:00",
+  "window": {
+    "start": "2026-11-03T11:00:00+08:00",
+    "end": "2026-11-04T11:00:00+08:00"
+  },
+  "summary": "Google 将免费教师 AI 培训扩展到更多国家和地区。",
+  "coverage_note": "核对 Google 官方博客及 OpenAI、Anthropic 公告线索。收录公告仅提供 11 月 3 日日期，未披露精确时间，无法确认严格落在北京时间过去 24 小时内；未将社区帖的最新评论日期当作新闻发布日期。",
+  "items": [
+    {
+      "id": "google-ai-educator-expansion",
+      "category": "教育",
+      "title": "Google 扩大免费教师 AI 培训覆盖范围",
+      "summary": "Google 宣布未来数月将 AI Educator Series 推广至巴西、墨西哥、西班牙、澳大利亚及撒哈拉以南非洲。美国 11 月课程计划于 4 日上线，内容包括用 Gemini 制作互动测评、开展游戏化学习，以及改进作业设计。",
+      "event_date": "2026-11-03",
+      "date_precision": "day",
+      "collected_at": "2026-11-04T02:59:24.624388+00:00",
+      "source": {
+        "title": "Google · Expanding AI educator training to new countries",
+        "url": "https://blog.google/products-and-platforms/products/education/google-ai-educator-series-global-expansion-november-2026/"
+      }
+    }
+  ]
+}
