@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T02:59:48.271Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10772217708,
+      "place_id": 122379697375766,
+      "name": "Tesla Roadster Chase",
+      "playing": 11375,
+      "genre": "Simulation",
+      "approval": 84,
+      "url": "https://www.roblox.com/games/122379697375766",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-694fd85219ad3e4feac748f0ddf08d60/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10771680162,
+      "place_id": 91652462379782,
+      "name": "Can You Pass A Driving Test?",
+      "playing": 6216,
+      "genre": "Simulation",
+      "approval": 84,
+      "url": "https://www.roblox.com/games/91652462379782",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-b53f5a98c2d9c1cc9de6e96340200cc0/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10771155665,
+      "place_id": 113398609378596,
+      "name": "Ragdoll Sandbox",
+      "playing": 14132,
+      "genre": "Simulation",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/113398609378596",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-a009a6838fea74c5757105418683472b/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10771421858,
+      "place_id": 119958473240233,
+      "name": "DONT SPLASH",
+      "playing": 64958,
+      "genre": "Obby & Platformer",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/119958473240233",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-0689ccb932043bd8b4456ed1a7eb5d53/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10772066587,
+      "place_id": 91246277860636,
+      "name": "[CLASS] MALAM SAMA OPAH ",
+      "playing": 11347,
+      "genre": "Survival",
+      "approval": 85,
+      "url": "https://www.roblox.com/games/91246277860636",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-15715f820c3b93e32d485ce29d1dec08/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10769957062,
+      "place_id": 70650894743738,
+      "name": "Bug Evolution [🦟]",
+      "playing": 20086,
+      "genre": "Survival",
+      "approval": 80,
+      "url": "https://www.roblox.com/games/70650894743738",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-823f8bd78ec6b7a6974e516fead6f657/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10771997908,
+      "place_id": 117734411290994,
+      "name": "+1 Spider Arm🕷️",
+      "playing": 16044,
+      "genre": "Simulation",
+      "approval": 97,
+      "url": "https://www.roblox.com/games/117734411290994",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-658e8cf1c403244551e7ca141f05aa85/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10759401628,
+      "place_id": 104155717798808,
+      "name": "Destroy Verity 💥🫠",
+      "playing": 7274,
+      "genre": "Action",
+      "approval": 70,
+      "url": "https://www.roblox.com/games/104155717798808",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-f471409d5c0efdaf7ad063d7806a5b2d/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10771800287,
+      "place_id": 92696280499166,
+      "name": "Make Viral Candy! 🍬",
+      "playing": 4695,
+      "genre": "Simulation",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/92696280499166",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-fd1645a37d07f29208b82e2a7615620e/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10733617110,
+      "place_id": 93660722909304,
+      "name": "[👁️‍🗨️MIMIC] Scary Baboon Reimagined",
+      "playing": 12050,
+      "genre": "Survival",
+      "approval": 89,
+      "url": "https://www.roblox.com/games/93660722909304",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-c21a4bd093dbc1f024f5422f36af248d/768/432/Image/Png/noFilter"
+    }
+  ]
+}
