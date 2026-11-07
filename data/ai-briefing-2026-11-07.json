@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-07",
+  "title": "AI 日报",
+  "generated_at": "2026-11-07T02:59:54.432146+00:00",
+  "window": {
+    "start": "2026-11-06T11:00:00+08:00",
+    "end": "2026-11-07T11:00:00+08:00"
+  },
+  "summary": "今天关注智能体的游戏协作、长期记忆与科学建模。",
+  "coverage_note": "依据原始研究文章独立整理。来源仅标注 11 月 6 日，未提供具体发布时间，无法确认严格落入北京时间过去 24 小时窗口。",
+  "items": [
+    {
+      "id": "project-eve",
+      "category": "研究",
+      "title": "Claude 在 EVE 游戏中测试交易与团队协作",
+      "summary": "Anthropic 公布 EVE Online 历史市场回放和 EVE Frontier 团队实验：较新模型擅长赚取买卖差价，但预测价格方向仍不稳定；四个智能体能够协作，却很少识别队友的蓄意破坏。市场实验没有实际交易，也无法模拟其他玩家对其行为的反应。",
+      "event_date": "2026-11-06",
+      "date_precision": "day",
+      "collected_at": "2026-11-07T02:59:54.432146+00:00",
+      "source": {
+        "title": "Anthropic · Claude 在 EVE 游戏中测试交易与团队协作",
+        "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs"
+      }
+    },
+    {
+      "id": "agent-memory",
+      "category": "研究",
+      "title": "Anthropic 拆解智能体的长期记忆",
+      "summary": "工程报告比较会话记录、记忆笔记与离线整理的作用。在数据库问答和游戏测试中，保存经验证的规则与计划比堆积细节更有帮助。文中的跨模型对比和个别游戏运行属于实验观察，不能当作所有任务上的效果保证。",
+      "event_date": "2026-11-06",
+      "date_precision": "day",
+      "collected_at": "2026-11-07T02:59:54.432146+00:00",
+      "source": {
+        "title": "Anthropic · Anthropic 拆解智能体的长期记忆",
+        "url": "https://www.anthropic.com/research/components-of-agent-memory"
+      }
+    },
+    {
+      "id": "scientific-models",
+      "category": "研究",
+      "title": "科学建模：拟合数据之后还要解释机制",
+      "summary": "图宾根研究者在 Anthropic 客座文章中梳理 AI 如何参与模型构建、参数约束和解释。文章介绍用模拟数据训练网络来推断参数范围，并强调多个模型可能同样拟合观测；得到一个好结果并不等于理解了真实机制。这是研究方法综述。",
+      "event_date": "2026-11-06",
+      "date_precision": "day",
+      "collected_at": "2026-11-07T02:59:54.432146+00:00",
+      "source": {
+        "title": "Anthropic · 科学建模：拟合数据之后还要解释机制",
+        "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models"
+      }
+    }
+  ]
+}
