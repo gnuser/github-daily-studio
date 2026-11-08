@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T02:57:55.744Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10773425091,
+      "place_id": 135264274035761,
+      "name": "[🎩] Ragdoll Research",
+      "playing": 33531,
+      "genre": "Simulation",
+      "approval": 80,
+      "url": "https://www.roblox.com/games/135264274035761",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-0f3e40b914d7f074b97bf981e6e61876/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10769671316,
+      "place_id": 77900175935766,
+      "name": "[⭐UPD] Survive Your Ideas",
+      "playing": 56439,
+      "genre": "Survival",
+      "approval": 83,
+      "url": "https://www.roblox.com/games/77900175935766",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-fc014bef2f271f5c034e8aedb76b328a/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10770575733,
+      "place_id": 121868512253414,
+      "name": "Ragdoll Physics 🩸",
+      "playing": 60398,
+      "genre": "Simulation",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/121868512253414",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-e0c2ea2d77874f955a0600f35d436472/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10771421858,
+      "place_id": 119958473240233,
+      "name": "DONT SPLASH",
+      "playing": 114113,
+      "genre": "Obby & Platformer",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/119958473240233",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-0689ccb932043bd8b4456ed1a7eb5d53/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10770566869,
+      "place_id": 92316656787977,
+      "name": "⚽ Be a Soccer Legend",
+      "playing": 15849,
+      "genre": "Sports & Racing",
+      "approval": 96,
+      "url": "https://www.roblox.com/games/92316656787977",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-9ec83769a5ff0755dd29678f7fb6001f/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10769941703,
+      "place_id": 134117451433332,
+      "name": "13 Days to Escape [ALPHA]",
+      "playing": 17740,
+      "genre": "Survival",
+      "approval": 74,
+      "url": "https://www.roblox.com/games/134117451433332",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-15e42a9bbdd2bf30f9e83b0e14cf2b6e/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10772066587,
+      "place_id": 91246277860636,
+      "name": "[UPD] MALAM SAMA OPAH ",
+      "playing": 75781,
+      "genre": "Survival",
+      "approval": 84,
+      "url": "https://www.roblox.com/games/91246277860636",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-15715f820c3b93e32d485ce29d1dec08/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10773014494,
+      "place_id": 79468627835394,
+      "name": "DONT SWIM 🚫🏊",
+      "playing": 6615,
+      "genre": "Obby & Platformer",
+      "approval": 74,
+      "url": "https://www.roblox.com/games/79468627835394",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-1a9b0334292f9e211d6cfebeb842553b/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10773161216,
+      "place_id": 77843690602580,
+      "name": "WRECKED [Realistic Crashes]",
+      "playing": 12019,
+      "genre": "Simulation",
+      "approval": 95,
+      "url": "https://www.roblox.com/games/77843690602580",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-8aa5e47c87cf01b9c306d121a9f47fb9/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10733617110,
+      "place_id": 93660722909304,
+      "name": "[🧪NEW LAB] Fatal Baboons",
+      "playing": 26122,
+      "genre": "Survival",
+      "approval": 88,
+      "url": "https://www.roblox.com/games/93660722909304",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-591f7a59d4eb0ab1d08bdd43e0e2bfb9/768/432/Image/Png/noFilter"
+    }
+  ]
+}
