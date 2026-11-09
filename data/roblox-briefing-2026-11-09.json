@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T03:03:31.290Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "top-playing-now",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10563114921,
+      "place_id": 107778070777162,
+      "name": "Steal An Egg",
+      "playing": 599559,
+      "genre": "Simulation",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/107778070777162",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-875b2a6dc156ce6dd64eb637e73238ce/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 66654135,
+      "place_id": 142823291,
+      "name": "Murder Mystery 2",
+      "playing": 348255,
+      "genre": "Survival",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/142823291",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-f483597f5ce44b2617413c11c7425802/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 1686885941,
+      "place_id": 4924922222,
+      "name": "Brookhaven 🏡RP",
+      "playing": 292707,
+      "genre": "Roleplay & Avatar Sim",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/4924922222",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-d9038b7721f3cc13c7a1a34d3e585bd7/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 994732206,
+      "place_id": 2753915549,
+      "name": "[🎃] Blox Fruits",
+      "playing": 233595,
+      "genre": "RPG",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/2753915549",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-77b3430ced16006f6da18d6a77b95ea0/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 383310974,
+      "place_id": 920587237,
+      "name": "[⚡] Adopt Me!",
+      "playing": 175158,
+      "genre": "Roleplay & Avatar Sim",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/920587237",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-65db55c944d0826a0b113a4c83a3c7bb/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10766972131,
+      "place_id": 120219252362013,
+      "name": "Throw Food For Animals",
+      "playing": 138294,
+      "genre": "Simulation",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/120219252362013",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-e8b4deada30535db18163fe79a016492/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 6035872082,
+      "place_id": 17625359962,
+      "name": "RIVALS",
+      "playing": 107616,
+      "genre": "Shooter",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/17625359962",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-16cda8092fa0dfd10b938e549d46f97d/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 6331902150,
+      "place_id": 18687417158,
+      "name": "[UPD 🎃] Forsaken",
+      "playing": 90974,
+      "genre": "Survival",
+      "approval": 84,
+      "url": "https://www.roblox.com/games/18687417158",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-14d993b5a906bca017a07cd3b6fa4c8b/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 7326934954,
+      "place_id": 79546208627805,
+      "name": "99 Nights in the Forest 🔦",
+      "playing": 88360,
+      "genre": "Survival",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/79546208627805",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-ee923b1e9ac5564624ee9c484006166c/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10765288803,
+      "place_id": 114326934417838,
+      "name": "Break and Steal an Egg",
+      "playing": 86297,
+      "genre": "Simulation",
+      "approval": 97,
+      "url": "https://www.roblox.com/games/114326934417838",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-4286dd8385df9534c4a15c1e3807d656/768/432/Image/Png/noFilter"
+    }
+  ]
+}
