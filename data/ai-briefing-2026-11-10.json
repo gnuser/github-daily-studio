@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "title": "AI 日报",
+  "generated_at": "2026-11-10T03:04:19.611494+00:00",
+  "window": {
+    "start": "2026-11-09T11:00:00+08:00",
+    "end": "2026-11-10T11:00:00+08:00"
+  },
+  "summary": "Claude 更新旗舰模型，Google 扩展 TPU 系统。",
+  "coverage_note": "依据官方发布独立整理。来源只标注 11 月 9 日，未提供具体时刻，无法确认严格落入北京时间过去 24 小时窗口。",
+  "items": [
+    {
+      "id": "claude-5-2",
+      "category": "产品",
+      "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2",
+      "summary": "两者采用同一基础模型，Fable 保留更严格的网络安全与生物安全限制，Mythos 需通过资格审核。标准 API 输入、输出价格分别为每百万 token 8 美元和 40 美元。官方称生成速度最高提高 30%；编程和科研能力提升仍应结合其测试条件理解。",
+      "event_date": "2026-11-09",
+      "date_precision": "day",
+      "collected_at": "2026-11-10T03:04:19.611494+00:00",
+      "source": {
+        "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      }
+    },
+    {
+      "id": "tpu-8",
+      "category": "产品",
+      "title": "Google 增加 TPU 8tx 与 8i Max 两种系统",
+      "summary": "8tx 基于已有 8t 芯片增加硬件机密计算，面向敏感数据推理；8i Max 将两颗 8i 芯片封装在一起，以增加计算能力与内存带宽，服务长上下文任务。这是现有芯片的系统配置扩展，性能数字来自 Google 自测。",
+      "event_date": "2026-11-09",
+      "date_precision": "day",
+      "collected_at": "2026-11-10T03:04:19.611494+00:00",
+      "source": {
+        "title": "Google 增加 TPU 8tx 与 8i Max 两种系统",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+      }
+    }
+  ]
+}
