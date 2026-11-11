@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T03:03:46.966Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10773926254,
+      "place_id": 140431845542654,
+      "name": "Bloody Ragdoll Physics 🩸",
+      "playing": 24000,
+      "genre": "Simulation",
+      "approval": 84,
+      "url": "https://www.roblox.com/games/140431845542654",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-55f20825848b228383e8c9435f9c28d4/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10772114384,
+      "place_id": 104688616907171,
+      "name": "Build a Bridge",
+      "playing": 6685,
+      "genre": "Simulation",
+      "approval": 96,
+      "url": "https://www.roblox.com/games/104688616907171",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-3e92c495508b56dc7209814f0ade8a8a/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10769671316,
+      "place_id": 77900175935766,
+      "name": "Survive Your Ideas",
+      "playing": 41407,
+      "genre": "Survival",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/77900175935766",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-fc014bef2f271f5c034e8aedb76b328a/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10772946647,
+      "place_id": 116779912472448,
+      "name": "Do Not Stop.",
+      "playing": 13708,
+      "genre": "Survival",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/116779912472448",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-7918bd65eaf52973216c6e79b7f6974f/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10773618503,
+      "place_id": 101277003916102,
+      "name": "Hyper Realistic Ragdoll",
+      "playing": 16528,
+      "genre": "Simulation",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/101277003916102",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-e9fe3b050e80d05910d5a21319fe10f3/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10771853697,
+      "place_id": 107676118189831,
+      "name": "[FREE SUITS] Project Web",
+      "playing": 5678,
+      "genre": "Action",
+      "approval": 93,
+      "url": "https://www.roblox.com/games/107676118189831",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-820a30f752704aa657fad81c38c7074c/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10766373483,
+      "place_id": 125233868013014,
+      "name": "Troll Grab Tower [FREE ESCAPE]",
+      "playing": 4985,
+      "genre": "Obby & Platformer",
+      "approval": 78,
+      "url": "https://www.roblox.com/games/125233868013014",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-61ba51fef7e1994c8b548e7a254d75bd/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10770575733,
+      "place_id": 121868512253414,
+      "name": "Ragdoll Physics 🩸",
+      "playing": 28049,
+      "genre": "Simulation",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/121868512253414",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-e0c2ea2d77874f955a0600f35d436472/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10772266488,
+      "place_id": 113986269985034,
+      "name": "[UPD] Build a REAL House",
+      "playing": 4684,
+      "genre": "Simulation",
+      "approval": 73,
+      "url": "https://www.roblox.com/games/113986269985034",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-3ff9604b27a82c37532c6549f19b6aff/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10771421858,
+      "place_id": 119958473240233,
+      "name": "DONT SPLASH",
+      "playing": 53576,
+      "genre": "Obby & Platformer",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/119958473240233",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-0689ccb932043bd8b4456ed1a7eb5d53/768/432/Image/Png/noFilter"
+    }
+  ]
+}

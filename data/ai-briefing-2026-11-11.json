@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "title": "AI 日报",
+  "generated_at": "2026-11-11T03:04:18.150452+00:00",
+  "window": {
+    "start": "2026-11-10T11:00:00+08:00",
+    "end": "2026-11-11T11:00:00+08:00"
+  },
+  "summary": "Claude 扩展协作工具，Adobe 更新 AI 创作流程。",
+  "coverage_note": "依据官方产品文章和新闻稿独立整理。来源只标注 11 月 10 日，未给出时刻，无法确认严格落入北京时间过去 24 小时窗口。",
+  "items": [
+    {
+      "id": "claude-work",
+      "category": "产品",
+      "title": "Claude 增加白板、表格与数据协作",
+      "summary": "Whiteboards 和 Sheets 以测试版向付费方案提供，支持团队与 Claude 共同编辑；Sheets 目前只有基础表格能力，可导出 Excel 或 CSV。原 Dashboards 更名为 Claude Data 并正式提供，认证查询和实时分享仍在测试。企业管理员的默认开关与团队版不同。",
+      "event_date": "2026-11-10",
+      "date_precision": "day",
+      "collected_at": "2026-11-11T03:04:18.150452+00:00",
+      "source": {
+        "title": "Claude 增加白板、表格与数据协作",
+        "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+      }
+    },
+    {
+      "id": "firefly-max",
+      "category": "产品",
+      "title": "Adobe 扩展 Firefly 创作代理",
+      "summary": "Adobe MAX 公布 Firefly AI Assistant 测试版的新能力，包括先审阅计划、选择模型和保存创作偏好。Firefly Graph 用于可重复的工作流程，设计转代码和持续后台代理仍属预览；这些发布不能等同于所有功能已全面开放。",
+      "event_date": "2026-11-10",
+      "date_precision": "day",
+      "collected_at": "2026-11-11T03:04:18.150452+00:00",
+      "source": {
+        "title": "Adobe 扩展 Firefly 创作代理",
+        "url": "https://news.adobe.com/news/downloads/pdfs/2026/11/firefly-release-max-2026.pdf"
+      }
+    }
+  ]
+}
