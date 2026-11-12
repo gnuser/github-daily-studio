@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "title": "AI 日报",
+  "generated_at": "2026-11-12T03:43:18.480403+00:00",
+  "window": {
+    "start": "2026-11-11T11:00:00+08:00",
+    "end": "2026-11-12T11:00:00+08:00"
+  },
+  "summary": "Google 推出面向有限选项判断的 Gemini Decisions API。",
+  "coverage_note": "依据官方产品公告独立整理。来源标注 11 月 11 日但未给出具体时刻，无法确认严格落入北京时间过去 24 小时窗口。",
+  "items": [
+    {
+      "id": "gemini-decisions",
+      "category": "产品",
+      "title": "Gemini Decision 1 专门处理快速选择题",
+      "summary": "Google 在 AI Studio 提供 Decisions API，可对同一份文本、图像、音频、视频或 PDF 输入同时判断最多 1000 个问题，返回选项概率和置信度。官方公布输入上限 256K token、每百万输入 token 0.10 美元且不收输出费用；150—250 毫秒延迟为厂商公布数据，不代表所有应用的实际速度。",
+      "event_date": "2026-11-11",
+      "date_precision": "day",
+      "collected_at": "2026-11-12T03:43:18.480403+00:00",
+      "source": {
+        "title": "Google · Gemini Decisions API",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-11-12T03:14:54.034Z",
+  "sources": {
+    "trending_today": "https://github.com/trending?since=daily"
+  },
+  "counts": {
+    "trending": 10
+  },
+  "trending": [
+    {
+      "rank": 1,
+      "owner": "meta",
+      "name": "astryx",
+      "full_name": "meta/astryx",
+      "html_url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stargazers_count": 25211,
+      "forks_count": 1966,
+      "stars_today": 2776,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 2,
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "stargazers_count": 70423,
+      "forks_count": 56905,
+      "stars_today": 278,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 3,
+      "owner": "GoogleChrome",
+      "name": "modern-web-guidance-src",
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "html_url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "",
+      "language": "TypeScript",
+      "stargazers_count": 1860,
+      "forks_count": 146,
+      "stars_today": 159,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 4,
+      "owner": "shadcn",
+      "name": "improve",
+      "full_name": "shadcn/improve",
+      "html_url": "https://github.com/shadcn/improve",
+      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "language": "",
+      "stargazers_count": 11012,
+      "forks_count": 448,
+      "stars_today": 361,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 5,
+      "owner": "addyosmani",
+      "name": "agent-skills",
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stargazers_count": 116029,
+      "forks_count": 12169,
+      "stars_today": 787,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 6,
+      "owner": "vercel-labs",
+      "name": "agent-browser",
+      "full_name": "vercel-labs/agent-browser",
+      "html_url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stargazers_count": 49950,
+      "forks_count": 3491,
+      "stars_today": 708,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 7,
+      "owner": "we-promise",
+      "name": "sure",
+      "full_name": "we-promise/sure",
+      "html_url": "https://github.com/we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "language": "Ruby",
+      "stargazers_count": 13052,
+      "forks_count": 962,
+      "stars_today": 1078,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 8,
+      "owner": "homeassistant-ai",
+      "name": "ha-mcp",
+      "full_name": "homeassistant-ai/ha-mcp",
+      "html_url": "https://github.com/homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "language": "Python",
+      "stargazers_count": 7437,
+      "forks_count": 454,
+      "stars_today": 645,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 9,
+      "owner": "openai",
+      "name": "codex-security",
+      "full_name": "openai/codex-security",
+      "html_url": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "stargazers_count": 11828,
+      "forks_count": 945,
+      "stars_today": 52,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 10,
+      "owner": "TheAlgorithms",
+      "name": "Java",
+      "full_name": "TheAlgorithms/Java",
+      "html_url": "https://github.com/TheAlgorithms/Java",
+      "description": "All Algorithms implemented in Java",
+      "language": "Java",
+      "stargazers_count": 67080,
+      "forks_count": 21513,
+      "stars_today": 51,
+      "source_lists": [
+        "trending-today"
+      ]
+    }
+  ]
+}
