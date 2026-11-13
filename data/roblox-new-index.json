@@ -1,5 +1,12 @@
 [
   {
+    "id": "roblox-new-2026-11-13",
+    "type": "roblox-new",
+    "date": "2026-11-13",
+    "title": "新游上榜",
+    "dataUrl": "./data/roblox-new-briefing-2026-11-13.json"
+  },
+  {
     "id": "roblox-new-2026-11-12",
     "type": "roblox-new",
     "date": "2026-11-12",
