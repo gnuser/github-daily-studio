@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "title": "AI 日报",
+  "generated_at": "2026-11-14T03:01:48.752872+00:00",
+  "window": {
+    "start": "2026-11-13T11:00:00+08:00",
+    "end": "2026-11-14T11:00:00+08:00"
+  },
+  "summary": "Anthropic 公布安全评测设计与报告建议。",
+  "coverage_note": "依据原始研究文章独立整理。来源标注 11 月 13 日但未提供时刻，无法确认严格落入北京时间过去 24 小时窗口。",
+  "items": [
+    {
+      "id": "anthropic-safety-evaluations",
+      "category": "研究",
+      "title": "Anthropic：安全评测不能只看拒答率",
+      "summary": "Anthropic 发布安全评测方法建议：用贴近真实使用的多轮对话，分别检验有害请求的处理与正常请求的误拒；由领域专家制定评分标准，并预先登记分析计划、完整报告统计与实验细节。文章强调，某项评测分数提高并不能自动证明模型在所有场景更安全。",
+      "event_date": "2026-11-13",
+      "date_precision": "day",
+      "collected_at": "2026-11-14T03:01:48.752872+00:00",
+      "source": {
+        "title": "Anthropic · Building strong safety evaluations",
+        "url": "https://www.anthropic.com/research/building-strong-safety-evaluations"
+      }
+    }
+  ]
+}
