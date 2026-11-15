@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T03:01:58.865Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10774386745,
+      "place_id": 88246556972100,
+      "name": "Sandworm Playground",
+      "playing": 39313,
+      "genre": "Simulation",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/88246556972100",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-873e06ee6d54b84f5a56c65754131c51/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10770463307,
+      "place_id": 71586501620185,
+      "name": "Stop The Tsunami!",
+      "playing": 18905,
+      "genre": "未分类",
+      "approval": 85,
+      "url": "https://www.roblox.com/games/71586501620185",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-0091ad4c37fcf4a114da5ea78c643676/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10770730129,
+      "place_id": 106931373443671,
+      "name": "Ragdoll Soccer",
+      "playing": 54287,
+      "genre": "Sports & Racing",
+      "approval": 72,
+      "url": "https://www.roblox.com/games/106931373443671",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-fd3eea7e3e98dadf633410cc815193bf/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10772946647,
+      "place_id": 116779912472448,
+      "name": "Do Not Stop.",
+      "playing": 34989,
+      "genre": "Survival",
+      "approval": 89,
+      "url": "https://www.roblox.com/games/116779912472448",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-7918bd65eaf52973216c6e79b7f6974f/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10769671316,
+      "place_id": 77900175935766,
+      "name": "[🗺️MAPS] Survive Your Ideas",
+      "playing": 82107,
+      "genre": "Survival",
+      "approval": 89,
+      "url": "https://www.roblox.com/games/77900175935766",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-fc014bef2f271f5c034e8aedb76b328a/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10773874482,
+      "place_id": 124599477478340,
+      "name": "Gecko Duo 🦎 [2 Player Obby]",
+      "playing": 9469,
+      "genre": "Obby & Platformer",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/124599477478340",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-bc1028576ead6c5066683589c8412c4f/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10774468211,
+      "place_id": 135471930388646,
+      "name": "💣 Ragdoll Destruction Playground",
+      "playing": 15979,
+      "genre": "Simulation",
+      "approval": 83,
+      "url": "https://www.roblox.com/games/135471930388646",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-805eafa3501099472448517812e847c7/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10773282691,
+      "place_id": 128447145965727,
+      "name": "🤡 Class Clowns",
+      "playing": 9587,
+      "genre": "Survival",
+      "approval": 77,
+      "url": "https://www.roblox.com/games/128447145965727",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-6bcc89e1c251342a7cff7e0f179c7337/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10772266488,
+      "place_id": 113986269985034,
+      "name": "[UPD] Build a REAL House",
+      "playing": 13432,
+      "genre": "Simulation",
+      "approval": 76,
+      "url": "https://www.roblox.com/games/113986269985034",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-3ff9604b27a82c37532c6549f19b6aff/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10773926254,
+      "place_id": 140431845542654,
+      "name": "Bloody Ragdoll Physics 🩸",
+      "playing": 46335,
+      "genre": "Simulation",
+      "approval": 86,
+      "url": "https://www.roblox.com/games/140431845542654",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-55f20825848b228383e8c9435f9c28d4/768/432/Image/Png/noFilter"
+    }
+  ]
+}
