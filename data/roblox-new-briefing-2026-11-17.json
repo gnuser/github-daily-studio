@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T03:05:16.416Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10774810800,
+      "place_id": 124780003623150,
+      "name": "Realistic Ragdoll MMA 🥊",
+      "playing": 21695,
+      "genre": "Action",
+      "approval": 77,
+      "url": "https://www.roblox.com/games/124780003623150",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-61c98547ad833a3234cc1e8cce76c629/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10774386745,
+      "place_id": 88246556972100,
+      "name": "Sandworm Playground",
+      "playing": 16272,
+      "genre": "Simulation",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/88246556972100",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-873e06ee6d54b84f5a56c65754131c51/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10773487349,
+      "place_id": 123969755970816,
+      "name": "[🐜] Ant Evolution",
+      "playing": 21756,
+      "genre": "Survival",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/123969755970816",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-eb6068bbffb01ee49d99fc552ee64fef/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10772946647,
+      "place_id": 116779912472448,
+      "name": "Do Not Stop.",
+      "playing": 18927,
+      "genre": "Survival",
+      "approval": 89,
+      "url": "https://www.roblox.com/games/116779912472448",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-7918bd65eaf52973216c6e79b7f6974f/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10770604649,
+      "place_id": 83784149502814,
+      "name": "BloxNG [CRASH PHYSICS] 💥",
+      "playing": 17262,
+      "genre": "Simulation",
+      "approval": 93,
+      "url": "https://www.roblox.com/games/83784149502814",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-4bb7d77fed58db812816caff66198cb0/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10769671316,
+      "place_id": 77900175935766,
+      "name": "[🗺️MAPS] Survive Your Ideas",
+      "playing": 37172,
+      "genre": "Survival",
+      "approval": 89,
+      "url": "https://www.roblox.com/games/77900175935766",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-fc014bef2f271f5c034e8aedb76b328a/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10774204862,
+      "place_id": 98979169190595,
+      "name": "Volley Bomb",
+      "playing": 14615,
+      "genre": "Action",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/98979169190595",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-38baeefebfb58124c4afab16a46d7b0d/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10773282691,
+      "place_id": 128447145965727,
+      "name": "🤡 Class Clowns",
+      "playing": 5342,
+      "genre": "Survival",
+      "approval": 78,
+      "url": "https://www.roblox.com/games/128447145965727",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-6bcc89e1c251342a7cff7e0f179c7337/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10773416193,
+      "place_id": 78884249003161,
+      "name": "Voxel Wars",
+      "playing": 16312,
+      "genre": "Shooter",
+      "approval": 80,
+      "url": "https://www.roblox.com/games/78884249003161",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-f6787e6df586afd755eb69fbff9a7da4/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10774468211,
+      "place_id": 135471930388646,
+      "name": "💣 Ragdoll Destruction Playground",
+      "playing": 10172,
+      "genre": "Simulation",
+      "approval": 83,
+      "url": "https://www.roblox.com/games/135471930388646",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-805eafa3501099472448517812e847c7/768/432/Image/Png/noFilter"
+    }
+  ]
+}

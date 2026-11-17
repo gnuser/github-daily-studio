@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "title": "AI 日报",
+  "generated_at": "2026-11-17T03:05:47.438960+00:00",
+  "window": {
+    "start": "2026-11-16T11:00:00+08:00",
+    "end": "2026-11-17T11:00:00+08:00"
+  },
+  "summary": "漏洞披露期限调整、科研资助扩容，以及医疗软件代理更新。",
+  "coverage_note": "依据官方原始公告独立整理。来源仅标注 11 月 16 日，无法确认严格落入北京时间过去 24 小时窗口。",
+  "items": [
+    {
+      "id": "anthropic-cvd",
+      "category": "安全",
+      "title": "Anthropic 缩短漏洞披露期限",
+      "summary": "从 2027 年 1 月 1 日起新报告的高危和严重漏洞，披露窗口由 90 天缩为 30 天，其他漏洞为 45 天；既有报告沿用原期限。公司称 AI 加快了漏洞再发现，因此调整节奏；难以快速修复的问题仍可协商，未经人工复核的 AI 发现不适用此次调整。",
+      "event_date": "2026-11-16",
+      "date_precision": "day",
+      "collected_at": "2026-11-17T03:05:47.438960+00:00",
+      "source": {
+        "title": "Anthropic · Coordinated vulnerability disclosure timelines",
+        "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines"
+      }
+    },
+    {
+      "id": "researcher-access",
+      "category": "科研",
+      "title": "OpenAI 扩大学术研究者免费使用计划",
+      "summary": "下一轮申请于 11 月 23 日开放，按先到先得向符合条件的研究者提供 5 万份资助。每份覆盖申请者及最多两名合作者的 ChatGPT Plus；本轮最多支持 15 万人，整个计划的目标为 20 万人。新资助使用 Plus，试点提供的是 Pro。",
+      "event_date": "2026-11-16",
+      "date_precision": "day",
+      "collected_at": "2026-11-17T03:05:47.438960+00:00",
+      "source": {
+        "title": "OpenAI · Broadening access to AI for scientists",
+        "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/"
+      }
+    },
+    {
+      "id": "healthcare-agents",
+      "category": "产品",
+      "title": "ChatGPT 医疗产品增加跨系统操作与插件",
+      "summary": "OpenAI 宣布更新医疗产品的临床检索，并增加 20 多个医疗插件，同时推进可在现有软件中点击、输入和切换应用的代理，用于转诊、授权申请等多步骤工作。这是厂商发布的产品进展，不代表本站验证了临床效果。",
+      "event_date": "2026-11-16",
+      "date_precision": "day",
+      "collected_at": "2026-11-17T03:05:47.438960+00:00",
+      "source": {
+        "title": "OpenAI · More ways to move care forward",
+        "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/"
+      }
+    }
+  ]
+}
