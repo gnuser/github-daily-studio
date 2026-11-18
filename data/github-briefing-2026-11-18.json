@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-11-18T03:04:56.167Z",
+  "sources": {
+    "trending_today": "https://github.com/trending?since=daily"
+  },
+  "counts": {
+    "trending": 15
+  },
+  "trending": [
+    {
+      "rank": 1,
+      "owner": "elementalsouls",
+      "name": "Claude-BugHunter",
+      "full_name": "elementalsouls/Claude-BugHunter",
+      "html_url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "language": "Python",
+      "stargazers_count": 9511,
+      "forks_count": 1370,
+      "stars_today": 1005,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 2,
+      "owner": "mvanhorn",
+      "name": "last30days-skill",
+      "full_name": "mvanhorn/last30days-skill",
+      "html_url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stargazers_count": 69172,
+      "forks_count": 6154,
+      "stars_today": 696,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 3,
+      "owner": "alibaba",
+      "name": "open-code-review",
+      "full_name": "alibaba/open-code-review",
+      "html_url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stargazers_count": 53817,
+      "forks_count": 4435,
+      "stars_today": 763,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 4,
+      "owner": "Tencent",
+      "name": "LoopForge",
+      "full_name": "Tencent/LoopForge",
+      "html_url": "https://github.com/Tencent/LoopForge",
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "language": "Go",
+      "stargazers_count": 3321,
+      "forks_count": 452,
+      "stars_today": 591,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 5,
+      "owner": "dream-num",
+      "name": "univer",
+      "full_name": "dream-num/univer",
+      "html_url": "https://github.com/dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "language": "TypeScript",
+      "stargazers_count": 28968,
+      "forks_count": 2622,
+      "stars_today": 1774,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 6,
+      "owner": "getarcaneapp",
+      "name": "arcane",
+      "full_name": "getarcaneapp/arcane",
+      "html_url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "stargazers_count": 9387,
+      "forks_count": 516,
+      "stars_today": 618,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 7,
+      "owner": "google-labs-code",
+      "name": "stitch-skills",
+      "full_name": "google-labs-code/stitch-skills",
+      "html_url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "stargazers_count": 10144,
+      "forks_count": 1335,
+      "stars_today": 350,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 8,
+      "owner": "cursor",
+      "name": "plugins",
+      "full_name": "cursor/plugins",
+      "html_url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stargazers_count": 16931,
+      "forks_count": 1833,
+      "stars_today": 201,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 9,
+      "owner": "obra",
+      "name": "superpowers",
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stargazers_count": 319402,
+      "forks_count": 28484,
+      "stars_today": 1917,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 10,
+      "owner": "ag-ui-protocol",
+      "name": "ag-ui",
+      "full_name": "ag-ui-protocol/ag-ui",
+      "html_url": "https://github.com/ag-ui-protocol/ag-ui",
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "language": "TypeScript",
+      "stargazers_count": 20060,
+      "forks_count": 2071,
+      "stars_today": 1445,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 11,
+      "owner": "backnotprop",
+      "name": "plannotator",
+      "full_name": "backnotprop/plannotator",
+      "html_url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "stargazers_count": 13106,
+      "forks_count": 1314,
+      "stars_today": 691,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 12,
+      "owner": "sveltejs",
+      "name": "svelte",
+      "full_name": "sveltejs/svelte",
+      "html_url": "https://github.com/sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript",
+      "stargazers_count": 89628,
+      "forks_count": 6248,
+      "stars_today": 477,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 13,
+      "owner": "affaan-m",
+      "name": "ECC",
+      "full_name": "affaan-m/ECC",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stargazers_count": 305608,
+      "forks_count": 44986,
+      "stars_today": 883,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 14,
+      "owner": "jingyaogong",
+      "name": "minimind",
+      "full_name": "jingyaogong/minimind",
+      "html_url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "language": "Python",
+      "stargazers_count": 66084,
+      "forks_count": 8670,
+      "stars_today": 192,
+      "source_lists": [
+        "trending-today"
+      ]
+    },
+    {
+      "rank": 15,
+      "owner": "google-research",
+      "name": "paper-orchestra",
+      "full_name": "google-research/paper-orchestra",
+      "html_url": "https://github.com/google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "language": "Python",
+      "stargazers_count": 3148,
+      "forks_count": 422,
+      "stars_today": 1072,
+      "source_lists": [
+        "trending-today"
+      ]
+    }
+  ]
+}

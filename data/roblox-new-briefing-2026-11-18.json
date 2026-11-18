@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T03:04:53.570Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10770604649,
+      "place_id": 83784149502814,
+      "name": "BloxNG [CRASH PHYSICS] 💥",
+      "playing": 29354,
+      "genre": "Simulation",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/83784149502814",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-4bb7d77fed58db812816caff66198cb0/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10774810800,
+      "place_id": 124780003623150,
+      "name": "Realistic Ragdoll MMA 🥊",
+      "playing": 21035,
+      "genre": "Action",
+      "approval": 76,
+      "url": "https://www.roblox.com/games/124780003623150",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-61c98547ad833a3234cc1e8cce76c629/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10774051115,
+      "place_id": 126221718321318,
+      "name": "Clean The Ballpit! ",
+      "playing": 19889,
+      "genre": "Simulation",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/126221718321318",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-74e1a79a3f69217973fc918a56902a3d/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10772284025,
+      "place_id": 87324870231331,
+      "name": "[⚡ UPD 2] Be The Biggest Streamer",
+      "playing": 6825,
+      "genre": "Simulation",
+      "approval": 79,
+      "url": "https://www.roblox.com/games/87324870231331",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-d7682e7ba28233c1bf5b3c518e66b6c5/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10773487349,
+      "place_id": 123969755970816,
+      "name": "[🐜] Ant Evolution",
+      "playing": 18675,
+      "genre": "Survival",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/123969755970816",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-eb6068bbffb01ee49d99fc552ee64fef/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10775036022,
+      "place_id": 91786592083198,
+      "name": "Can You Land A Plane?",
+      "playing": 4856,
+      "genre": "未分类",
+      "approval": 85,
+      "url": "https://www.roblox.com/games/91786592083198",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-8025046fba994c938634b61a88bb5f8c/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10770526777,
+      "place_id": 95105291546154,
+      "name": "100 Miles Down the River",
+      "playing": 16326,
+      "genre": "Survival",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/95105291546154",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-b0221469eb0ffeb1e3ee2744cae324ac/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10774386745,
+      "place_id": 88246556972100,
+      "name": "Sandworm Playground",
+      "playing": 13440,
+      "genre": "Simulation",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/88246556972100",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-873e06ee6d54b84f5a56c65754131c51/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10774204862,
+      "place_id": 98979169190595,
+      "name": "Volley Bomb",
+      "playing": 17659,
+      "genre": "Action",
+      "approval": 93,
+      "url": "https://www.roblox.com/games/98979169190595",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-38baeefebfb58124c4afab16a46d7b0d/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10774160414,
+      "place_id": 121011978933862,
+      "name": "Scare Your Favorite Streamer",
+      "playing": 8748,
+      "genre": "Simulation",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/121011978933862",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-bd4252606b93988959d43c0b89653586/768/432/Image/Png/noFilter"
+    }
+  ]
+}
