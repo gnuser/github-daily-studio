@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T02:58:25.416Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10770526777,
+      "place_id": 95105291546154,
+      "name": "100 Miles Down the River",
+      "playing": 20310,
+      "genre": "Survival",
+      "approval": 93,
+      "url": "https://www.roblox.com/games/95105291546154",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-b0221469eb0ffeb1e3ee2744cae324ac/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10770604649,
+      "place_id": 83784149502814,
+      "name": "BloxNG [CRASH PHYSICS] 💥",
+      "playing": 31402,
+      "genre": "Simulation",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/83784149502814",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-4bb7d77fed58db812816caff66198cb0/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10775270346,
+      "place_id": 140595521895959,
+      "name": "[UPD] JAWS BELOW",
+      "playing": 3746,
+      "genre": "Obby & Platformer",
+      "approval": 39,
+      "url": "https://www.roblox.com/games/140595521895959",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-f06461537f18de8215f8f1c06f8306b7/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10774810800,
+      "place_id": 124780003623150,
+      "name": "Realistic Ragdoll MMA 🥊",
+      "playing": 19906,
+      "genre": "Action",
+      "approval": 76,
+      "url": "https://www.roblox.com/games/124780003623150",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-1bf1ff501ffd5085ef1f556ae6a25dcf/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10773749924,
+      "place_id": 138940214958285,
+      "name": "⚔️ Block Tower",
+      "playing": 3251,
+      "genre": "Action",
+      "approval": 48,
+      "url": "https://www.roblox.com/games/138940214958285",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-8541a628d3b87b8d2f9a8261517820e0/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10772284025,
+      "place_id": 87324870231331,
+      "name": "[⚡ UPD 2] Be The Biggest Streamer",
+      "playing": 6866,
+      "genre": "Simulation",
+      "approval": 80,
+      "url": "https://www.roblox.com/games/87324870231331",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-d7682e7ba28233c1bf5b3c518e66b6c5/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10774051115,
+      "place_id": 126221718321318,
+      "name": "Clean The Ballpit! ",
+      "playing": 17251,
+      "genre": "Simulation",
+      "approval": 92,
+      "url": "https://www.roblox.com/games/126221718321318",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-593cb653092fc3e0f65523572546fe49/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10775166914,
+      "place_id": 73517220164735,
+      "name": "[UPD] Dummy Lab 🩸",
+      "playing": 3829,
+      "genre": "Simulation",
+      "approval": 76,
+      "url": "https://www.roblox.com/games/73517220164735",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-ba53634f159326b99a48c9b8ed497700/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10775036022,
+      "place_id": 91786592083198,
+      "name": "Can You Land A Plane?",
+      "playing": 4880,
+      "genre": "未分类",
+      "approval": 85,
+      "url": "https://www.roblox.com/games/91786592083198",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-8025046fba994c938634b61a88bb5f8c/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10774444233,
+      "place_id": 99352685758267,
+      "name": "Flat the Mountain",
+      "playing": 6522,
+      "genre": "Simulation",
+      "approval": 89,
+      "url": "https://www.roblox.com/games/99352685758267",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-1909731528cd3d62740c264d0c3fb135/768/432/Image/Png/noFilter"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-19",
+  "title": "AI 日报",
+  "generated_at": "2026-11-19T02:58:54.799135+00:00",
+  "window": {
+    "start": "2026-11-18T11:00:00+08:00",
+    "end": "2026-11-19T11:00:00+08:00"
+  },
+  "summary": "Anthropic IPO 定价、AI 辅助芯片设计，以及 ChatGPT 实时听写。",
+  "coverage_note": "依据官方原始公告独立整理。来源仅标注 11 月 18 日，无法确认严格落入北京时间过去 24 小时窗口。",
+  "items": [
+    {
+      "id": "anthropic-ipo",
+      "category": "公司",
+      "title": "Anthropic 公布 IPO 定价",
+      "summary": "Anthropic 宣布首次公开发行价格为每股 83 美元，共发行 9.8 亿股，其中包含部分现有股东出售的股份。公司预计 11 月 19 日以 ANT 为代码在纳斯达克开始交易；这是发行安排，不能视为交易已经开始或发行已完成。",
+      "event_date": "2026-11-18",
+      "date_precision": "day",
+      "collected_at": "2026-11-19T02:58:54.799135+00:00",
+      "source": {
+        "title": "Anthropic · IPO pricing",
+        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+      }
+    },
+    {
+      "id": "chip-design",
+      "category": "研究",
+      "title": "OpenAI 披露 AI 辅助芯片设计进展",
+      "summary": "OpenAI 介绍模型改写硬件描述代码、配合 Synopsys 工具验证功能与功耗、性能、面积取舍的流程，并报告与 AMD 的设计优化合作。其 RISC-V 评测也承认：从规格重做可能省略部分功能，较宽的面积限制和时序估算仍与生产设计有距离。",
+      "event_date": "2026-11-18",
+      "date_precision": "day",
+      "collected_at": "2026-11-19T02:58:54.799135+00:00",
+      "source": {
+        "title": "OpenAI · Advancing chip design with OpenAI models",
+        "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
+      }
+    },
+    {
+      "id": "live-dictation",
+      "category": "产品",
+      "title": "ChatGPT 开始推出实时听写",
+      "summary": "官方更新说明称，Live Dictation 可以边说边显示转写文字，并取消原有 10 分钟录音上限。功能正面向所有套餐在 iOS、Android、网页与桌面端全球逐步推出，具体账号可能尚未收到更新。",
+      "event_date": "2026-11-18",
+      "date_precision": "day",
+      "collected_at": "2026-11-19T02:58:54.799135+00:00",
+      "source": {
+        "title": "OpenAI · ChatGPT release notes",
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      }
+    }
+  ]
+}
