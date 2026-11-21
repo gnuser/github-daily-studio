@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-21",
+  "title": "AI 日报",
+  "generated_at": "2026-11-21T03:02:08.524288+00:00",
+  "window": {
+    "start": "2026-11-20T11:00:00+08:00",
+    "end": "2026-11-21T11:00:00+08:00"
+  },
+  "summary": "GPT-Live-1.1 API 公告介绍多语言语音改进与待机模式。",
+  "coverage_note": "依据官方开发者公告独立整理。公告标注 11 月 20 日，API 更新日志标注 11 月 19 日；这里记录公告内容，不将其称为今日首次发布。",
+  "items": [
+    {
+      "id": "gpt-live-api",
+      "category": "产品",
+      "title": "GPT-Live-1.1 API 增加语音待机配置",
+      "summary": "OpenAI 的开发者公告介绍 GPT-Live-1.1 API：改善多语言发音与口音一致性，并支持边听边说。GPT-Live-1 与 1.1 的 WebRTC 会话可设置 5 至 60 秒静默超时，随后暂停推理，用户再次说话时恢复；复杂任务仍可交给后端模型处理。",
+      "event_date": "2026-11-20",
+      "date_precision": "day",
+      "collected_at": "2026-11-21T03:02:08.524288+00:00",
+      "source": {
+        "title": "OpenAI · GPT-Live-1.1 API 公告",
+        "url": "https://community.openai.com/t/gpt-live-1-1-has-arrived-in-the-api/1418537"
+      }
+    }
+  ]
+}
