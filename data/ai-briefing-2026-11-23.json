@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-23",
+  "title": "AI 日报",
+  "generated_at": "2026-11-23T04:20:29.575303+00:00",
+  "window": {
+    "start": "2026-11-22T11:00:00+08:00",
+    "end": "2026-11-23T11:00:00+08:00"
+  },
+  "summary": "OpenAI 首席科学家提议用困惑度辅助跨实验室的能力与安全讨论。",
+  "coverage_note": "依据官方原文独立整理。来源仅标注 11 月 22 日，无法确认严格落入北京时间过去 24 小时窗口；本文是研究观点与倡议，不是已达成的行业标准。",
+  "items": [
+    {
+      "id": "perplexity-intelligence",
+      "category": "研究",
+      "title": "OpenAI 讨论困惑度与 AI 发展边界",
+      "summary": "Jakub Pachocki 公布部分内部预训练评估数据，提议把困惑度作为跨实验室比较与安全讨论的参考，并结合监测能力设置阶段性发展边界。他也指出，不同评估数据难以直接比较，困惑度不直接衡量具体任务，且无法覆盖思维链等预训练之外的能力提升。",
+      "event_date": "2026-11-22",
+      "date_precision": "day",
+      "collected_at": "2026-11-23T04:20:29.575303+00:00",
+      "source": {
+        "title": "OpenAI · Perplexity and Intelligence",
+        "url": "https://openai.com/index/perplexity-and-intelligence/"
+      }
+    }
+  ]
+}
