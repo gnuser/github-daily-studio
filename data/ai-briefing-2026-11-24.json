@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-24",
+  "title": "AI 日报",
+  "generated_at": "2026-11-24T03:03:28.733346+00:00",
+  "window": {
+    "start": "2026-11-23T11:00:00+08:00",
+    "end": "2026-11-24T11:00:00+08:00"
+  },
+  "summary": "Google 扩展搜索个人上下文与文件切片，Anthropic 发布企业 AI 访谈研究。",
+  "coverage_note": "依据官方原始来源独立整理。来源仅标注 11 月 23 日，无法确认严格落入北京时间过去 24 小时窗口。",
+  "items": [
+    {
+      "id": "search-context",
+      "category": "产品",
+      "title": "Google 搜索扩展个人上下文连接",
+      "summary": "Google 开始逐步推出 AI Mode 连接 Wallet 的可选功能，Drive 与 Gemini 应用连接预计随后数周上线。用户可自行开启或关闭；官方明确 Wallet 连接只读取信息，不能转移、管理或投资资金。",
+      "event_date": "2026-11-23",
+      "date_precision": "day",
+      "collected_at": "2026-11-24T03:03:28.733346+00:00",
+      "source": {
+        "title": "Google · Personal Intelligence",
+        "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+      }
+    },
+    {
+      "id": "file-slicing",
+      "category": "开发",
+      "title": "Gemini API 支持按范围读取文件",
+      "summary": "Google 推出服务端文件切片：可指定文档页码、表格单元格或音视频片段，并新增 Office 与 OpenDocument 原生上传支持。功能适用于 Gemini 4 系列，仅对检查的部分计算 token；上传文件原有大小和页数限制仍然适用。",
+      "event_date": "2026-11-23",
+      "date_precision": "day",
+      "collected_at": "2026-11-24T03:03:28.733346+00:00",
+      "source": {
+        "title": "Google · File slicing controls",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/"
+      }
+    },
+    {
+      "id": "working-ai",
+      "category": "研究",
+      "title": "Anthropic 访谈 58 家企业的 AI 使用情况",
+      "summary": "Anthropic 发布对 58 家企业客户开展的 66 次访谈。受访者更多报告产出增加而非成本下降；直接由 AI 导致的本土裁员案例较少，但多数企业称减少了招聘，也有企业削减外包。该结果来自客户访谈，不能直接代表整体劳动力市场。",
+      "event_date": "2026-11-23",
+      "date_precision": "day",
+      "collected_at": "2026-11-24T03:03:28.733346+00:00",
+      "source": {
+        "title": "Anthropic · Working with AI",
+        "url": "https://www.anthropic.com/research/working-with-ai"
+      }
+    }
+  ]
+}

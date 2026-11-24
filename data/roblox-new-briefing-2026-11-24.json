@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T03:02:57.125Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10773618503,
+      "place_id": 101277003916102,
+      "name": "Hyper Realistic Ragdoll",
+      "playing": 69474,
+      "genre": "Simulation",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/101277003916102",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-e9fe3b050e80d05910d5a21319fe10f3/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10774071683,
+      "place_id": 90296841634441,
+      "name": "[🐟] Fish For Sea Animals",
+      "playing": 14449,
+      "genre": "Simulation",
+      "approval": 89,
+      "url": "https://www.roblox.com/games/90296841634441",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-655b44000734dc1923e620c5f850d11b/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10773741519,
+      "place_id": 116365602177114,
+      "name": "Fake Sick!",
+      "playing": 8763,
+      "genre": "Survival",
+      "approval": 87,
+      "url": "https://www.roblox.com/games/116365602177114",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-7aea5f1f81cfa1900e51e134cadf4f3a/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10770526777,
+      "place_id": 95105291546154,
+      "name": "100 Miles Down the River",
+      "playing": 34371,
+      "genre": "Survival",
+      "approval": 95,
+      "url": "https://www.roblox.com/games/95105291546154",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-b0221469eb0ffeb1e3ee2744cae324ac/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10775182046,
+      "place_id": 129081220403721,
+      "name": "Throw a Seed",
+      "playing": 33124,
+      "genre": "Simulation",
+      "approval": 94,
+      "url": "https://www.roblox.com/games/129081220403721",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-426b4e704128091c001d8fb7ff48bc69/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10775160561,
+      "place_id": 76275796126573,
+      "name": "My Little Pony Card Opening",
+      "playing": 19424,
+      "genre": "Simulation",
+      "approval": 99,
+      "url": "https://www.roblox.com/games/76275796126573",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-27076aeecfa0ed07bfea45ed746613ff/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10770604649,
+      "place_id": 83784149502814,
+      "name": "BloxNG [CRASH PHYSICS] 💥",
+      "playing": 34440,
+      "genre": "Simulation",
+      "approval": 90,
+      "url": "https://www.roblox.com/games/83784149502814",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-4bb7d77fed58db812816caff66198cb0/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10773149360,
+      "place_id": 73547227876007,
+      "name": "Half Punch",
+      "playing": 18823,
+      "genre": "Action",
+      "approval": 93,
+      "url": "https://www.roblox.com/games/73547227876007",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-35cf8711a05e53ef2c55606043d49019/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10774051115,
+      "place_id": 126221718321318,
+      "name": "Clean The Ballpit! ",
+      "playing": 26634,
+      "genre": "Simulation",
+      "approval": 91,
+      "url": "https://www.roblox.com/games/126221718321318",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-593cb653092fc3e0f65523572546fe49/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10776200249,
+      "place_id": 108046432046865,
+      "name": "Ragdoll Destruction 💥",
+      "playing": 4868,
+      "genre": "Simulation",
+      "approval": 81,
+      "url": "https://www.roblox.com/games/108046432046865",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-916e1d7de985490216aadb12ae9dcfe2/768/432/Image/Png/noFilter"
+    }
+  ]
+}
