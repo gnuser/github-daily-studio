@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T03:14:37.058Z",
+  "source": "https://www.roblox.com/charts",
+  "sort": "up-and-coming",
+  "scope": "所有地区 · 所有设备",
+  "games": [
+    {
+      "rank": 1,
+      "universe_id": 10773971368,
+      "place_id": 129516203408961,
+      "name": "[💈] Barber Empire ",
+      "playing": 18817,
+      "genre": "Simulation",
+      "approval": 69,
+      "url": "https://www.roblox.com/games/129516203408961",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-21c433e27403b11f6b87a3c56e40e3e0/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 2,
+      "universe_id": 10775599302,
+      "place_id": 96040168895349,
+      "name": "Draw Your Cart!",
+      "playing": 13528,
+      "genre": "Party & Casual",
+      "approval": 30,
+      "url": "https://www.roblox.com/games/96040168895349",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-389963bcc0f1c01ab6a95ccc33730db4/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 3,
+      "universe_id": 10775697826,
+      "place_id": 104094931084106,
+      "name": "Illegal Bikes",
+      "playing": 7637,
+      "genre": "Simulation",
+      "approval": 85,
+      "url": "https://www.roblox.com/games/104094931084106",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-16457e2ea46950eb2a043977f432d9d5/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 4,
+      "universe_id": 10776778943,
+      "place_id": 93605461718772,
+      "name": "Superpower Ragdoll Physics 🩸",
+      "playing": 7695,
+      "genre": "Simulation",
+      "approval": 76,
+      "url": "https://www.roblox.com/games/93605461718772",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-e1c8fcadd6f9d8b7d65ddbe4c3f3ae0e/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 5,
+      "universe_id": 10778869268,
+      "place_id": 98487757108234,
+      "name": "The Great Build",
+      "playing": 36837,
+      "genre": "Entertainment",
+      "approval": 89,
+      "url": "https://www.roblox.com/games/98487757108234",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-d276059e31445c0cad70c985dbae4806/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 6,
+      "universe_id": 10777305926,
+      "place_id": 78203199643918,
+      "name": "untitled monkey game",
+      "playing": 18533,
+      "genre": "Survival",
+      "approval": 80,
+      "url": "https://www.roblox.com/games/78203199643918",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-9807b84383627f433054c70e44a11831/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 7,
+      "universe_id": 10774071683,
+      "place_id": 90296841634441,
+      "name": "[🐟] Fish For Sea Animals",
+      "playing": 22380,
+      "genre": "Simulation",
+      "approval": 88,
+      "url": "https://www.roblox.com/games/90296841634441",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-655b44000734dc1923e620c5f850d11b/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 8,
+      "universe_id": 10774676937,
+      "place_id": 84658855641517,
+      "name": "RUN FROM THE DOGS!!",
+      "playing": 8097,
+      "genre": "Action",
+      "approval": 76,
+      "url": "https://www.roblox.com/games/84658855641517",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-f1b256f3fea5a7b105b863385d3a8936/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 9,
+      "universe_id": 10775447387,
+      "place_id": 111827416977109,
+      "name": "[SQUISHY!] Deep Clean ASMR 🧽",
+      "playing": 5034,
+      "genre": "Simulation",
+      "approval": 64,
+      "url": "https://www.roblox.com/games/111827416977109",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-dcb04dedb7f5d22348d4127993805899/768/432/Image/Png/noFilter"
+    },
+    {
+      "rank": 10,
+      "universe_id": 10774753641,
+      "place_id": 120256203702735,
+      "name": "Silent Killer Simulator",
+      "playing": 6433,
+      "genre": "Shooter",
+      "approval": 74,
+      "url": "https://www.roblox.com/games/120256203702735",
+      "thumbnail": "https://tr.rbxcdn.com/180DAY-7913e5638738729bf12eda1be70d8802/768/432/Image/Png/noFilter"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-26",
+  "title": "AI 日报",
+  "generated_at": "2026-11-26T03:15:05.242251+00:00",
+  "window": {
+    "start": "2026-11-25T11:00:00+08:00",
+    "end": "2026-11-26T11:00:00+08:00"
+  },
+  "summary": "Anthropic 公开 Messages API 迁移到 Rust 的验证方法。",
+  "coverage_note": "依据官方原始来源独立整理。来源仅标注 11 月 25 日，无法确认严格落入北京时间过去 24 小时窗口。",
+  "items": [
+    {
+      "id": "messages-api-rust",
+      "category": "开发",
+      "title": "Anthropic 复盘用 Claude 迁移生产 API",
+      "summary": "Anthropic 公开将 Messages API 从 Python 迁往 Rust 的过程：通过重放同一次模型输出，对比新旧服务各阶段行为，再让代理修复差异并接受人工审查。官方报告每请求 CPU 用量下降约 70%，首 token 中位延迟下降约 20%；这是已完成迁移的复盘，并非当天上线的新接口。",
+      "event_date": "2026-11-25",
+      "date_precision": "day",
+      "collected_at": "2026-11-26T03:15:05.242251+00:00",
+      "source": {
+        "title": "Anthropic · Migrating our Messages API to Rust",
+        "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+      }
+    }
+  ]
+}
